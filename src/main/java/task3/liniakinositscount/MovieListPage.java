@@ -17,9 +17,9 @@ public class MovieListPage extends BasePage {
     public TiketsOrderPopup openOrderPage() {
         click(showTimeBy);
         TiketsOrderPopup orderPopup = new TiketsOrderPopup(driver);
+
         orderPopup.switchToFrame();
 
-        orderPopup.closeGlassesWarningPopup();
         return orderPopup;
     }
 }

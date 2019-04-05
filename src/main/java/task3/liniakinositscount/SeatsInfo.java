@@ -23,11 +23,10 @@ public class SeatsInfo {
     }
 
     public double getPercentOfFreeSeats() {
-
-        return freeSeatsCount / getTotalSeatsCount();
+        return 100 * (double)freeSeatsCount / getTotalSeatsCount();
     }
 
     public double getPercentOfReservedSeats() {
-        return reservedSeatsCount / getTotalSeatsCount();
+        return 100 * (double)reservedSeatsCount / getTotalSeatsCount();
     }
 }

@@ -2,7 +2,6 @@ package task3.liniakinositscount;
 
 import org.testng.annotations.Test;
 
-import java.text.NumberFormat;
 
 public class LiniakinoTiketsTest extends BaseTest {
 
@@ -20,9 +19,7 @@ public class LiniakinoTiketsTest extends BaseTest {
         System.out.printf("Reserved Seats: %d\n", seats.getReservedSeatsCount());
         System.out.printf("Free Seats: %d\n", seats.getFreeSeatsCount());
 
-        NumberFormat formatAsPercent = NumberFormat.getPercentInstance();
-        System.out.printf("Reserved Seats (%): %s\n", formatAsPercent.format(seats.getPercentOfReservedSeats()));
-        System.out.printf("Free Seats (%): %s\n", formatAsPercent.format(seats.getPercentOfFreeSeats()));
-
+        System.out.printf("Reserved Seats (%%): %.2f%%\n", seats.getPercentOfReservedSeats());
+        System.out.printf("Free Seats (%%): %.2f%%\n", seats.getPercentOfFreeSeats());
     }
 }
