@@ -12,6 +12,8 @@ public abstract class BankCurrencyInfoBasePage extends BasePage {
     }
 
     public abstract void goToPage();
+
     public abstract BankExchangeRatesInfo getBankExchangeRates();
+
     public abstract PricePair getPricePair(CurrencyPair currencyPair);
 }

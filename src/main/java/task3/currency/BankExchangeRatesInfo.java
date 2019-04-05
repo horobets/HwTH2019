@@ -26,5 +26,4 @@ public class BankExchangeRatesInfo {
     public Map<CurrencyPair, PricePair> getExchangeRates() {
         return exchangeRates;
     }
-
 }

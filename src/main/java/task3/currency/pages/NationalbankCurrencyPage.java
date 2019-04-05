@@ -30,7 +30,6 @@ public class NationalbankCurrencyPage extends BankCurrencyInfoBasePage {
 
         Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
 
-
         bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
         bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
 
@@ -51,15 +50,13 @@ public class NationalbankCurrencyPage extends BankCurrencyInfoBasePage {
     }
 
 
-
     private double getUsdUahPrice() {
         String usdUahRatesString = readText(usdUahRateBy);
-        return Double.parseDouble(usdUahRatesString)/100;
+        return Double.parseDouble(usdUahRatesString) / 100;
     }
 
     private double getEurUahPrice() {
         String eurUahRatesString = readText(eurUahRateBy);
-        return Double.parseDouble(eurUahRatesString)/100;
+        return Double.parseDouble(eurUahRatesString) / 100;
     }
-
 }

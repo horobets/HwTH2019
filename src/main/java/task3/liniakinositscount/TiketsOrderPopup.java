@@ -6,12 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TiketsOrderPopup extends BasePage  {
-    public TiketsOrderPopup(WebDriver driver) { super(driver);}
+public class TiketsOrderPopup extends BasePage {
+    public TiketsOrderPopup(WebDriver driver) {
+        super(driver);
+    }
 
-    By freeSeatsBy = By.xpath("//div[@class='seat seat-color1']");
-    By reservedSeatsBy = By.xpath("//div[@class='seat seat-occupied']");
-    By glassesPopupCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
+    private By freeSeatsBy = By.xpath("//div[@class='seat seat-color1']");
+    private By reservedSeatsBy = By.xpath("//div[@class='seat seat-occupied']");
+    private By glassesPopupCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
 
 
     public TiketsOrderPopup switchToFrame() {
@@ -21,21 +23,23 @@ public class TiketsOrderPopup extends BasePage  {
         waitVisibility(By.xpath("//*[@id=\"hall-scheme-container\"]"));//wait for popup to load
         return this;
     }
-    public void closeGlassesWarningPopup()
-    {
+
+    public void closeGlassesWarningPopup() {
 
         WebElement fbLogin = (new WebDriverWait(driver, 3))
                 .until(ExpectedConditions.elementToBeClickable(glassesPopupCloseButtonBy));
         click(glassesPopupCloseButtonBy);
     }
-    public SeatsInfo getSeatsInfoOfLatestShowtime()
-    {
-        SeatsInfo seatsInfo = new SeatsInfo(getNumberOfFreeSeats(),getNumberOfReservedSeats());
+
+    public SeatsInfo getSeatsInfoOfLatestShowtime() {
+        SeatsInfo seatsInfo = new SeatsInfo(getNumberOfFreeSeats(), getNumberOfReservedSeats());
         return seatsInfo;
     }
+
     int getNumberOfFreeSeats() {
         return driver.findElements(freeSeatsBy).size();
     }
+
     int getNumberOfReservedSeats() {
         return driver.findElements(reservedSeatsBy).size();
     }

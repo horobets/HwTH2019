@@ -12,6 +12,7 @@ public class PricePair {
     public double getBidPrice() {
         return bidPrice;
     }
+
     public double getAskPrice() {
         return askPrice;
     }

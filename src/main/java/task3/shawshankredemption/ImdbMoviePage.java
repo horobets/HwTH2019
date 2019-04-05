@@ -17,19 +17,19 @@ public class ImdbMoviePage extends BasePage {
         super(driver);
     }
 
-    By movieTitleBy = By.xpath("//div[@class='title_wrapper']/h1");
-    By releaseDateBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/a[2]");
-    By runningTimeBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/time");
-    By ratingValBy = By.xpath("//span[@itemprop='ratingValue']");
-    By genreBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/a[1]");
-    By trailerLinkBy = By.xpath("//div[@class='slate']/a");
-    By posterLinkBy = By.xpath("//div[@class='poster']/a");
-    By directorNameBy = By.xpath("//div[@class='credit_summary_item']/a");
-    By actorsBy = By.xpath("//*[@id='titleCast']//td[2]/a");
-    By ratingMetascoreBy = By.xpath("//div[contains(@class,'metacriticScore')]/span");
-    By userReviewsCountBy = By.xpath("//div[contains(@class, 'titleReviewbarItem')]//a[1]");
-    By criticReviewsCountBy = By.xpath("//div[contains(@class, 'titleReviewbarItem')]//a[2]");
-    By moviesLikeThisBy = By.xpath("//div[@class='rec_page rec_selected']//img[@title]");
+    private By movieTitleBy = By.xpath("//div[@class='title_wrapper']/h1");
+    private By releaseDateBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/a[2]");
+    private By runningTimeBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/time");
+    private By ratingValBy = By.xpath("//span[@itemprop='ratingValue']");
+    private By genreBy = By.xpath("//div[@class='title_wrapper']/div[@class='subtext']/a[1]");
+    private By trailerLinkBy = By.xpath("//div[@class='slate']/a");
+    private By posterLinkBy = By.xpath("//div[@class='poster']/a");
+    private By directorNameBy = By.xpath("//div[@class='credit_summary_item']/a");
+    private By actorsBy = By.xpath("//*[@id='titleCast']//td[2]/a");
+    private By ratingMetascoreBy = By.xpath("//div[contains(@class,'metacriticScore')]/span");
+    private By userReviewsCountBy = By.xpath("//div[contains(@class, 'titleReviewbarItem')]//a[1]");
+    private By criticReviewsCountBy = By.xpath("//div[contains(@class, 'titleReviewbarItem')]//a[2]");
+    private By moviesLikeThisBy = By.xpath("//div[@class='rec_page rec_selected']//img[@title]");
 
     public void goToPage() {
         driver.get("https://www.imdb.com/title/tt0111161/");
@@ -100,8 +100,9 @@ public class ImdbMoviePage extends BasePage {
     List<String> getActorNames() {
         List<WebElement> actorElements = driver.findElements(actorsBy);
         List<String> actorNames = new ArrayList<String>();
-        for (WebElement actorElement : actorElements)
+        for (WebElement actorElement : actorElements) {
             actorNames.add(actorElement.getText());
+        }
 
         return actorNames;
     }
@@ -123,8 +124,9 @@ public class ImdbMoviePage extends BasePage {
     List<String> getMoviesLikeThis() {
         List<WebElement> moviesLikeThisElements = driver.findElements(moviesLikeThisBy);
         List<String> moviesLikeThisNames = new ArrayList<String>();
-        for (WebElement moviesLikeThisElement : moviesLikeThisElements)
+        for (WebElement moviesLikeThisElement : moviesLikeThisElements) {
             moviesLikeThisNames.add(moviesLikeThisElement.getAttribute("title"));
+        }
 
         return moviesLikeThisNames;
     }

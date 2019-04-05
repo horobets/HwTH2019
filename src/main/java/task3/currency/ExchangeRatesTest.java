@@ -11,66 +11,83 @@ public class ExchangeRatesTest extends BaseTest {
     @Test
     public void printExchangeRatesInfo() {
 
+        List<BankExchangeRatesInfo> banksExchangeRates = new ArrayList<>();
+
+        // get Privatbank rates
         BankCurrencyInfoBasePage bankPage = new PrivatbankCurrencyPage(driver);
         bankPage.goToPage();
-
-        List<BankExchangeRatesInfo> banksExchangeRates = new ArrayList<>();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
+        // get Ukrsibbank rates
         bankPage = new UkrsibbankCurrencyPage(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
+        // get Universalbank rates
         bankPage = new UniversalbankCurrencyPage(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
+        // get Oschadbank rates
         bankPage = new OschadbankCurrencyPage(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
+        // get Nationalbank rates
         bankPage = new NationalbankCurrencyPage(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
-
-        // output Banks Exchange Rates
-        for(BankExchangeRatesInfo bankExchangeRates : banksExchangeRates)
-        {
+        // output all Banks exchange Rates
+        for (BankExchangeRatesInfo bankExchangeRates : banksExchangeRates) {
             printBankExchangeRates(bankExchangeRates);
         }
 
         // calculate and output average rates
         printAverageRates(banksExchangeRates);
 
+        // best USD BUY prices bank:
+        System.out.println("\n\nHighest USD BUY bank:");
+        printBankExchangeRates(getBestBuyRatesBank(banksExchangeRates, CurrencyPair.USDUAH));
+
+        // best USD SELL prices bank:
+        System.out.println("\n\nLowest USD SELL bank:");
+        printBankExchangeRates(getBestSellRatesBank(banksExchangeRates, CurrencyPair.USDUAH));
     }
 
-    private void printBankExchangeRates(BankExchangeRatesInfo bankExchangeRates)
-    {
+    private void printBankExchangeRates(BankExchangeRatesInfo bankExchangeRates) {
         System.out.printf("\nBank: %s\n", bankExchangeRates.getBankName());
         System.out.printf("Website: %s\n", bankExchangeRates.getBankUrl());
         System.out.println("Exchange Rates:");
-        for(Map.Entry<CurrencyPair, PricePair> exchangeRate : bankExchangeRates.getExchangeRates().entrySet())
-        {
+        for (Map.Entry<CurrencyPair, PricePair> exchangeRate : bankExchangeRates.getExchangeRates().entrySet()) {
             System.out.printf("Currency: %s BUY: %.2f SELL: %.2f\n", exchangeRate.getKey(), exchangeRate.getValue().getBidPrice(), exchangeRate.getValue().getAskPrice());
         }
     }
-    private BankExchangeRatesInfo getBestExchangeRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair, boolean bidPrice) {
-/*
-        //find highest bid price
-        double highestBidPrice = 0;
-        //BankExchangeRatesInfo bankWithBestExchangePrice = banksExchangeRates.get(0).getExchangeRates().;
-        for (BankExchangeRatesInfo bankRates : banksExchangeRates) {
-            for (CurrencyInfo rate : bankRates.getExchangeRates()) {
-                if (rate.getCurrencyPair().equals(currencyPair)) {
-                    if(highestBidPrice < rate.getBidPrice()) {
-                        highestBidPrice = rate.getBidPrice();
-                    }
-                }
+
+    private BankExchangeRatesInfo getBestBuyRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
+
+        //find the highest bid price
+        BankExchangeRatesInfo bankWithPestRate = banksExchangeRates.get(0);//set to the first by default
+        for (BankExchangeRatesInfo currentBankRates : banksExchangeRates) {
+            if (bankWithPestRate.getExchangeRates().get(currencyPair).getBidPrice() < currentBankRates.getExchangeRates().get(currencyPair).getBidPrice()) {
+                bankWithPestRate = currentBankRates;
             }
-        }*/
-        return null;
+        }
+        return bankWithPestRate;
     }
+
+    private BankExchangeRatesInfo getBestSellRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
+
+        //find the lowest sell price
+        BankExchangeRatesInfo bankWithPestRate = banksExchangeRates.get(0);//set to the first by default
+        for (BankExchangeRatesInfo currentBankRates : banksExchangeRates) {
+            if (bankWithPestRate.getExchangeRates().get(currencyPair).getAskPrice() > currentBankRates.getExchangeRates().get(currencyPair).getAskPrice()) {
+                bankWithPestRate = currentBankRates;
+            }
+        }
+        return bankWithPestRate;
+    }
+
     private void printAverageRates(List<BankExchangeRatesInfo> banksExchangeRates) {
 
         // calc average USD buy price
@@ -91,18 +108,12 @@ public class ExchangeRatesTest extends BaseTest {
     private double getAverageRate(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair, boolean bidPrice) {
         double ratesSum = 0;
         for (BankExchangeRatesInfo bankRates : banksExchangeRates) {
-            if(bidPrice) {
+            if (bidPrice) {
                 ratesSum += bankRates.getExchangeRates().get(currencyPair).getBidPrice();
-            }
-            else {
+            } else {
                 ratesSum += bankRates.getExchangeRates().get(currencyPair).getAskPrice();
             }
         }
         return ratesSum / banksExchangeRates.size();
     }
-    /*public BankExchangeRatesInfo getExchangeRateInfo(BankCurrencyInfoBasePage bankCurrencyInfoPage)
-    {
-        bankCurrencyInfoPage.goToPage();
-        return bankCurrencyInfoPage.getBankExchangeRates();
-    }*/
 }

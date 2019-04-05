@@ -27,8 +27,9 @@ public class ImdbMovieInfoTest extends BaseTest {
         System.out.printf("Director: %s\n", movieInfo.directorName);
 
         System.out.println("Top 5 Actors:");
-        for (String actorName : movieInfo.getActors(5))
+        for (String actorName : movieInfo.getActors(5)) {
             System.out.printf(" - %s\n", actorName);
+        }
 
         System.out.printf("Metascore rating: %s\n", movieInfo.ratingMetascore);
 
@@ -37,7 +38,8 @@ public class ImdbMovieInfoTest extends BaseTest {
         System.out.printf("Total Reviews: %s\n", movieInfo.getTotalReviewsCount());
 
         System.out.println("3 movies like this:");
-        for (String movieName : movieInfo.getMoviesLikeThis(3))
+        for (String movieName : movieInfo.getMoviesLikeThis(3)) {
             System.out.printf(" - %s\n", movieName);
+        }
     }
 }

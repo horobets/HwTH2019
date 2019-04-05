@@ -10,26 +10,26 @@ public abstract class BasePage {
     public WebDriver driver;
     public WebDriverWait wait;
 
-    public BasePage (WebDriver driver){
+    public BasePage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(driver,15);
+        wait = new WebDriverWait(driver, 15);
     }
 
     public void waitVisibility(By elementBy) {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
     }
 
-    public void click (By elementBy) {
+    public void click(By elementBy) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).click();
     }
 
-    public void writeText (By elementBy, String text) {
+    public void writeText(By elementBy, String text) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).sendKeys(text);
     }
 
-    public String readText (By elementBy) {
+    public String readText(By elementBy) {
         waitVisibility(elementBy);
         return driver.findElement(elementBy).getText();
     }

@@ -21,12 +21,13 @@ public class SeatsInfo {
     public int getTotalSeatsCount() {
         return freeSeatsCount + reservedSeatsCount;
     }
-    public double getPercentOfFreeSeats(){
 
-        return freeSeatsCount/getTotalSeatsCount();
+    public double getPercentOfFreeSeats() {
+
+        return freeSeatsCount / getTotalSeatsCount();
     }
-    public double getPercentOfReservedSeats()
-    {
-        return reservedSeatsCount/getTotalSeatsCount();
+
+    public double getPercentOfReservedSeats() {
+        return reservedSeatsCount / getTotalSeatsCount();
     }
 }
