@@ -5,17 +5,20 @@ import org.openqa.selenium.WebDriver;
 import task3.currency.BankExchangeRatesInfo;
 import task3.currency.CurrencyInfo;
 import task3.currency.CurrencyPair;
+import task3.currency.PricePair;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     public PrivatbankCurrencyPage(WebDriver driver) {
         super(driver);
     }
 
-    By usdUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'USD')]]/div[@class='section-content rate']");
-    By eurUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'EUR')]]/div[@class='section-content rate']");
+    private By usdUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'USD')]]/div[@class='section-content rate']");
+    private By eurUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'EUR')]]/div[@class='section-content rate']");
 
     @Override
     public void goToPage() {
@@ -25,23 +28,21 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public BankExchangeRatesInfo getBankExchangeRates() {
 
-        List<CurrencyInfo> privatbankCurrencyRates = new ArrayList<>();
+        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
 
-        privatbankCurrencyRates.add(getPricePair(CurrencyPair.USDUAH));
-        privatbankCurrencyRates.add(getPricePair(CurrencyPair.EURUAH));
+        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
+        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
 
-        BankExchangeRatesInfo privatbankExchangeRatesInfo = new BankExchangeRatesInfo("Privatbank", driver.getCurrentUrl(), privatbankCurrencyRates);
-
-        return privatbankExchangeRatesInfo;
+        return new BankExchangeRatesInfo("Privatbank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override
-    public CurrencyInfo getPricePair(CurrencyPair currencyPair) {
+    public PricePair getPricePair(CurrencyPair currencyPair) {
         switch (currencyPair) {
             case USDUAH:
-                return new CurrencyInfo(getUsdUahBidPrice(), getUsdUahAskPrice(), CurrencyPair.USDUAH);
+                return new PricePair(getUsdUahBidPrice(), getUsdUahAskPrice());
             case EURUAH:
-                return new CurrencyInfo(getEurUahBidPrice(), getEurUahAskPrice(), CurrencyPair.EURUAH);
+                return new PricePair(getEurUahBidPrice(), getEurUahAskPrice());
         }
         return null;
     }
