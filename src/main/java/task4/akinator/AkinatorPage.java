@@ -27,7 +27,6 @@ public class AkinatorPage extends BasePage {
     private By proposeContinueNoBy = By.id("a_continue_no");
 
     public void goToPage() {
-
         driver.get("https://ru.akinator.com/");
     }
 }
