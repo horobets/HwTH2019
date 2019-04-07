@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-// ref: https://www.swtestacademy.com/page-object-model-java/
-
 public abstract class BasePage {
 
     public WebDriver driver;
@@ -14,6 +12,7 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        wait = new WebDriverWait(driver, 15);
     }
 
     public void waitVisibility(By elementBy) {
