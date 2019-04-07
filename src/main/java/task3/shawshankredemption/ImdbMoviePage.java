@@ -3,6 +3,7 @@ package task3.shawshankredemption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -32,33 +33,37 @@ public class ImdbMoviePage extends BasePage {
     private By moviesLikeThisBy = By.xpath("//div[@class='rec_page rec_selected']//img[@title]");
 
     public void goToPage() {
+
         driver.get("https://www.imdb.com/title/tt0111161/");
     }
 
-    public MovieInfo getMovieInfo() {
+    public MovieInfo getFullMovieInfo() {
+
         MovieInfo movieInfo = new MovieInfo();
-        movieInfo.movieTitle = getMovieTitle();
-        movieInfo.releaseDate = getReleaseDate();
-        movieInfo.runningTime = getRunningTime();
-        movieInfo.rating = getRating();
-        movieInfo.genre = getGenre();
-        movieInfo.trailerLink = getTrailerLink();
-        movieInfo.posterLink = getPosterLink();
-        movieInfo.directorName = getDirectorName();
-        movieInfo.actors = getActorNames();
-        movieInfo.ratingMetascore = getRatingMetascore();
-        movieInfo.userReviewsCount = getUserReviewsCount();
-        movieInfo.criticReviewsCount = getCriticsReviewsCount();
-        movieInfo.moviesLikeThis = getMoviesLikeThis();
+
+        movieInfo.setMovieTitle(getMovieTitle());
+        movieInfo.setReleaseDate(getReleaseDate());
+        movieInfo.setRunningTime(getRunningTime());
+        movieInfo.setRating(getRating());
+        movieInfo.setGenre(getGenre());
+        movieInfo.setTrailerLink(getTrailerLink());
+        movieInfo.setPosterLink(getPosterLink());
+        movieInfo.setDirectorName(getDirectorName());
+        movieInfo.setActors(getActorNames());
+        movieInfo.setRatingMetascore(getRatingMetascore());
+        movieInfo.setUserReviewsCount(getUserReviewsCount());
+        movieInfo.setCriticReviewsCount(getCriticsReviewsCount());
+        movieInfo.setMoviesLikeThis(getMoviesLikeThis());
 
         return movieInfo;
     }
 
-    String getMovieTitle() {
+    public String getMovieTitle() {
+
         return driver.findElement(movieTitleBy).getText();
     }
 
-    Date getReleaseDate() {
+    public Date getReleaseDate() {
         String releaseDateStr = driver.findElement(releaseDateBy).getText();
         Date releaseDate = null;
         try {
@@ -71,33 +76,37 @@ public class ImdbMoviePage extends BasePage {
         return releaseDate;
     }
 
-    Duration getRunningTime() {
+    public Duration getRunningTime() {
         String runningTimeStr = driver.findElement(runningTimeBy).getAttribute("datetime");
         return java.time.Duration.parse(runningTimeStr);
     }
 
-    float getRating() {
+    public float getRating() {
+
         return Float.parseFloat(driver.findElement(ratingValBy).getText());
     }
 
-    Genre getGenre() {
+    public Genre getGenre() {
         String genreStr = driver.findElement(genreBy).getText();
         return Genre.get(genreStr);
     }
 
-    String getTrailerLink() {
+    public String getTrailerLink() {
+
         return driver.findElement(trailerLinkBy).getAttribute("href");
     }
 
-    String getPosterLink() {
+    public String getPosterLink() {
+
         return driver.findElement(posterLinkBy).getAttribute("href");
     }
 
-    String getDirectorName() {
+    public String getDirectorName() {
+
         return driver.findElement(directorNameBy).getText();
     }
 
-    List<String> getActorNames() {
+    public List<String> getActorNames() {
         List<WebElement> actorElements = driver.findElements(actorsBy);
         List<String> actorNames = new ArrayList<String>();
         for (WebElement actorElement : actorElements) {
@@ -107,21 +116,21 @@ public class ImdbMoviePage extends BasePage {
         return actorNames;
     }
 
-    int getRatingMetascore() {
+    public int getRatingMetascore() {
         return Integer.parseInt(driver.findElement(ratingMetascoreBy).getText());
     }
 
-    int getUserReviewsCount() {
+    public int getUserReviewsCount() {
         String userReviewsCountStr = driver.findElement(userReviewsCountBy).getText().replaceAll("\\D", "");
         return Integer.parseInt(userReviewsCountStr);
     }
 
-    int getCriticsReviewsCount() {
+    public int getCriticsReviewsCount() {
         String criticReviewsStr = driver.findElement(criticReviewsCountBy).getText().replaceAll("\\D", "");
         return Integer.parseInt(criticReviewsStr);
     }
 
-    List<String> getMoviesLikeThis() {
+    public List<String> getMoviesLikeThis() {
         List<WebElement> moviesLikeThisElements = driver.findElements(moviesLikeThisBy);
         List<String> moviesLikeThisNames = new ArrayList<String>();
         for (WebElement moviesLikeThisElement : moviesLikeThisElements) {

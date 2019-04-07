@@ -23,4 +23,14 @@ public class BasePage {
         waitVisibility(elementBy);
         driver.findElement(elementBy).click();
     }
+
+    public void writeText(By elementBy, String text) {
+        waitVisibility(elementBy);
+        driver.findElement(elementBy).sendKeys(text);
+    }
+
+    public String readText(By elementBy) {
+        waitVisibility(elementBy);
+        return driver.findElement(elementBy).getText();
+    }
 }
