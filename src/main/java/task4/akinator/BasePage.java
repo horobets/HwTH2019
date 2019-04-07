@@ -1,11 +1,11 @@
-package task3.currency.pages;
+package task4.akinator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class BasePage {
+public class BasePage {
 
     public WebDriver driver;
     public WebDriverWait wait;
@@ -34,4 +34,3 @@ public abstract class BasePage {
         return driver.findElement(elementBy).getText();
     }
 }
-

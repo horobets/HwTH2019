@@ -5,19 +5,22 @@ import org.openqa.selenium.WebDriver;
 import task3.currency.BankExchangeRatesInfo;
 import task3.currency.CurrencyInfo;
 import task3.currency.CurrencyPair;
+import task3.currency.PricePair;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class OschadbankCurrencyPage extends BankCurrencyInfoBasePage {
     public OschadbankCurrencyPage(WebDriver driver) {
         super(driver);
     }
 
-    By usdUahBidRateBy = By.xpath("//strong[@class='buy-USD']");
-    By usdUahAskRateBy = By.xpath("//strong[@class='sell-USD']");
-    By eurUahBidRateBy = By.xpath("//strong[@class='buy-EUR']");
-    By eurUahAskRateBy = By.xpath("//strong[@class='sell-EUR']");
+    private By usdUahBidRateBy = By.xpath("//strong[@class='buy-USD']");
+    private By usdUahAskRateBy = By.xpath("//strong[@class='sell-USD']");
+    private By eurUahBidRateBy = By.xpath("//strong[@class='buy-EUR']");
+    private By eurUahAskRateBy = By.xpath("//strong[@class='sell-EUR']");
 
     @Override
     public void goToPage() {
@@ -27,23 +30,21 @@ public class OschadbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public BankExchangeRatesInfo getBankExchangeRates() {
 
-        List<CurrencyInfo> bankCurrencyRates = new ArrayList<>();
+        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
 
-        bankCurrencyRates.add(getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.add(getPricePair(CurrencyPair.EURUAH));
+        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
+        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
 
-        BankExchangeRatesInfo bankExchangeRatesInfo = new BankExchangeRatesInfo("Oschadbank", driver.getCurrentUrl(), bankCurrencyRates);
-
-        return bankExchangeRatesInfo;
+        return new BankExchangeRatesInfo("Oschadbank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override
-    public CurrencyInfo getPricePair(CurrencyPair currencyPair) {
+    public PricePair getPricePair(CurrencyPair currencyPair) {
         switch (currencyPair) {
             case USDUAH:
-                return new CurrencyInfo(getUsdUahBidPrice(), getUsdUahAskPrice(), CurrencyPair.USDUAH);
+                return new PricePair(getUsdUahBidPrice(), getUsdUahAskPrice());
             case EURUAH:
-                return new CurrencyInfo(getEurUahBidPrice(), getEurUahAskPrice(), CurrencyPair.EURUAH);
+                return new PricePair(getEurUahBidPrice(), getEurUahAskPrice());
         }
         return null;
     }

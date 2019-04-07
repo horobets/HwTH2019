@@ -1,9 +1,10 @@
 package task3.currency;
 
 import java.util.List;
+import java.util.Map;
 
 public class BankExchangeRatesInfo {
-    public BankExchangeRatesInfo(String bankName, String bankUrl, List<CurrencyInfo> exchangeRates) {
+    public BankExchangeRatesInfo(String bankName, String bankUrl, Map<CurrencyPair, PricePair> exchangeRates) {
         this.bankName = bankName;
         this.bankUrl = bankUrl;
         this.exchangeRates = exchangeRates;
@@ -11,7 +12,8 @@ public class BankExchangeRatesInfo {
 
     private String bankName;
     private String bankUrl;
-    private List<CurrencyInfo> exchangeRates;
+
+    private Map<CurrencyPair, PricePair> exchangeRates;
 
     public String getBankName() {
         return bankName;
@@ -21,7 +23,7 @@ public class BankExchangeRatesInfo {
         return bankUrl;
     }
 
-    public List<CurrencyInfo> getExchangeRates() {
+    public Map<CurrencyPair, PricePair> getExchangeRates() {
         return exchangeRates;
     }
 }

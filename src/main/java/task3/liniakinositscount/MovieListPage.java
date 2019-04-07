@@ -8,19 +8,18 @@ public class MovieListPage extends BasePage {
         super(driver);
     }
 
-        By showTimeBy = By.xpath("(//li[h1/a[@href='/movies/?id=7531']]//li[@class='showtime-item']/a)[1]");
+    private By showTimeBy = By.xpath("(//li[h1/a[@href='/movies/?id=7531']]//li[@class='showtime-item']/a)[1]");
 
     public void goToPage() {
         driver.get("http://liniakino.com/showtimes/aladdin/");
     }
 
-    public TiketsOrderPopup openOrderPage()
-    {
+    public TiketsOrderPopup openOrderPage() {
         click(showTimeBy);
         TiketsOrderPopup orderPopup = new TiketsOrderPopup(driver);
+
         orderPopup.switchToFrame();
 
-        orderPopup.closeGlassesWarningPopup();
         return orderPopup;
     }
 }
