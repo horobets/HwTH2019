@@ -17,7 +17,6 @@ public class AkinatorGame {
         setUp();
 
         AkinatorPage akinatorPage = new AkinatorPage(driver);
-        //akinatorPage.goToPage();
 
         endlessGame:
         while (true) {
@@ -81,7 +80,7 @@ public class AkinatorGame {
     }
 
     private static void showWinSentences(List<String> winSentences) {
-        System.out.println("%nCongratulations!");
+        System.out.printf("%nCongratulations!%n");
         for (String winSentence : winSentences) {
             System.out.println(winSentence);
         }
