@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import java.util.concurrent.TimeUnit;
+
 public class BrowserFactory {
     public WebDriver driver;
 
@@ -12,6 +14,9 @@ public class BrowserFactory {
     public void setUp()
     {
         driver = new ChromeDriver();
+
+        driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS);
+        // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterTest

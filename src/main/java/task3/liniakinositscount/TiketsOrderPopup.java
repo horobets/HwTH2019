@@ -24,11 +24,7 @@ public class TiketsOrderPopup extends BasePage {
     public TiketsOrderPopup switchToFrame() {
         driver.switchTo().defaultContent();
 
-
-
-        waitVisibility(orderPopupIframeBy);
-
-
+        //switch to frame
         FluentWait fwait = new WebDriverWait(driver, 10)
                 .withTimeout(ofSeconds(15)).pollingEvery(ofMillis(500))
                 .ignoring(ElementNotVisibleException.class, NoSuchElementException.class)
@@ -36,10 +32,9 @@ public class TiketsOrderPopup extends BasePage {
 
         fwait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(orderPopupIframeBy));
 
-        WebElement seatsListFrame = driver.findElement(orderPopupIframeBy);
-        driver.switchTo().frame(seatsListFrame);
+        //check if we are on the correct frame
+        isElementPresent(orderPopupCloseButtonBy, 5);
 
-        waitVisibility(orderPopupCloseButtonBy);//wait for popup to load
         return this;
     }
 
@@ -56,11 +51,14 @@ public class TiketsOrderPopup extends BasePage {
         return driver.findElements(reservedSeatsBy).size();
     }
 
-    public void closeWarningGlasses()
-    {
-        isElementPresent(warningGlassesMessageboxCloseButtonBy, 5);
+    public void closeWarningGlasses() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(warningGlassesMessageboxCloseButtonBy));
+        FluentWait fwait = new WebDriverWait(driver, 10)
+                .withTimeout(ofSeconds(15)).pollingEvery(ofMillis(500))
+                .ignoring(ElementNotVisibleException.class, NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class);
+
+        fwait.until(ExpectedConditions.elementToBeClickable(warningGlassesMessageboxCloseButtonBy));
 
         Actions actions = new Actions(driver);
         actions.click(driver.findElement(warningGlassesMessageboxCloseButtonBy)).click().build().perform();
