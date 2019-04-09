@@ -1,8 +1,13 @@
 package task3.liniakinositscount;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static java.time.Duration.ofMillis;
+import static java.time.Duration.ofSeconds;
 
 public class TiketsOrderPopup extends BasePage {
     public TiketsOrderPopup(WebDriver driver) {
@@ -11,16 +16,25 @@ public class TiketsOrderPopup extends BasePage {
 
     private By freeSeatsBy = By.xpath("//div[@class='seat seat-color1']");
     private By reservedSeatsBy = By.xpath("//div[@class='seat seat-occupied']");
-    private By warningPopupCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
+    private By orderPopupCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
 
+    private By orderPopupIframeBy = By.xpath("//*[@id='vkino-widget']/iframe");
+    private By warningGlassesMessageboxCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
 
     public TiketsOrderPopup switchToFrame() {
         driver.switchTo().defaultContent();
 
-        WebElement seatsListFrame = driver.findElement(By.xpath("//iframe[contains(@src, 'bilet.vkino.com.ua')]"));
-        driver.switchTo().frame(seatsListFrame);
+        //switch to frame
+        FluentWait fwait = new WebDriverWait(driver, 10)
+                .withTimeout(ofSeconds(15)).pollingEvery(ofMillis(500))
+                .ignoring(ElementNotVisibleException.class, NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class);
 
-        waitVisibility(warningPopupCloseButtonBy);//wait for popup to load
+        fwait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(orderPopupIframeBy));
+
+        //check if we are on the correct frame
+        isElementPresent(orderPopupCloseButtonBy, 5);
+
         return this;
     }
 
@@ -29,11 +43,24 @@ public class TiketsOrderPopup extends BasePage {
         return seatsInfo;
     }
 
-    int getNumberOfFreeSeats() {
+    public int getNumberOfFreeSeats() {
         return driver.findElements(freeSeatsBy).size();
     }
 
-    int getNumberOfReservedSeats() {
+    public int getNumberOfReservedSeats() {
         return driver.findElements(reservedSeatsBy).size();
+    }
+
+    public void closeWarningGlasses() {
+
+        FluentWait fwait = new WebDriverWait(driver, 10)
+                .withTimeout(ofSeconds(15)).pollingEvery(ofMillis(500))
+                .ignoring(ElementNotVisibleException.class, NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class);
+
+        fwait.until(ExpectedConditions.elementToBeClickable(warningGlassesMessageboxCloseButtonBy));
+
+        Actions actions = new Actions(driver);
+        actions.click(driver.findElement(warningGlassesMessageboxCloseButtonBy)).click().build().perform();
     }
 }

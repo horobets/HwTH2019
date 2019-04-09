@@ -57,13 +57,12 @@ public class AkinatorGame {
                 }
                 break;
                 case ENTERNAME: {//Akinator offers to enter your own character name
-                    String usersEnteredname = sendUsersName(akinatorPage.getInputView());
-                    akinatorPage.sendUsersName(usersEnteredname);
+                    String usersEnteredName = sendUsersName(akinatorPage.getInputView());
+                    akinatorPage.sendUsersName(usersEnteredName);
                 }
                 break;
                 default://other pages - redirect to Home
                     akinatorPage.goToPage();
-                    break;
             }
         }
 
