@@ -20,6 +20,8 @@ public class MovieListPage extends BasePage {
 
         orderPopup.switchToFrame();
 
+        orderPopup.closeWarningGlasses();
+
         return orderPopup;
     }
 }
