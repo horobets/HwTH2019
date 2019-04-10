@@ -17,6 +17,10 @@ public class DriverFindElement extends BrowserFactory{
 
     public void tryFindElements()
     {
+
+
+        driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS);
+
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://eee.");
     }
