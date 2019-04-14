@@ -13,6 +13,7 @@ public class TicTacToeGame {
             while (ticTacToeGame.getGameStatus() == GameStatus.TURN) {
                 ticTacToeGame.printTable();
                 System.out.printf("%s turn. Choose location (1 - 9): ", ticTacToeGame.getTurn());
+                System.out.printf("%nPro Tip: Choose %d! ", ticTacToeGame.getNextTurnLocationProTip());
 
                 Scanner scanner = new Scanner(System.in);
                 int userChoice = scanner.nextInt();
