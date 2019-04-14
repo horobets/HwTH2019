@@ -78,15 +78,14 @@ public class TicTacToe {
         List<Integer> emptyCellsLocations = new ArrayList<>();
 
         int currentLocation = 1;//numeric cell location
-        for (int i = 0; i < gameDataArray.length; i++) {
-            for (int j = 0; j < gameDataArray[i].length; j++) {
-                if (gameDataArray[i][j] == null) {
+        for (CellValue[] cellValues : gameDataArray) {
+            for (int j = 0; j < cellValues.length; j++) {
+                if (cellValues[j] == null) {
                     emptyCellsLocations.add(currentLocation);//add numeric location (1-9) to the list
                 }
                 currentLocation++;
             }
         }
-
 
         return emptyCellsLocations.stream().mapToInt(i -> i).toArray();
     }
@@ -100,73 +99,80 @@ public class TicTacToe {
             throw new IllegalArgumentException(String.format("Invalid location provided: %d. Acceptable values 1 - 9.", location));
 
 
-        boolean cellIsNotEmpty = false;
+        //convert user location (1-9) to to array indexes '[1][2]'
+        int[] locationIndexes = locationToIndexes(location);
 
-        switch (location) {
-            case 1:
-                if (gameDataArray[0][0] == null) {
-                    gameDataArray[0][0] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 2:
-                if (gameDataArray[0][1] == null) {
-                    gameDataArray[0][1] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 3:
-                if (gameDataArray[0][2] == null) {
-                    gameDataArray[0][2] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 4:
-                if (gameDataArray[1][0] == null) {
-                    gameDataArray[1][0] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 5:
-                if (gameDataArray[1][1] == null) {
-                    gameDataArray[1][1] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 6:
-                if (gameDataArray[1][2] == null) {
-                    gameDataArray[1][2] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 7:
-                if (gameDataArray[2][0] == null) {
-                    gameDataArray[2][0] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 8:
-                if (gameDataArray[2][1] == null) {
-                    gameDataArray[2][1] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-            case 9:
-                if (gameDataArray[2][2] == null) {
-                    gameDataArray[2][2] = turn;
-                } else
-                    cellIsNotEmpty = true;
-                break;
-        }
-
-        if (cellIsNotEmpty)
+        //update cell if it is empty
+        if (gameDataArray[locationIndexes[1]][locationIndexes[0]] == null) {
+            gameDataArray[locationIndexes[1]][locationIndexes[0]] = turn;
+        } else
             throw new CellNotEmptyException("This cell is not empty", location);
 
+
+        //swap next turn value
         turn = turn == CellValue.X ? CellValue.O : CellValue.X; //use different value for next turn
 
         checkTableStatus();
     }
 
+    /**
+     * Convert user numericLocation (1-9) to to array indexes '[1][2]'
+     *
+     * @param numericLocation
+     * @return
+     */
+    private int[] locationToIndexes(int numericLocation) {
+        numericLocation--;//start from 0, not 1
+
+        int[] indexes = new int[2];
+
+        // counter for indexes array
+        int i = 0;
+        while (numericLocation > 0) {
+            // storing remainder in indexes array
+            indexes[i] = numericLocation % 3;
+            numericLocation = numericLocation / 3;
+            i++;
+        }
+
+        return indexes;
+    }
+
+
+    private void checkPossibleWinningLine() {
+        //try to find possible winning row
+        for (int i = 0; i < gameDataArray.length; i++) {
+            CellValue cellValue = null;
+            int simularValsCount = 0;
+            for (int j = 0; j < gameDataArray[i].length; j++) {
+
+                if (cellValue == null) {
+                    cellValue = gameDataArray[i][j];
+                }
+
+                if (gameDataArray[i][j] != null) {
+                    if (cellValue == gameDataArray[i][j]) {
+                        simularValsCount++;
+                    } else {//row contains different values - cannot be a winning row
+                        break;
+                    }
+                }
+
+                if (simularValsCount == gameDataArray[i].length - 1 - 1) {
+                    System.err.println("FOUND POSSIBLE WINNING ROW");
+                }
+
+/*
+                if(gameDataArray[i][0] != gameDataArray[i][j] || gameDataArray[i][j] == null)
+                    break;//skip current row if on first found difference
+                if(j==gameDataArray[i].length-1){//winning row found
+                    setWinningStatus(gameDataArray[i][0]);
+                    return;
+                }*/
+            }
+        }
+
+    }
 
     private void checkTableStatus()
     {
