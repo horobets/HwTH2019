@@ -1,7 +1,7 @@
 package task6.tictactoe;
 
 public enum GameStatus {
-    TURN,
+    PLAYER_TURN,
     WIN,
     TIE
     ;

@@ -6,24 +6,27 @@ import java.util.List;
 import java.util.Random;
 
 public class TicTacToe {
-    public TicTacToe(Difficulty difficulty, CellValue playerRole) {
+    public TicTacToe(Difficulty difficulty, Role playerRole) {
         this.difficulty = difficulty;
         this.playerRole = playerRole;
         runGame();
     }
+    public TicTacToe(Difficulty difficulty) {
+        this(difficulty, Role.X);
+    }
 
-    private CellValue[][] gameDataArray = new CellValue[3][3];
+    private Role[][] gameDataArray = new Role[3][3];
     private Difficulty difficulty;
-    private CellValue playerRole;
+    private Role playerRole;
     private GameStatus gameStatus;
-    private CellValue turn = CellValue.X;
-    private CellValue winner;
+    private Role turn = Role.X;
+    private Role winner;
 
     public Difficulty getDifficulty() {
         return difficulty;
     }
 
-    public CellValue getPlayerRole() {
+    public Role getPlayerRole() {
         return playerRole;
     }
 
@@ -31,15 +34,15 @@ public class TicTacToe {
         return gameStatus;
     }
 
-    public CellValue getTurn() throws InvalidGameActionException {
+    public Role getTurn() throws InvalidGameActionException {
 
-        if (gameStatus != GameStatus.TURN)
+        if (gameStatus != GameStatus.PLAYER_TURN)
             throw new InvalidGameActionException("Can't get the next turn. Invalid game state.", gameStatus);
 
         return turn;
     }
 
-    public CellValue getWinner() throws InvalidGameActionException {
+    public Role getWinner() throws InvalidGameActionException {
 
         if (gameStatus != GameStatus.WIN)
             throw new InvalidGameActionException("Can't show the winner. Invalid game state.", gameStatus);
@@ -48,74 +51,15 @@ public class TicTacToe {
     }
 
     private void runGame() {
-        gameStatus = GameStatus.TURN;
-    }
+        gameStatus = GameStatus.PLAYER_TURN;
 
-    private void computerChoice() {
-
-        //find possible winning lines to win or to prevent loose
-        List<WinningLine> possibleWinningLines = findPossibleWinningLines();
-        for (WinningLine possibleWinningLine : possibleWinningLines) {
-            System.out.printf("Winning Line Type: %s, Line: %s %n", possibleWinningLine.getType(), possibleWinningLine.getLineIndex());
-        }
-
-        //submit random choice
-        try {
-            submitChoice(getRandomEmptyLocation());
-
-        } catch (InvalidGameActionException | CellNotEmptyException ex) {
-            System.err.printf("Computer Choice Critical Error: %s", ex);
-        }
-    }
-
-    private int getRandomEmptyLocation() {
-        int[] emptyCellsLocations = getEmptyCellsLocations();
-
-        Random rnd = new Random();
-
-        return emptyCellsLocations[rnd.nextInt(emptyCellsLocations.length)];//return random index of empty cells
-    }
-
-    private int[] getEmptyCellsLocations() {
-        List<Integer> emptyCellsLocations = new ArrayList<>();
-
-        int currentLocation = 1;//numeric cell location
-        for (CellValue[] cellValues : gameDataArray) {
-            for (int j = 0; j < cellValues.length; j++) {
-                if (cellValues[j] == null) {
-                    emptyCellsLocations.add(currentLocation);//add numeric location (1-9) to the list
-                }
-                currentLocation++;
-            }
-        }
-
-        return emptyCellsLocations.stream().mapToInt(i -> i).toArray();
-    }
-
-    public int getNextTurnLocationProTip() {
-
-        List<WinningLine> possibleWinningLines = findPossibleWinningLines();
-
-        //first, check if there is a way to win right now
-        for (WinningLine winningLine : possibleWinningLines) {
-            if (winningLine.getCellValue() == turn) {//if it's our winning line, use it to win
-                return winningLine.getEmptyCellLocation();
-            }
-        }
-
-        //now check if there is a possible opponent's win and prevent it by filling their cell
-        for (WinningLine winningLine : possibleWinningLines) {
-            return winningLine.getEmptyCellLocation();
-        }
-
-        //no pro tip - suggest random location
-        return getRandomEmptyLocation();
+        checkTableStatus();
     }
 
 
     public void submitChoice(int location) throws InvalidGameActionException, CellNotEmptyException {
 
-        if (gameStatus != GameStatus.TURN)
+        if (gameStatus != GameStatus.PLAYER_TURN)
             throw new InvalidGameActionException("Can't do the requested action. Invalid game state.", gameStatus);
 
         if (location < 1 || location > 9)
@@ -133,10 +77,102 @@ public class TicTacToe {
 
 
         //swap next turn value
-        turn = turn == CellValue.X ? CellValue.O : CellValue.X; //use different value for next turn
+        turn = turn == Role.X ? Role.O : Role.X; //use different value for next turn
 
         checkTableStatus();
     }
+
+
+    private void checkTableStatus() {
+        if (getEmptyCellsLocations().length == 0) {//TIE
+            gameStatus = GameStatus.TIE;
+            return;
+        }
+
+        //try to find a winner
+        List<WinningLine> winningLines = findPossibleWinningLines();
+
+        for (WinningLine winningLine : winningLines) {
+            if (winningLine.isCompletelyFilled()) {//winner found
+                gameStatus = GameStatus.WIN;
+                this.winner = winningLine.getRole();
+                return;
+            }
+        }
+
+        //no tie, no winner. continue game
+        nextStep();
+    }
+
+
+    private void nextStep() {
+        if (difficulty != Difficulty.FRIEND && turn != playerRole) {//computer turn
+            computerChoice();
+        }
+    }
+
+
+    private void computerChoice() {
+
+        int locationToSubmitTo = 0;
+        if (difficulty == Difficulty.IMPOSSIBLE)//use ProTip for impossible
+            locationToSubmitTo = getNextTurnLocationProTip();
+        else//use random for Normal
+            locationToSubmitTo = getRandomEmptyLocation();
+
+        //submit random choice
+        try {
+            submitChoice(locationToSubmitTo);
+
+        } catch (InvalidGameActionException | CellNotEmptyException ex) {
+            System.err.printf("Computer Choice Critical Error: %s", ex);
+        }
+    }
+
+
+    private int getRandomEmptyLocation() {
+        int[] emptyCellsLocations = getEmptyCellsLocations();
+
+        Random rnd = new Random();
+
+        return emptyCellsLocations[rnd.nextInt(emptyCellsLocations.length)];//return random index of empty cells
+    }
+
+    private int[] getEmptyCellsLocations() {
+        List<Integer> emptyCellsLocations = new ArrayList<>();
+
+        int currentLocation = 1;//numeric cell location
+        for (Role[] roles : gameDataArray) {
+            for (int j = 0; j < roles.length; j++) {
+                if (roles[j] == null) {
+                    emptyCellsLocations.add(currentLocation);//add numeric location (1-9) to the list
+                }
+                currentLocation++;
+            }
+        }
+
+        return emptyCellsLocations.stream().mapToInt(i -> i).toArray();
+    }
+
+    public int getNextTurnLocationProTip() {
+
+        List<WinningLine> possibleWinningLines = findPossibleWinningLines();
+
+        //first, check if there is a way to win right now
+        for (WinningLine winningLine : possibleWinningLines) {
+            if (winningLine.getRole() == turn) {//if it's our winning line, use it to win
+                return winningLine.getEmptyCellLocation();
+            }
+        }
+
+        //now check if there is a possible opponent's win and prevent it by filling their cell
+        if(possibleWinningLines.size()>0)
+            return possibleWinningLines.get(0).getEmptyCellLocation();
+
+        //no pro tip - suggest random location
+        return getRandomEmptyLocation();
+    }
+
 
     /**
      * Convert user numericLocation (1-9) to to array indexes '[1][2]'
@@ -194,15 +230,15 @@ public class TicTacToe {
 
         //try to find possible winning row
         for (int i = 0; i < gameDataArray.length; i++) {
-            CellValue cellValue = null;
+            Role role = null;
             int similarValsCount = 0;
             int emptyCellLocation = 0;
             for (int j = 0; j < gameDataArray[i].length; j++) {
-                if (cellValue == null) {
-                    cellValue = gameDataArray[i][j];
+                if (role == null) {
+                    role = gameDataArray[i][j];
                 }
                 if (gameDataArray[i][j] != null) {
-                    if (cellValue == gameDataArray[i][j]) {
+                    if (role == gameDataArray[i][j]) {
                         similarValsCount++;
                     } else {//row contains different values - cannot be a winning row
                         similarValsCount = 0;//reset to 0 to avoid false positives in case of 'X|X|0'
@@ -214,55 +250,55 @@ public class TicTacToe {
 
             }
             if (similarValsCount == gameDataArray[i].length - 1) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.ROW, i, cellValue, false, emptyCellLocation));//add this row to the list of possible winning lines
+                possibleWinningLines.add(new WinningLine(WinningLineType.ROW, i, role, false, emptyCellLocation));//add this row to the list of possible winning lines
             }
             if (similarValsCount == gameDataArray[i].length) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.ROW, i, cellValue, true));//this row WINS the round
+                possibleWinningLines.add(new WinningLine(WinningLineType.ROW, i, role, true));//this row WINS the round
             }
         }
 
 
         //try to find possible winning column
         for (int i = 0; i < gameDataArray.length; i++) {
-            CellValue cellValue = null;
+            Role role = null;
             int similarValsCount = 0;
             int emptyCellLocation = 0;
             for (int j = 0; j < gameDataArray[i].length; j++) {
-                if (cellValue == null) {
-                    cellValue = gameDataArray[j][i];
+                if (role == null) {
+                    role = gameDataArray[j][i];
                 }
                 if (gameDataArray[j][i] != null) {
-                    if (cellValue == gameDataArray[j][i]) {
+                    if (role == gameDataArray[j][i]) {
                         similarValsCount++;
                     } else {//row contains different values - cannot be a winning row
                         similarValsCount = 0;//reset to 0 to avoid false positives in case of 'X|X|0'
                         break;
                     }
                 } else {
-                    emptyCellLocation = indexesToNumericLocation(i, j);
+                    emptyCellLocation = indexesToNumericLocation(j, i);
                 }
             }
             if (similarValsCount == gameDataArray.length - 1) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.COLUMT, i, cellValue, false, emptyCellLocation));//add this row to the list of possible winning lines
+                possibleWinningLines.add(new WinningLine(WinningLineType.COLUMN, i, role, false, emptyCellLocation));//add this row to the list of possible winning lines
             }
             if (similarValsCount == gameDataArray.length) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.COLUMT, i, cellValue, true));//this row WINS the round
+                possibleWinningLines.add(new WinningLine(WinningLineType.COLUMN, i, role, true));//this row WINS the round
             }
         }
 
 
         //check the main diagonal for winning line
         {
-            CellValue cellValue = null;
+            Role role = null;
             int similarValsCount = 0;
             int emptyCellLocation = 0;
-            for (int i = 1; i < gameDataArray.length; i++) {
+            for (int i = 0; i < gameDataArray.length; i++) {
 
-                if (cellValue == null) {
-                    cellValue = gameDataArray[i][i];
+                if (role == null) {
+                    role = gameDataArray[i][i];
                 }
                 if (gameDataArray[i][i] != null) {
-                    if (cellValue == gameDataArray[i][i]) {
+                    if (role == gameDataArray[i][i]) {
                         similarValsCount++;
                     } else {//diagonal contains different values - cannot be a winning one
                         similarValsCount = 0;//reset to 0 to avoid false positives in case of 'X|X|0'
@@ -274,26 +310,26 @@ public class TicTacToe {
 
             }
             if (similarValsCount == gameDataArray.length - 1) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 0, cellValue, false, emptyCellLocation));//add this diagonal to the list of possible winning lines
+                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 0, role, false, emptyCellLocation));//add this diagonal to the list of possible winning lines
             }
             if (similarValsCount == gameDataArray.length) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 0, cellValue, true));//this diagonal WINS the round
+                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 0, role, true));//this diagonal WINS the round
             }
         }
 
         //check secondary diagonal
         {
-            CellValue cellValue = null;
+            Role role = null;
             int similarValsCount = 0;
             int emptyCellLocation = 0;
-            for (int i = 1; i < gameDataArray.length; i++) {
+            for (int i = 0; i < gameDataArray.length; i++) {
 
 
-                if (cellValue == null) {
-                    cellValue = gameDataArray[gameDataArray.length - 1 - i][i];
+                if (role == null) {
+                    role = gameDataArray[gameDataArray.length - 1 - i][i];
                 }
                 if (gameDataArray[gameDataArray.length - 1 - i][i] != null) {
-                    if (cellValue == gameDataArray[gameDataArray.length - 1 - i][i]) {
+                    if (role == gameDataArray[gameDataArray.length - 1 - i][i]) {
                         similarValsCount++;
                     } else {//diagonal contains different values - cannot be a winning one
                         similarValsCount = 0;//reset to 0 to avoid false positives in case of 'X|X|0'
@@ -306,10 +342,10 @@ public class TicTacToe {
 
             }
             if (similarValsCount == gameDataArray.length - 1) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 1, cellValue, false, emptyCellLocation));//add this diagonal to the list of possible winning lines
+                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 1, role, false, emptyCellLocation));//add this diagonal to the list of possible winning lines
             }
             if (similarValsCount == gameDataArray.length) {
-                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 1, cellValue, true));//this diagonal WINS the round
+                possibleWinningLines.add(new WinningLine(WinningLineType.DIAGONAL, 1, role, true));//this diagonal WINS the round
             }
         }
 
@@ -327,42 +363,11 @@ public class TicTacToe {
         return null;
     }
 
-    private void checkTableStatus() {
-        if (getEmptyCellsLocations().length == 0) {//TIE
-            gameStatus = GameStatus.TIE;
-            return;
-        }
-
-        //try to find a winner
-        List<WinningLine> winningLines = findPossibleWinningLines();
-
-        for (WinningLine winningLine : winningLines) {
-            if (winningLine.isCompletelyFilled()) {//winner found
-                gameStatus = GameStatus.WIN;
-                this.winner = winningLine.getCellValue();
-                return;
-            }
-        }
-
-        //no tie, no winner. continue game
-        nextStep();
-    }
-
-
-    private void nextStep() {
-        if (difficulty != Difficulty.FRIEND && turn != playerRole) {//computer turn
-            computerChoice();
-        }
-    }
-
-    public void printTable() {
+    public void printTable(boolean printLocatonsOnly) {
 
         WinningLine winningLine = getWinningLine();
-        if (winningLine != null) {
 
-        }
-
-        System.out.printf("%n");
+        System.out.printf("%n%n");
         for (int i = 0; i < gameDataArray.length; i++) {
             for (int j = 0; j < gameDataArray[i].length; j++) {
 
@@ -371,17 +376,20 @@ public class TicTacToe {
                 if (winningLine != null) {
                     if (winningLine.getType() == WinningLineType.ROW && winningLine.getLineIndex() == i)
                         isWinningLineValue = true;
-                    if (winningLine.getType() == WinningLineType.COLUMT && winningLine.getLineIndex() == j)
+                    if (winningLine.getType() == WinningLineType.COLUMN && winningLine.getLineIndex() == j)
                         isWinningLineValue = true;
                     if (winningLine.getType() == WinningLineType.DIAGONAL && winningLine.getLineIndex() == 0)
                         if (i == j)
                             isWinningLineValue = true;
                     if (winningLine.getType() == WinningLineType.DIAGONAL && winningLine.getLineIndex() == 1)//secondary diagonal winning value
-                        if (i == j + gameDataArray.length - 1)
+                        if (i == gameDataArray.length - 1-j)
                             isWinningLineValue = true;
                 }
 
                 String valueToDisplay = String.format("\t%s\t", gameDataArray[i][j] == null ? " " : gameDataArray[i][j].toString());
+
+                if(printLocatonsOnly)
+                    valueToDisplay = String.format("\t%s\t", indexesToNumericLocation(i,j));
 
                 if (isWinningLineValue) {//display winning line values in reg (using err output)
                     System.err.printf(valueToDisplay);
@@ -394,9 +402,10 @@ public class TicTacToe {
                 }
             }
             if (i < gameDataArray[i].length - 1) {//don't print line after last val
-                System.out.printf("%n__________________________%n");
+                System.out.printf("%n_________________________%n");
             }
         }
         System.out.printf("%n");
     }
+
 }

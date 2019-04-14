@@ -1,21 +1,21 @@
 package task6.tictactoe;
 
 public class WinningLine {
-    public WinningLine(WinningLineType type, int lineIndex, CellValue cellValue, boolean isCompletelyFilled, int emptyCellLocation) {
+    public WinningLine(WinningLineType type, int lineIndex, Role role, boolean isCompletelyFilled, int emptyCellLocation) {
         this.type = type;
         this.lineIndex = lineIndex;
-        this.cellValue = cellValue;
+        this.role = role;
         this.isCompletelyFilled = isCompletelyFilled;
         this.emptyCellLocation = emptyCellLocation;
     }
 
-    public WinningLine(WinningLineType type, int lineIndex, CellValue cellValue, boolean isCompletelyFilled) {
-        this(type, lineIndex, cellValue, isCompletelyFilled, 0);
+    public WinningLine(WinningLineType type, int lineIndex, Role role, boolean isCompletelyFilled) {
+        this(type, lineIndex, role, isCompletelyFilled, 0);
     }
 
     private WinningLineType type;
     private int lineIndex;
-    private CellValue cellValue;
+    private Role role;
     private boolean isCompletelyFilled;//already won
     private int emptyCellLocation;
 
@@ -27,8 +27,8 @@ public class WinningLine {
         return lineIndex;
     }
 
-    public CellValue getCellValue() {
-        return cellValue;
+    public Role getRole() {
+        return role;
     }
 
     public boolean isCompletelyFilled() {
