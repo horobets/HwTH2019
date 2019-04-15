@@ -1,4 +1,4 @@
-package task3.liniakinositscount;
+package task5.facebooksearch;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,10 +6,12 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
-public abstract class BasePage {
+public class BasePage {
 
     public WebDriver driver;
     public WebDriverWait wait;
@@ -19,6 +21,11 @@ public abstract class BasePage {
         wait = new WebDriverWait(driver, 15);
     }
 
+    protected boolean isPageLoaded(By pageElement)
+    {
+        return isElementPresent(pageElement, 10);
+    }
+
     public void waitVisibility(By elementBy) {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
     }
@@ -26,6 +33,16 @@ public abstract class BasePage {
     public void click(By elementBy) {
         waitVisibility(elementBy);
         driver.findElement(elementBy).click();
+    }
+
+    public void writeText(By elementBy, String text) {
+        waitVisibility(elementBy);
+        driver.findElement(elementBy).sendKeys(text);
+    }
+
+    public String readText(By elementBy) {
+        waitVisibility(elementBy);
+        return driver.findElement(elementBy).getText();
     }
 
     public boolean isElementPresent(final By locator, long seconds) {
@@ -52,4 +69,3 @@ public abstract class BasePage {
         fwait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameToSwitchTo));
     }
 }
-

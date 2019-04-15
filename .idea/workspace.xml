@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,73 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="259">
+              <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/LiniakinoListAllMovies.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
             </state>
           </provider>
         </entry>
@@ -95,15 +40,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>%ncong</find>
+      <find>[i][j]</find>
     </findStrings>
+    <replaceStrings>
+      <replace>[j][i]</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,31 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/enums/CurrencyPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatBankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/BankExchangeRatesInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/CurrencyInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/CurrencyPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/PricePair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/Genre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/SeatsInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/LowestOfFour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/NumsTasks/LowestOfFour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/nums/LowestAndHighestOfFive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/nums/CountMaxNums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/nums/LowestOfFour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/nums/CompareNames.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorQuestion.java" />
@@ -157,11 +81,36 @@
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/LiniakinoListAllMovies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/Lesson6Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/Task2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/Task3bblSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraySortCls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/DifficultyLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/XO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameProgress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/InvalidGameActionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/CellNotEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLineType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/CellValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java" />
       </list>
     </option>
   </component>
@@ -173,16 +122,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
+    <option name="x" value="1091" />
     <option name="y" value="-13" />
-    <option name="width" value="1943" />
-    <option name="height" value="1050" />
+    <option name="width" value="1537" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +144,11 @@
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,7 +170,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
+              <item name="task6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -222,23 +178,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-              <item name="css-dinner-game-flukeout" type="462c0819:PsiDirectoryNode" />
+              <item name="task6" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,13 +207,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LiniakinoTiketsTest">
-    <configuration name="AkinatorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.akinator.AkinatorGame" />
+  <component name="RunManager" selected="Application.PlayTicTacToeGame">
+    <configuration name="ArraySortCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.ArraySortCls" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.akinator.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seasons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.nums.Seasons" />
+    <configuration name="Lesson6Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Lesson6Test1" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.nums.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,64 +234,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverFindElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayTicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task6.tictactoe.PlayTicTacToeGame" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="task6.tictactoe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.DriverFindElement" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImdbMovieInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task2" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.shawshankredemption.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task3.shawshankredemption" />
-      <option name="MAIN_CLASS_NAME" value="task3.shawshankredemption.ImdbMovieInfoTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiniakinoTiketsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3bblSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task3bblSort" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.liniakinositscount.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task3.liniakinositscount" />
-      <option name="MAIN_CLASS_NAME" value="task3.liniakinositscount.LiniakinoTiketsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LiniakinoTiketsTest" />
-        <item itemvalue="TestNG.DriverFindElement" />
-        <item itemvalue="Application.AkinatorGame" />
-        <item itemvalue="Application.Seasons" />
-        <item itemvalue="TestNG.ImdbMovieInfoTest" />
+        <item itemvalue="Application.PlayTicTacToeGame" />
+        <item itemvalue="Application.ArraySortCls" />
+        <item itemvalue="Application.Task3bblSort" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Lesson6Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -437,45 +371,66 @@
       <option name="project" value="LOCAL" />
       <updated>1554710206439</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Lesson 6 package">
+      <created>1554978300963</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554978300963</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added locationToIndexes converter">
+      <created>1555230606264</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555230606264</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added ProTip and winning line emphasizing">
+      <created>1555249591800</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555249591800</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 34m 49s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 40m 15s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 34m 57s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 41m 05s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 35m 42s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 41m 19s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 35m 51s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 50m 30s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 35m 59s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 51m 18s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 37m 08s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 51m 34s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 37m 17s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 56m 36s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 41m 20s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 05s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 41m 29s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 19s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.09 at 23h 41m 39s.xml">
+    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 40s.xml">
       <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17315437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,14 +440,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.2213562" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46453625" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23512748" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.3186969" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23460639" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.3156664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -528,217 +483,22 @@
     <MESSAGE value="Akinator app now covers almost all available actions" />
     <MESSAGE value="Removed some comments;&#10;added wait initializer to imdbInfo basepage" />
     <MESSAGE value="Win message format fx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Win message format fx" />
+    <MESSAGE value="Added Lesson 6 package" />
+    <MESSAGE value="Added locationToIndexes converter" />
+    <MESSAGE value="Added ProTip and winning line emphasizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ProTip and winning line emphasizing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/CurrencyPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/PricePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/nums/LowestOfFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/nums/CountMaxNums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/nums/LowestAndHighestOfFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="7" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/Answer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/ImdbMovieInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/ImdbMoviePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4187#4188#0" expanded="true" />
-            <element signature="e#4275#4276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/MovieInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/DevideNatural.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/DigitsSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/nums/Seasons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/ViewMode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorProposal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/InputNameView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/ViewMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -785,16 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -822,38 +572,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/css-dinner-game-flukeout/css-dinner-game-horobets.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Task.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="476">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -864,27 +605,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task1/FacebookLoginAndPrintLastMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="816">
+          <caret line="55" selection-start-line="41" selection-start-column="5" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/css-dinner-game-flukeout/css-dinner-game-horobets.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Lesson6Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Task2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Task3bblSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraySortCls.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/Task.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/InvalidGameActionException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/CellNotEmptyException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/GameProgress.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLineType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLine.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
         </state>
       </provider>
     </entry>

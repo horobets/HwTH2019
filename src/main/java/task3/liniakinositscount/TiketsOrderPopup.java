@@ -16,7 +16,7 @@ public class TiketsOrderPopup extends BasePage {
 
     private By freeSeatsBy = By.xpath("//div[@class='seat seat-color1']");
     private By reservedSeatsBy = By.xpath("//div[@class='seat seat-occupied']");
-    private By orderPopupCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
+    private By orderPopupFrameHallSchemeBy = By.cssSelector("#hall-scheme");//to bake sure we are on correct frame
 
     private By orderPopupIframeBy = By.xpath("//*[@id='vkino-widget']/iframe");
     private By warningGlassesMessageboxCloseButtonBy = By.xpath("//div[@class='window-close arcticmodal-close']");
@@ -25,15 +25,10 @@ public class TiketsOrderPopup extends BasePage {
         driver.switchTo().defaultContent();
 
         //switch to frame
-        FluentWait fwait = new WebDriverWait(driver, 10)
-                .withTimeout(ofSeconds(15)).pollingEvery(ofMillis(500))
-                .ignoring(ElementNotVisibleException.class, NoSuchElementException.class)
-                .ignoring(StaleElementReferenceException.class);
-
-        fwait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(orderPopupIframeBy));
+        switchToFrame(orderPopupIframeBy);
 
         //check if we are on the correct frame
-        isElementPresent(orderPopupCloseButtonBy, 5);
+        isElementPresent(orderPopupFrameHallSchemeBy, 5);
 
         return this;
     }
@@ -61,6 +56,9 @@ public class TiketsOrderPopup extends BasePage {
         fwait.until(ExpectedConditions.elementToBeClickable(warningGlassesMessageboxCloseButtonBy));
 
         Actions actions = new Actions(driver);
-        actions.click(driver.findElement(warningGlassesMessageboxCloseButtonBy)).click().build().perform();
+        actions.click(driver.findElement(warningGlassesMessageboxCloseButtonBy))
+                .click()
+                .build()
+                .perform();
     }
 }
