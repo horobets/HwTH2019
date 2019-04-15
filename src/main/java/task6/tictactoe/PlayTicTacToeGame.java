@@ -63,6 +63,7 @@ public class PlayTicTacToeGame {
 
         try {
 
+            //play until WIN or TIE
             while (ticTacToeGame.getGameStatus() == GameStatus.PLAYER_TURN) {
                 ticTacToeGame.printTable(false);
                 System.out.printf("%s turn. Choose location (1 - 9): ", ticTacToeGame.getTurn());
@@ -75,11 +76,15 @@ public class PlayTicTacToeGame {
             }
 
             if (ticTacToeGame.getGameStatus() == GameStatus.WIN) {
-                System.out.printf("%n%s wins the round!", ticTacToeGame.getWinner());
+                System.out.printf("%n************************", ticTacToeGame.getWinner());
+                System.out.printf("%n   %s wins the round!", ticTacToeGame.getWinner());
+                System.out.printf("%n************************", ticTacToeGame.getWinner());
                 ticTacToeGame.printTable(false);
             }
             if (ticTacToeGame.getGameStatus() == GameStatus.TIE) {
-                System.out.printf("%nTIE!");
+                System.out.printf("%n***********", ticTacToeGame.getWinner());
+                System.out.printf("%n   TIE!");
+                System.out.printf("%n***********", ticTacToeGame.getWinner());
                 ticTacToeGame.printTable(false);
             }
 
