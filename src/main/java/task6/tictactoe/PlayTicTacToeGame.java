@@ -9,16 +9,16 @@ public class PlayTicTacToeGame {
         Scanner scanner = new Scanner(System.in);
 
         Difficulty gameDifficulty;
-        System.out.printf("%n%nTic Tac Toe%n%nDifficulty (1 - Normal; 2 - Impossible; 3 - Play against a friend): ");
+        System.out.printf("%n%nTic Tac Toe%n%nDifficulty (1 - Easy; 2 - Normal; 3 - Play against a friend): ");
 
         int userChoice = scanner.nextInt();
 
         switch (userChoice) {
             case 1:
-                gameDifficulty = Difficulty.NORMAL;
+                gameDifficulty = Difficulty.EASY;
                 break;
             case 2:
-                gameDifficulty = Difficulty.IMPOSSIBLE;
+                gameDifficulty = Difficulty.NORMAL;
                 break;
             case 3:
                 gameDifficulty = Difficulty.FRIEND;
@@ -76,15 +76,15 @@ public class PlayTicTacToeGame {
             }
 
             if (ticTacToeGame.getGameStatus() == GameStatus.WIN) {
-                System.out.printf("%n************************", ticTacToeGame.getWinner());
+                System.out.printf("%n************************");
                 System.out.printf("%n   %s wins the round!", ticTacToeGame.getWinner());
-                System.out.printf("%n************************", ticTacToeGame.getWinner());
+                System.out.printf("%n************************");
                 ticTacToeGame.printTable(false);
             }
             if (ticTacToeGame.getGameStatus() == GameStatus.TIE) {
-                System.out.printf("%n***********", ticTacToeGame.getWinner());
+                System.out.printf("%n***********");
                 System.out.printf("%n   TIE!");
-                System.out.printf("%n***********", ticTacToeGame.getWinner());
+                System.out.printf("%n***********");
                 ticTacToeGame.printTable(false);
             }
 
