@@ -23,5 +23,5 @@
 hs_err_pid*
 
 #gs added
-*.idea
-*.iml
+#*.idea
+#*.iml
