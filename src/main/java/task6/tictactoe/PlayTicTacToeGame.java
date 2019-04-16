@@ -74,7 +74,7 @@ public class PlayTicTacToeGame {
         //start the game
         TicTacToe ticTacToeGame = new TicTacToe(gameDifficulty, playerRole);
 
-        System.out.printf("%nTable locations");
+        System.out.printf("%nTable locations:");
         ticTacToeGame.printTable(true);
 
         try {
