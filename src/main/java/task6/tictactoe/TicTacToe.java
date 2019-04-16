@@ -115,7 +115,7 @@ public class TicTacToe {
     private void computerChoice() {
 
         int locationToSubmitTo = 0;
-        if (difficulty == Difficulty.IMPOSSIBLE)//use ProTip for impossible
+        if (difficulty == Difficulty.NORMAL)//use ProTip for impossible
             locationToSubmitTo = getNextTurnLocationProTip();
         else//use random for Normal
             locationToSubmitTo = getRandomEmptyLocation();
