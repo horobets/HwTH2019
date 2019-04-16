@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,28 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorQuestion.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java" />
@@ -120,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -141,8 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,21 +155,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlayTicTacToeGame">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="ArraySortCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson6.ArraySortCls" />
       <module name="HwTH2019" />
@@ -225,8 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson6Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.Lesson6Test1" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.BubbleSort" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
@@ -279,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.PlayTicTacToeGame" />
         <item itemvalue="Application.ArraySortCls" />
         <item itemvalue="Application.Task3bblSort" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Lesson6Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555249591800</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="locations string">
+      <created>1555410850604</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555410850604</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -432,9 +413,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,14 +426,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.2213562" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39328277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23460639" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.31444758" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2340195" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.31419286" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -490,7 +472,8 @@
     <MESSAGE value="Added Lesson 6 package" />
     <MESSAGE value="Added locationToIndexes converter" />
     <MESSAGE value="Added ProTip and winning line emphasizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ProTip and winning line emphasizing" />
+    <MESSAGE value="locations string" />
+    <option name="LAST_COMMIT_MESSAGE" value="locations string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -499,13 +482,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson4/ForExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/Genre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -724,15 +700,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="87">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
