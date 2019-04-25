@@ -15,6 +15,8 @@ import java.util.Map;
 public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     public PrivatbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "Privatbank";
     }
 
     private By usdUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'USD')]]/div[@class='section-content rate']");
@@ -23,17 +25,6 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public void goToPage() {
         driver.get("https://www.privat24.ua");
-    }
-
-    @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("Privatbank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override

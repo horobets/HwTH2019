@@ -2,12 +2,15 @@ package task3.currency;
 
 import org.testng.annotations.Test;
 import task3.currency.pages.*;
+import task3.currency.pages.parsing.OschadbankCurrencyPageParsing;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class ExchangeRatesTest extends BaseTest {
+
+
     @Test
     public void printExchangeRatesInfo() {
 
@@ -55,7 +58,7 @@ public class ExchangeRatesTest extends BaseTest {
         printBankExchangeRates(getBestSellRatesBank(banksExchangeRates, CurrencyPair.USDUAH));
     }
 
-    private void printBankExchangeRates(BankExchangeRatesInfo bankExchangeRates) {
+    protected void printBankExchangeRates(BankExchangeRatesInfo bankExchangeRates) {
         System.out.printf("\nBank: %s\n", bankExchangeRates.getBankName());
         System.out.printf("Website: %s\n", bankExchangeRates.getBankUrl());
         System.out.println("Exchange Rates:");
@@ -64,7 +67,7 @@ public class ExchangeRatesTest extends BaseTest {
         }
     }
 
-    private BankExchangeRatesInfo getBestBuyRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
+    protected BankExchangeRatesInfo getBestBuyRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
 
         //find the highest bid price
         BankExchangeRatesInfo bankWithPestRate = banksExchangeRates.get(0);//set to the first by default
@@ -76,7 +79,7 @@ public class ExchangeRatesTest extends BaseTest {
         return bankWithPestRate;
     }
 
-    private BankExchangeRatesInfo getBestSellRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
+    protected BankExchangeRatesInfo getBestSellRatesBank(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair) {
 
         //find the lowest sell price
         BankExchangeRatesInfo bankWithPestRate = banksExchangeRates.get(0);//set to the first by default
@@ -88,7 +91,7 @@ public class ExchangeRatesTest extends BaseTest {
         return bankWithPestRate;
     }
 
-    private void printAverageRates(List<BankExchangeRatesInfo> banksExchangeRates) {
+    protected void printAverageRates(List<BankExchangeRatesInfo> banksExchangeRates) {
 
         // calc average USD buy price
         double averageUsdBuyRate = getAverageRate(banksExchangeRates, CurrencyPair.USDUAH, true);
@@ -101,8 +104,8 @@ public class ExchangeRatesTest extends BaseTest {
         double averageEurSellRate = getAverageRate(banksExchangeRates, CurrencyPair.EURUAH, false);
 
         System.out.println("\nAverage Rates:");
-        System.out.printf("Average USD Rate: BUY: %s, SELL: %s \n", averageUsdBuyRate, averageUsdSellRate);
-        System.out.printf("Average EUR Rate: BUY: %s, SELL: %s \n", averageEurBuyRate, averageEurSellRate);
+        System.out.printf("Average USD Rate: BUY: %.2f, SELL: %.2f \n", averageUsdBuyRate, averageUsdSellRate);
+        System.out.printf("Average EUR Rate: BUY: %.2f, SELL: %.2f \n", averageEurBuyRate, averageEurSellRate);
     }
 
     private double getAverageRate(List<BankExchangeRatesInfo> banksExchangeRates, CurrencyPair currencyPair, boolean bidPrice) {

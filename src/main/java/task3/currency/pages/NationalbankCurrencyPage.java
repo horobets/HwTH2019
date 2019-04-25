@@ -15,6 +15,8 @@ import java.util.Map;
 public class NationalbankCurrencyPage extends BankCurrencyInfoBasePage {
     public NationalbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "National Bank";
     }
 
     private By usdUahRateBy = By.xpath("(//div[@class='serviceZone2'][1]//td[@class='value'])[1]");
@@ -23,17 +25,6 @@ public class NationalbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public void goToPage() {
         driver.get("http://www.bank.gov.ua");
-    }
-
-    @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("National Bank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override

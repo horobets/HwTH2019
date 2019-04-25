@@ -15,6 +15,8 @@ import java.util.Map;
 public class UkrsibbankCurrencyPage extends BankCurrencyInfoBasePage {
     public UkrsibbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "Ukrsibbank";
     }
 
     private By usdUahBidRateBy = By.xpath("(//tr[td[contains(text(), 'USD')]]/td[span[@class='mobile-curr-name']])[1]");
@@ -25,17 +27,6 @@ public class UkrsibbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public void goToPage() {
         driver.get("https://my.ukrsibbank.com/ru/personal/operations/currency_exchange/");
-    }
-
-    @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("Ukrsibbank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override

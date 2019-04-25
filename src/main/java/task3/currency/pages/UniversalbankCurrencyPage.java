@@ -15,6 +15,8 @@ import java.util.Map;
 public class UniversalbankCurrencyPage extends BankCurrencyInfoBasePage {
     public UniversalbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "Universalbank";
     }
 
     private By usdUahBidRateBy = By.xpath("(//tr[td[contains(@class, 'currency') and contains(text(), 'USD')]]/td[2])[1]");
@@ -25,17 +27,6 @@ public class UniversalbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public void goToPage() {
         driver.get("https://www.universalbank.com.ua/");
-    }
-
-    @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("Universal Bank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override
