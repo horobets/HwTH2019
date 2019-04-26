@@ -1,14 +1,15 @@
 package task3.currency.pages.parsing;
 
 import org.openqa.selenium.WebDriver;
-import task3.currency.pages.OschadbankCurrencyPage;
+import task3.currency.pages.PrivatbankCurrencyPage;
+
 import static task3.currency.pages.parsing.Regex.getRegexMatches;
 
-public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
+public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
 
     private String pageSource;
 
-    public OschadbankCurrencyPageParsing(WebDriver driver) {
+    public PrivatbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
     }
 
@@ -25,11 +26,11 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<strongclass=\"buy-USD\"data-buy=\"\\d\\d.\\d\\d\\d\\d\">";
+        String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d").get(0);//get first match
         return Double.parseDouble(quoteString);
     }
 
@@ -41,11 +42,11 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<strongclass=\"sell-USD\"data-sell=\"\\d\\d.\\d\\d\\d\\d\">";
+        String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d\\d").get(0);
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d").get(1);//get second match
         return Double.parseDouble(quoteString);
     }
 
@@ -57,11 +58,11 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<strongclass=\"buy-EUR\"data-buy=\"\\d\\d.\\d\\d\\d\\d\">";
+        String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(0);//get first match
         return Double.parseDouble(quoteString);
     }
 
@@ -73,11 +74,11 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<strongclass=\"sell-EUR\"data-sell=\"\\d\\d.\\d\\d\\d\\d\">";
+        String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(1);
         return Double.parseDouble(quoteString);
     }
 }
