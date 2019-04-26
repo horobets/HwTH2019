@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,22 +33,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="595">
+              <caret line="35" column="111" selection-start-line="35" selection-start-column="111" selection-end-line="35" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -79,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" />
@@ -130,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" />
       </list>
     </option>
   </component>
@@ -152,7 +142,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +173,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -192,21 +181,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,9 +210,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingBatString1Screenshots">
+  <component name="RunManager" selected="Application.CountACharsInString">
     <configuration name="CodingBatString1Screenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task7.CodingBatString1Screenshots" />
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountACharsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task7.CountACharsInString" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
@@ -273,23 +267,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.currency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="task3.currency" />
-      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
@@ -310,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountACharsInString" />
         <item itemvalue="Application.CodingBatString1Screenshots" />
         <item itemvalue="Application.StringsTest" />
         <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
         <item itemvalue="TestNG.ExchangeRatesTest.printSourceParsedExchangeRatesInfo" />
-        <item itemvalue="TestNG.ExchangeRatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +449,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +459,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39219934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39219934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -562,11 +539,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13232" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/InvalidGameActionException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/CellNotEmptyException.java" />
@@ -582,20 +554,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLine.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -847,6 +805,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -859,24 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="595">
+          <caret line="35" column="111" selection-start-line="35" selection-start-column="111" selection-end-line="35" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
