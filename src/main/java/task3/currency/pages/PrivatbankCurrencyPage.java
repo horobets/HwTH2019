@@ -15,6 +15,8 @@ import java.util.Map;
 public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     public PrivatbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "Privatbank";
     }
 
     private By usdUahRateBy = By.xpath("//div[@class='exchange-rate-module']/div[div[contains(text(), 'USD')]]/div[@class='section-content rate']");
@@ -23,17 +25,6 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
     @Override
     public void goToPage() {
         driver.get("https://www.privat24.ua");
-    }
-
-    @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("Privatbank", driver.getCurrentUrl(), bankCurrencyRates);
     }
 
     @Override
@@ -47,7 +38,7 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
         return null;
     }
 
-    private double getUsdUahBidPrice() {
+    protected double getUsdUahBidPrice() {
         String privatbankUsdUahRatesString = readText(usdUahRateBy);
 
         //string value format: 26.750 / 27.100 - so we need to extract the first numeric part of the string
@@ -56,7 +47,7 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
         return Double.parseDouble(privatbankUsdUahBidString);
     }
 
-    private double getUsdUahAskPrice() {
+    protected double getUsdUahAskPrice() {
         String privatbankUsdUahRatesString = readText(usdUahRateBy);
 
         //string value format: 26.750 / 27.100 - so we need to extract the last numeric part of the string
@@ -65,7 +56,7 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
         return Double.parseDouble(privatbankUsdUahAskString);
     }
 
-    private double getEurUahBidPrice() {
+    protected double getEurUahBidPrice() {
         String privatbankEurUahRatesString = readText(eurUahRateBy);
 
         //string value format: 26.750 / 27.100 - so we need to extract the first numeric part of the string
@@ -74,7 +65,7 @@ public class PrivatbankCurrencyPage extends BankCurrencyInfoBasePage {
         return Double.parseDouble(privatbankEurUahBidString);
     }
 
-    private double getEurUahAskPrice() {
+    protected double getEurUahAskPrice() {
         String privatbankEurUahRatesString = readText(eurUahRateBy);
 
         //string value format: 26.750 / 27.100 - so we need to extract the last numeric part of the string

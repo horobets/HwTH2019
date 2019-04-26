@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task6/arraysorting/insertionsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,19 +20,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task6/arraysorting/insertionsort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="230">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -61,27 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/MovieInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/ImdbMoviePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/ImdbMovieInfoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task2/ViewType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task2/AkinatorView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task2/AkinatorViewMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task2/ViewMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/nums/Seasons.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorProposal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/ViewMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/InputNameView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/shawshankredemption/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/LiniakinoListAllMovies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
@@ -112,6 +109,27 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/arraysorting/shellsort.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/arraysorting/insertionsort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson7/Lesson7Class.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson7/PalindrCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson7/Box.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson7/FactDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson8/lsn8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" />
       </list>
     </option>
   </component>
@@ -123,10 +141,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="1739" />
+    <option name="y" value="42" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -134,6 +152,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +192,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -181,14 +200,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task6" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysorting" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,13 +229,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.insertionsort">
-    <configuration name="ArraySortCls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.ArraySortCls" />
+  <component name="RunManager" selected="Application.CodingBatString1Screenshots">
+    <configuration name="CodingBatString1Screenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task7.CodingBatString1Screenshots" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.BubbleSort" />
+    <configuration name="StringsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.currency.pages.parsing.StringsTest" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="task3.currency.pages.parsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,52 +256,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayTicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task6.tictactoe.PlayTicTacToeGame" />
+    <configuration name="ExchangeRatesPageSourceParsingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task6.tictactoe.*" />
+          <option name="PATTERN" value="task3.currency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="task3.currency" />
+      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesPageSourceParsingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3bblSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.Task3bblSort" />
+    <configuration name="ExchangeRatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="task3.currency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="task3.currency" />
+      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task6.arraysorting.insertionsort" />
+    <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task6.arraysorting.*" />
+          <option name="PATTERN" value="task3.currency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="task3.currency" />
+      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
+      <option name="METHOD_NAME" value="printSourceParsedExchangeRatesInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.insertionsort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.PlayTicTacToeGame" />
-        <item itemvalue="Application.ArraySortCls" />
-        <item itemvalue="Application.Task3bblSort" />
+        <item itemvalue="Application.CodingBatString1Screenshots" />
+        <item itemvalue="Application.StringsTest" />
+        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
+        <item itemvalue="TestNG.ExchangeRatesTest.printSourceParsedExchangeRatesInfo" />
+        <item itemvalue="TestNG.ExchangeRatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -407,41 +438,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 40m 15s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="TestNgExample - 2019.04.23 at 19h 06m 45s.xml">
+      <configuration name="TestNgExample" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 41m 05s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="TestNgExample_firstTestNgTest - 2019.04.23 at 19h 07m 51s.xml">
+      <configuration name="TestNgExample.firstTestNgTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 41m 19s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="TestNgExample_firstTestNgTest - 2019.04.23 at 19h 08m 29s.xml">
+      <configuration name="TestNgExample.firstTestNgTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 50m 30s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="TestNgExample - 2019.04.23 at 19h 09m 43s.xml">
+      <configuration name="TestNgExample" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 51m 18s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="TestNgExample - 2019.04.23 at 19h 47m 48s.xml">
+      <configuration name="TestNgExample" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 51m 34s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesTest - 2019.04.25 at 18h 52m 48s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 56m 36s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesTest - 2019.04.25 at 18h 55m 10s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 05s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesTest_printSourceParsedExchangeRatesInfo - 2019.04.25 at 19h 07m 00s.xml">
+      <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 19s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesTest_printSourceParsedExchangeRatesInfo - 2019.04.25 at 19h 09m 19s.xml">
+      <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LiniakinoTiketsTest - 2019.04.10 at 13h 57m 40s.xml">
-      <configuration name="LiniakinoTiketsTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.25 at 19h 36m 24s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,15 +481,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.2213562" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39328277" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39219934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2340195" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.31419286" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.3109426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -502,166 +533,35 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/nums/CompareNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/-.java" />
-    <entry file="file://$USER_HOME$/Downloads/- (2).java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/SeatsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/css-dinner-game-flukeout/css-dinner-game-horobets.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/Task.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/DriverFindElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/LiniakinoListAllMovies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson5/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task1/FacebookLoginAndPrintLastMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/MovieListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="55" selection-start-line="41" selection-start-column="5" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Lesson6Test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Task2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/Task3bblSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/ArraySortCls.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/Task.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13232" />
@@ -716,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -733,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="43" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -741,6 +634,252 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/Lesson7Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/PalindrCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/FactDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/lsn8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/MyConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/GoogleSearchHelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/SeleniumCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="10" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BankExchangeRatesInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/facebookRegistrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ImdbExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task1/FacebookLoginAndPrintLastMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="38" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,6 +912,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lombok-plugin-0.24-2018.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

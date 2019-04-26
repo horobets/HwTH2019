@@ -15,6 +15,8 @@ import java.util.Map;
 public class UkrsibbankCurrencyPage extends BankCurrencyInfoBasePage {
     public UkrsibbankCurrencyPage(WebDriver driver) {
         super(driver);
+
+        bankName = "Ukrsibbank";
     }
 
     private By usdUahBidRateBy = By.xpath("(//tr[td[contains(text(), 'USD')]]/td[span[@class='mobile-curr-name']])[1]");
@@ -28,17 +30,6 @@ public class UkrsibbankCurrencyPage extends BankCurrencyInfoBasePage {
     }
 
     @Override
-    public BankExchangeRatesInfo getBankExchangeRates() {
-
-        Map<CurrencyPair, PricePair> bankCurrencyRates = new HashMap<>();
-
-        bankCurrencyRates.put(CurrencyPair.USDUAH, getPricePair(CurrencyPair.USDUAH));
-        bankCurrencyRates.put(CurrencyPair.EURUAH, getPricePair(CurrencyPair.EURUAH));
-
-        return new BankExchangeRatesInfo("Ukrsibbank", driver.getCurrentUrl(), bankCurrencyRates);
-    }
-
-    @Override
     public PricePair getPricePair(CurrencyPair currencyPair) {
         switch (currencyPair) {
             case USDUAH:
@@ -49,22 +40,22 @@ public class UkrsibbankCurrencyPage extends BankCurrencyInfoBasePage {
         return null;
     }
 
-    private double getUsdUahBidPrice() {
+    protected double getUsdUahBidPrice() {
         String usdUahRatesString = readText(usdUahBidRateBy);
         return Double.parseDouble(usdUahRatesString);
     }
 
-    private double getUsdUahAskPrice() {
+    protected double getUsdUahAskPrice() {
         String usdUahRatesString = readText(usdUahAskRateBy);
         return Double.parseDouble(usdUahRatesString);
     }
 
-    private double getEurUahBidPrice() {
+    protected double getEurUahBidPrice() {
         String eurUahRatesString = readText(eurUahBidRateBy);
         return Double.parseDouble(eurUahRatesString);
     }
 
-    private double getEurUahAskPrice() {
+    protected double getEurUahAskPrice() {
         String eurUahRatesString = readText(eurUahAskRateBy);
         return Double.parseDouble(eurUahRatesString);
     }
