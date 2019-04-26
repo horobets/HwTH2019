@@ -2,7 +2,6 @@ package task3.currency;
 
 import org.testng.annotations.Test;
 import task3.currency.pages.*;
-import task3.currency.pages.parsing.OschadbankCurrencyPageParsing;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -40,22 +40,22 @@ public class UniversalbankCurrencyPage extends BankCurrencyInfoBasePage {
         return null;
     }
 
-    private double getUsdUahBidPrice() {
+    protected double getUsdUahBidPrice() {
         String usdUahRatesString = readText(usdUahBidRateBy);
         return Double.parseDouble(usdUahRatesString);
     }
 
-    private double getUsdUahAskPrice() {
+    protected double getUsdUahAskPrice() {
         String usdUahRatesString = readText(usdUahAskRateBy);
         return Double.parseDouble(usdUahRatesString);
     }
 
-    private double getEurUahBidPrice() {
+    protected double getEurUahBidPrice() {
         String eurUahRatesString = readText(eurUahBidRateBy);
         return Double.parseDouble(eurUahRatesString);
     }
 
-    private double getEurUahAskPrice() {
+    protected double getEurUahAskPrice() {
         String eurUahRatesString = readText(eurUahAskRateBy);
         return Double.parseDouble(eurUahRatesString);
     }

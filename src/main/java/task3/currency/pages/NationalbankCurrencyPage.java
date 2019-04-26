@@ -41,12 +41,12 @@ public class NationalbankCurrencyPage extends BankCurrencyInfoBasePage {
     }
 
 
-    private double getUsdUahPrice() {
+    protected double getUsdUahPrice() {
         String usdUahRatesString = readText(usdUahRateBy);
         return Double.parseDouble(usdUahRatesString) / 100;
     }
 
-    private double getEurUahPrice() {
+    protected double getEurUahPrice() {
         String eurUahRatesString = readText(eurUahRateBy);
         return Double.parseDouble(eurUahRatesString) / 100;
     }

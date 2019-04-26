@@ -2,7 +2,7 @@ package task3.currency;
 
 import org.testng.annotations.Test;
 import task3.currency.pages.BankCurrencyInfoBasePage;
-import task3.currency.pages.parsing.OschadbankCurrencyPageParsing;
+import task3.currency.pages.parsing.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,27 +16,27 @@ public class ExchangeRatesPageSourceParsingTest extends ExchangeRatesTest {
         List<BankExchangeRatesInfo> banksExchangeRates = new ArrayList<>();
 
         // get Privatbank rates from page source
-        BankCurrencyInfoBasePage bankPage;// = new PrivatbankCurrencyPage(driver);
+        BankCurrencyInfoBasePage bankPage;// = new PrivatbankCurrencyPageParsing(driver);
  /*       bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
         // get Ukrsibbank rates from page source
-        bankPage = new UkrsibbankCurrencyPage(driver);
-        bankPage.goToPage();
-        banksExchangeRates.add(bankPage.getBankExchangeRates());
-
-        // get Universalbank rates from page source
-        bankPage = new UniversalbankCurrencyPage(driver);
+        bankPage = new UkrsibbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 */
+        // get Universalbank rates from page source
+        bankPage = new UniversalbankCurrencyPageParsing(driver);
+        bankPage.goToPage();
+        banksExchangeRates.add(bankPage.getBankExchangeRates());
+/*
         // get Oschadbank rates from page source
         bankPage = new OschadbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
-/*
+
         // get Nationalbank rates from page source
-        bankPage = new NationalbankCurrencyPage(driver);
+        bankPage = new NationalbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 */
