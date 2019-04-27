@@ -1,10 +1,10 @@
-package task5.facebooksearch;
+package task8.facebookapps.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class FbLoginPage extends BasePage {
+public class FbLoginPage extends FbBasePage {
     public FbLoginPage(WebDriver driver) {
         super(driver);
     }

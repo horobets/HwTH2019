@@ -1,14 +1,15 @@
 package task3.currency.pages.parsing;
 
 import org.openqa.selenium.WebDriver;
-import task3.currency.pages.UniversalbankCurrencyPage;
+import task3.currency.pages.UkrsibbankCurrencyPage;
+
 import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
-public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage {
+public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
 
     private String pageSource;
 
-    public UniversalbankCurrencyPageParsing(WebDriver driver) {
+    public UkrsibbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
     }
 
@@ -25,11 +26,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencyrisep-b-xs-2p-y-1-sm\">USD<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
+        String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d{1,2}.\\d\\d\\d\\d").get(0);//get first match
         return Double.parseDouble(quoteString);
     }
 
@@ -41,11 +42,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencyrisep-b-xs-2p-y-1-sm\">USD<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
-        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
+        String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
+        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(1);
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(1);//get second match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d{1,2}.\\d\\d\\d\\d").get(0);
         return Double.parseDouble(quoteString);
     }
 
@@ -57,11 +58,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencydownp-b-xs-2p-y-1-sm\">EUR<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
-        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
+        String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
+        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(3);
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d{1,2}.\\d\\d\\d\\d").get(0);
         return Double.parseDouble(quoteString);
     }
 
@@ -73,11 +74,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencydownp-b-xs-2p-y-1-sm\">EUR<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
-        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
+        String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
+        String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(4);
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(1);
+        String quoteString = getRegexMatches(elementWithQuote, "\\d{1,2}.\\d\\d\\d\\d").get(0);
         return Double.parseDouble(quoteString);
     }
 }

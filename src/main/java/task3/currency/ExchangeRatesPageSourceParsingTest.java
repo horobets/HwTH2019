@@ -16,20 +16,20 @@ public class ExchangeRatesPageSourceParsingTest extends ExchangeRatesTest {
         List<BankExchangeRatesInfo> banksExchangeRates = new ArrayList<>();
 
         // get Privatbank rates from page source
-        BankCurrencyInfoBasePage bankPage;// = new PrivatbankCurrencyPageParsing(driver);
- /*       bankPage.goToPage();
+        BankCurrencyInfoBasePage bankPage = new PrivatbankCurrencyPageParsing(driver);
+        bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
 
-        // get Ukrsibbank rates from page source
+         // get Ukrsibbank rates from page source
         bankPage = new UkrsibbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
-*/
+
         // get Universalbank rates from page source
         bankPage = new UniversalbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
-/*
+
         // get Oschadbank rates from page source
         bankPage = new OschadbankCurrencyPageParsing(driver);
         bankPage.goToPage();
@@ -39,7 +39,7 @@ public class ExchangeRatesPageSourceParsingTest extends ExchangeRatesTest {
         bankPage = new NationalbankCurrencyPageParsing(driver);
         bankPage.goToPage();
         banksExchangeRates.add(bankPage.getBankExchangeRates());
-*/
+
         // output all Banks exchange Rates from page source
         for (BankExchangeRatesInfo bankExchangeRates : banksExchangeRates) {
             printBankExchangeRates(bankExchangeRates);

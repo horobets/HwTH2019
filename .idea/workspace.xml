@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,43 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,6 +28,7 @@
     <findStrings>
       <find>%ncong</find>
       <find>[i][j]</find>
+      <find>//div[@class='exchange-rate-module']/div[div[contains(text(), 'USD')]]/div[@class='section-content rate']</find>
     </findStrings>
     <replaceStrings>
       <replace>[j][i]</replace>
@@ -79,19 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/TiketsOrderPopup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/Lesson6Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/Task2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/Task3bblSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson6/ArraySortCls.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/DifficultyLevel.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/XO.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameProgress.java" />
@@ -117,19 +65,32 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UkrsibbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/NationalbankCurrencyPageParsing.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/RegexTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/Regex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" />
       </list>
     </option>
   </component>
@@ -141,18 +102,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1739" />
-    <option name="y" value="42" />
-    <option name="width" value="1936" />
-    <option name="height" value="990" />
+    <option name="x" value="2472" />
+    <option name="y" value="-23" />
+    <option name="width" value="984" />
+    <option name="height" value="507" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,14 +143,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,10 +154,37 @@
               <item name="task3" type="462c0819:PsiDirectoryNode" />
               <item name="currency" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="facebookapps" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +194,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task3.currency.pages.parsing" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,26 +212,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodingBatString1Screenshots">
-    <configuration name="CodingBatString1Screenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task7.CodingBatString1Screenshots" />
+  <component name="RunManager" selected="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo">
+    <configuration name="CountACharsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task7.CountACharsInString" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.currency.pages.parsing.StringsTest" />
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.currency.pages.parsing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,6 +243,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task3.currency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task3.currency" />
+      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesPageSourceParsingTest" />
+      <option name="METHOD_NAME" value="printSourceParsedExchangeRatesInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExchangeRatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
@@ -290,7 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangeRatesTest.printExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
@@ -300,7 +288,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="task3.currency" />
       <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
-      <option name="METHOD_NAME" value="printSourceParsedExchangeRatesInfo" />
+      <option name="METHOD_NAME" value="printExchangeRatesInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -310,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodingBatString1Screenshots" />
-        <item itemvalue="Application.StringsTest" />
-        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
-        <item itemvalue="TestNG.ExchangeRatesTest.printSourceParsedExchangeRatesInfo" />
+        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" />
         <item itemvalue="TestNG.ExchangeRatesTest" />
+        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
+        <item itemvalue="TestNG.ExchangeRatesTest.printExchangeRatesInfo" />
+        <item itemvalue="Application.CountACharsInString" />
       </list>
     </recent_temporary>
   </component>
@@ -438,41 +426,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNgExample - 2019.04.23 at 19h 06m 45s.xml">
-      <configuration name="TestNgExample" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 40m 06s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNgExample_firstTestNgTest - 2019.04.23 at 19h 07m 51s.xml">
-      <configuration name="TestNgExample.firstTestNgTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesTest_printExchangeRatesInfo - 2019.04.26 at 18h 41m 21s.xml">
+      <configuration name="ExchangeRatesTest.printExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNgExample_firstTestNgTest - 2019.04.23 at 19h 08m 29s.xml">
-      <configuration name="TestNgExample.firstTestNgTest" configurationId="TestNG" />
+    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 42m 28s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNgExample - 2019.04.23 at 19h 09m 43s.xml">
-      <configuration name="TestNgExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNgExample - 2019.04.23 at 19h 47m 48s.xml">
-      <configuration name="TestNgExample" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesTest - 2019.04.25 at 18h 52m 48s.xml">
-      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesTest - 2019.04.25 at 18h 55m 10s.xml">
-      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesTest_printSourceParsedExchangeRatesInfo - 2019.04.25 at 19h 07m 00s.xml">
-      <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesTest_printSourceParsedExchangeRatesInfo - 2019.04.25 at 19h 09m 19s.xml">
-      <configuration name="ExchangeRatesTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.25 at 19h 36m 24s.xml">
+    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.26 at 18h 50m 02s.xml">
       <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesTest_printExchangeRatesInfo - 2019.04.26 at 18h 50m 54s.xml">
+      <configuration name="ExchangeRatesTest.printExchangeRatesInfo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesTest - 2019.04.26 at 18h 52m 13s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesTest - 2019.04.26 at 18h 53m 28s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.26 at 18h 54m 14s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.27 at 09h 39m 48s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesTest - 2019.04.27 at 09h 40m 53s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,14 +470,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39219934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39204988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2340195" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.3109426" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.31021044" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -537,18 +525,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java</url>
           <line>38</line>
           <properties />
@@ -562,116 +538,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13232" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/InvalidGameActionException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/CellNotEmptyException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/GameProgress.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLineType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLine.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/AkinatorGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/arraysorting/insertionsort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/Lesson7Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/PalindrCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson7/FactDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/lsn8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/MyConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -686,26 +552,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/SeleniumCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -713,81 +561,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BankExchangeRatesInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -820,45 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -866,17 +606,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CastingBasics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/CharToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UniversalbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/OschadbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BankCurrencyInfoBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/UkrsibbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/NationalbankCurrencyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/NationalbankCurrencyPageParsing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UkrsibbankCurrencyPageParsing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/Regex.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/task8.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="14" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

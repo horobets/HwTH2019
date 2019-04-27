@@ -1,14 +1,15 @@
 package task3.currency.pages.parsing;
 
 import org.openqa.selenium.WebDriver;
-import task3.currency.pages.UniversalbankCurrencyPage;
+import task3.currency.pages.PrivatbankCurrencyPage;
+
 import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
-public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage {
+public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
 
     private String pageSource;
 
-    public UniversalbankCurrencyPageParsing(WebDriver driver) {
+    public PrivatbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
     }
 
@@ -25,11 +26,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencyrisep-b-xs-2p-y-1-sm\">USD<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
+        String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(0);//get first match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d").get(0);//get first match
         return Double.parseDouble(quoteString);
     }
 
@@ -41,11 +42,11 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencyrisep-b-xs-2p-y-1-sm\">USD<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
+        String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
-        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d").get(1);//get second match
+        String quoteString = getRegexMatches(elementWithQuote, "\\d\\d.\\d\\d\\d").get(1);//get second match
         return Double.parseDouble(quoteString);
     }
 
@@ -57,7 +58,7 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencydownp-b-xs-2p-y-1-sm\">EUR<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
+        String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
@@ -73,7 +74,7 @@ public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage 
         String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
-        String quoteRegex = "<tr><tdclass=\"currencydownp-b-xs-2p-y-1-sm\">EUR<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td><tdclass=\"p-b-xs-2p-y-1-sm\">\\d\\d\\.\\d\\d<\\/td>";
+        String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
 
         //extract quote from web element
