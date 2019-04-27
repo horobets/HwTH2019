@@ -9,15 +9,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
-public class BasePage {
+public abstract class BasePage {
 
     public WebDriver driver;
-    public WebDriverWait wait;
+    private WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, 15);
     }
+
+    public abstract void goToPage();
 
     protected boolean isPageLoaded(By pageElement)
     {

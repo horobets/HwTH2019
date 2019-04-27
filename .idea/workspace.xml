@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="count chars in a string">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/CredentialsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,73 +29,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/RegexMatches.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="312">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1074#1082#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="24" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/NationalbankCurrencyPageParsing.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/OschadbankCurrencyPageParsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UkrsibbankCurrencyPageParsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="68">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,13 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/GameProgress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/InvalidGameActionException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/CellNotEmptyException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/WinningLineType.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/CellValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeGame.java" />
@@ -151,14 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/PrivatbankCurrencyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/RegexTools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/Regex.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/RegexMatches.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UkrsibbankCurrencyPageParsing.java" />
@@ -167,6 +198,19 @@
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
         <option value="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/GsDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/CredentialsProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/AkCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java" />
       </list>
     </option>
   </component>
@@ -178,10 +222,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2472" />
-    <option name="y" value="-23" />
-    <option name="width" value="984" />
-    <option name="height" value="507" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2600" />
+    <option name="height" value="1718" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -219,14 +263,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +273,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
               <item name="facebookapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="facebookapps" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,13 +317,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo">
-    <configuration name="CountACharsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task7.CountACharsInString" />
+  <component name="RunManager" selected="TestNG.FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest">
+    <configuration name="AkCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task8.AkCheck" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task7.*" />
+          <option name="PATTERN" value="task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,34 +331,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRatesPageSourceParsingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FbBirthdaysTest.facebookReadNewsFeedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.currency.*" />
+          <option name="PATTERN" value="task8.facebookapps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task3.currency" />
-      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesPageSourceParsingTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.currency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="task3.currency" />
-      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesPageSourceParsingTest" />
-      <option name="METHOD_NAME" value="printSourceParsedExchangeRatesInfo" />
+      <option name="PACKAGE_NAME" value="task8.facebookapps" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdaysTest" />
+      <option name="METHOD_NAME" value="facebookReadNewsFeedTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -320,16 +349,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.currency.*" />
+          <option name="PATTERN" value="task8.facebookapps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task3.currency" />
-      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
+      <option name="PACKAGE_NAME" value="task8.facebookapps" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdaysTest" />
+      <option name="METHOD_NAME" value="facebookSendMessagesToFriendsHavingBirthdayTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FbFindNewsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task8.facebookapps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task8.facebookapps" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbFindNewsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -337,17 +384,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRatesTest.printExchangeRatesInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FbFindNewsTest.facebookCompareOccurrencesInNewsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.currency.*" />
+          <option name="PATTERN" value="task8.facebookapps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task3.currency" />
-      <option name="MAIN_CLASS_NAME" value="task3.currency.ExchangeRatesTest" />
-      <option name="METHOD_NAME" value="printExchangeRatesInfo" />
+      <option name="PACKAGE_NAME" value="task8.facebookapps" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbFindNewsTest" />
+      <option name="METHOD_NAME" value="facebookCompareOccurrencesInNewsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -357,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" />
-        <item itemvalue="TestNG.ExchangeRatesTest" />
-        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
-        <item itemvalue="TestNG.ExchangeRatesTest.printExchangeRatesInfo" />
-        <item itemvalue="Application.CountACharsInString" />
+        <item itemvalue="TestNG.FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" />
+        <item itemvalue="TestNG.FbBirthdaysTest.facebookReadNewsFeedTest" />
+        <item itemvalue="Application.AkCheck" />
+        <item itemvalue="TestNG.FbFindNewsTest.facebookCompareOccurrencesInNewsTest" />
+        <item itemvalue="TestNG.FbFindNewsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -488,46 +535,60 @@
       <option name="project" value="LOCAL" />
       <updated>1556348307210</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="count chars in a string">
+      <created>1556348770205</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556348770205</updated>
+    </task>
+    <task id="LOCAL-00018" summary="count chars in a string">
+      <created>1556349550446</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556349550446</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 42m 28s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest_facebookFindNewsTest - 2019.04.27 at 15h 58m 22s.xml">
+      <configuration name="FbFindNewsTest.facebookFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.26 at 18h 50m 02s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest_facebookFindNewsTest - 2019.04.27 at 15h 58m 31s.xml">
+      <configuration name="FbFindNewsTest.facebookFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesTest_printExchangeRatesInfo - 2019.04.26 at 18h 50m 54s.xml">
-      <configuration name="ExchangeRatesTest.printExchangeRatesInfo" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest - 2019.04.27 at 15h 58m 39s.xml">
+      <configuration name="FbFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesTest - 2019.04.26 at 18h 52m 13s.xml">
-      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest - 2019.04.27 at 15h 58m 44s.xml">
+      <configuration name="FbFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesTest - 2019.04.26 at 18h 53m 28s.xml">
-      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest - 2019.04.27 at 16h 00m 11s.xml">
+      <configuration name="FbFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.26 at 18h 54m 14s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest - 2019.04.27 at 16h 00m 29s.xml">
+      <configuration name="FbFindNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.27 at 09h 39m 48s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest_facebookCompareOccurrencesInNewsTest - 2019.04.27 at 16h 25m 28s.xml">
+      <configuration name="FbFindNewsTest.facebookCompareOccurrencesInNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesTest - 2019.04.27 at 09h 40m 53s.xml">
-      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    <history-entry file="FbFindNewsTest_facebookCompareOccurrencesInNewsTest - 2019.04.27 at 16h 35m 15s.xml">
+      <configuration name="FbFindNewsTest.facebookCompareOccurrencesInNewsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.27 at 09h 45m 06s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
+    <history-entry file="FbBirthdaysTest_facebookReadNewsFeedTest - 2019.04.27 at 19h 31m 41s.xml">
+      <configuration name="FbBirthdaysTest.facebookReadNewsFeedTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.27 at 09h 57m 40s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
+    <history-entry file="FbBirthdaysTest_facebookSendMessagesToFriendsHavingBirthdayTest - 2019.04.27 at 20h 17m 07s.xml">
+      <configuration name="FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,14 +598,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39204988" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39204988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.23382697" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.31021044" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23382697" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.30943102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,7 +646,8 @@
     <MESSAGE value="Added ProTip and winning line emphasizing" />
     <MESSAGE value="locations string" />
     <MESSAGE value="Whitespaces removal moved to constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Whitespaces removal moved to constructors" />
+    <MESSAGE value="count chars in a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="count chars in a string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -598,6 +660,54 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -606,38 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson2/MyConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/GoogleSearchHelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/GeneralTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/CustomListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson1/SeleniumCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="10" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson8/testng_lesson/TestNgExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BankExchangeRatesInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/StringsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/facebookRegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -785,16 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -802,31 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -865,33 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,8 +966,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="33" column="59" lean-forward="true" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/liniakinositscount/LiniakinoTiketsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/GsDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/CredentialsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/AkCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
