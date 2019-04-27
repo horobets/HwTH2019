@@ -21,9 +21,11 @@ public class CountACharsInString {
     public static void countCharsInStringAndPrint(String str, char charToCount) {
         List<Integer> charAIndexes = new ArrayList<>();
 
-        for (int i = 0; i < str.length(); i++)
+        // add every occurrence's index to the list
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == charToCount)
                 charAIndexes.add(i);
+        }
 
         // prepare list of indexes as a string (for output)
         String indexesListStr = "";
@@ -33,6 +35,7 @@ public class CountACharsInString {
                 indexesListStr += ", ";
         }
 
-        System.out.printf("РЕЗУЛЬТАТ: Кол-во символов \"%c\" - %d, индексы символа \"%c\" в строке - [%s]; %n%n", charToCount, charAIndexes.size(), charToCount, indexesListStr);
+        System.out.printf("РЕЗУЛЬТАТ: Кол-во символов \"%c\" - %d, индексы символа \"%c\" в строке - [%s]; %n%n",
+                charToCount, charAIndexes.size(), charToCount, indexesListStr);
     }
 }
