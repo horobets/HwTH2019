@@ -12,7 +12,9 @@ public class FbFindNewsTest extends FbBaseTest {
 
     @Parameters({"firstStringToCount", "secondStringToCount", "maxNewsToRead"})
     @Test(description = "Compare occurrences of two strings in Facebook news feed")
-    public void facebookCompareOccurrencesInNewsTest(@Optional("ze") String firstStringToCount, @Optional("roshen") String secondStringToCount, @Optional("50") int maxNewsToRead) {
+    public void facebookCompareOccurrencesInNewsTest(@Optional("ze") String firstStringToCount,
+                                                     @Optional("roshen") String secondStringToCount,
+                                                     @Optional("50") int maxNewsToRead) {
 
         FbLoginPage fbLoginPage = new FbLoginPage(driver);
         fbLoginPage.goToPage();
@@ -33,8 +35,9 @@ public class FbFindNewsTest extends FbBaseTest {
     private int getStringOccurrencesInTextsListCount(List<String> texts, String stringToFind) {
         int occurrencesCount = 0;
         for (String text : texts) {
-            if (text.contains(stringToFind))
+            if (text.contains(stringToFind)) {
                 occurrencesCount++;
+            }
         }
         return occurrencesCount;
     }

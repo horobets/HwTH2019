@@ -2,7 +2,6 @@ package task8.facebookapps.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class FbProfilePage extends FbBasePage {
 
@@ -10,7 +9,7 @@ public class FbProfilePage extends FbBasePage {
 
     private By profileNameBy = By.cssSelector("#fb-timeline-cover-name >a");
 
-    private By messageButtonBy = By.id("u_0_1f");
+    private By messageButtonBy = By.cssSelector(".actions a[href^='/messages/t/']");
 
     public FbProfilePage(WebDriver driver, String profileLink) {
         super(driver);
@@ -31,13 +30,13 @@ public class FbProfilePage extends FbBasePage {
         return driver.findElement(profileNameBy).getText();
     }
 
-    public void sendPersonalMessage(String messageText) {
-        driver.findElement(messageButtonBy).click();
+    public FbMessengerPage gotoMessenger() {
+        String profileMessengerPageLink = driver.findElement(messageButtonBy).getAttribute("href");
 
-        WebElement messageEditor = driver.findElement(By.id("cch_f3ce01ba31d4aec"));
-        messageEditor.sendKeys(messageText);
+        FbMessengerPage profileMessengerPage = new FbMessengerPage(driver, profileMessengerPageLink);
+        profileMessengerPage.goToPage();
 
-        //WebElement sendMessageButton = driver.findElement(By.id("js_426"));
+        return profileMessengerPage;
     }
 
 }

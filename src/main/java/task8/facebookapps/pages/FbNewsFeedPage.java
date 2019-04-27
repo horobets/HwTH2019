@@ -34,15 +34,15 @@ public class FbNewsFeedPage extends FbBasePage {
                         "arguments[0].scrollIntoView();", userContentElements.get(i));
 
                 newsFeedMessages.add(userContentElements.get(i).getText());
-            } else
+            } else {
                 break;
+            }
         }
 
         return newsFeedMessages;
     }
 
-    public List<String> getFbMessagesFromVisibleElements()
-    {
+    public List<String> getFbMessagesFromVisibleElements() {
         List<String> messages = new ArrayList<>();
 
         for (WebElement visibleUserContentFeedElement : driver.findElements(hyperFeedItemsUserContentBy))
