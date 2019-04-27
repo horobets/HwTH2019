@@ -1,9 +1,9 @@
-package task5.facebooksearch;
+package task8.facebookapps.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class FbNewsFeedPage extends BasePage {
+public class FbNewsFeedPage extends FbBasePage {
     public FbNewsFeedPage(WebDriver driver) {
         super(driver);
     }
@@ -21,6 +21,6 @@ public class FbNewsFeedPage extends BasePage {
 
     public int getPhraseOccurancesNumber(String phraseToSearch)
     {
-return 0;
+        return 0;
     }
 }
