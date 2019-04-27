@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FbEventsPage extends FbBasePage {
 
-    By eventsDashboardTitleBy = By.id("events_dashboard_upcoming_events");
+    private By eventsDashboardTitleBy = By.id("events_dashboard_upcoming_events");
 
 
     public FbEventsPage(WebDriver driver) {

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbMessengerPage.java" afterDir="false" />
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="fb tests - birthday wishes list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/BirthdayWishes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="578">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +34,57 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BirthdayWishes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="663">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,12 +119,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbMessengerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="527">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,15 +163,16 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Horobets" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToeGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/Difficulty.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson6/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/arraysorting/shellsort.java" />
@@ -153,15 +211,19 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/AkCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbMessengerPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/MessagesDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/WishesForBirthday.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BirthdayWishes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" />
       </list>
     </option>
   </component>
@@ -173,8 +235,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1150" />
-    <option name="y" value="121" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="2600" />
     <option name="height" value="1718" />
   </component>
@@ -207,14 +269,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest">
+  <component name="RunManager">
     <configuration name="AkCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task8.AkCheck" />
       <module name="HwTH2019" />
@@ -290,16 +344,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FbBirthdaysTest.facebookReadNewsFeedTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FbBirthdayWishesTest.facebookReadNewsFeedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task8.facebookapps.*" />
+          <option name="PATTERN" value="task8.facebookapps.CredentialsProvider" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="task8.facebookapps" />
-      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdaysTest" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdayWishesTest" />
       <option name="METHOD_NAME" value="facebookReadNewsFeedTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -308,17 +362,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FbBirthdayWishesTest.facebookSendBirthdayWishesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task8.facebookapps.*" />
+          <option name="PATTERN" value="task8.facebookapps.CredentialsProvider" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="task8.facebookapps" />
-      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdaysTest" />
-      <option name="METHOD_NAME" value="facebookSendMessagesToFriendsHavingBirthdayTest" />
+      <option name="MAIN_CLASS_NAME" value="task8.facebookapps.FbBirthdayWishesTest" />
+      <option name="METHOD_NAME" value="facebookSendBirthdayWishesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -330,7 +384,7 @@
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task8.facebookapps.*" />
+          <option name="PATTERN" value="task8.facebookapps.CredentialsProvider" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,7 +401,7 @@
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task8.facebookapps.*" />
+          <option name="PATTERN" value="task8.facebookapps.CredentialsProvider" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,9 +417,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" />
+        <item itemvalue="TestNG.FbBirthdayWishesTest.facebookSendBirthdayWishesTest" />
         <item itemvalue="TestNG.FbFindNewsTest.facebookCompareOccurrencesInNewsTest" />
-        <item itemvalue="TestNG.FbBirthdaysTest.facebookReadNewsFeedTest" />
+        <item itemvalue="TestNG.FbBirthdayWishesTest.facebookReadNewsFeedTest" />
         <item itemvalue="Application.AkCheck" />
         <item itemvalue="TestNG.FbFindNewsTest" />
       </list>
@@ -515,16 +569,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556386405202</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fb tests - personal messages">
+      <created>1556393023830</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556393023830</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FbFindNewsTest - 2019.04.27 at 16h 00m 29s.xml">
-      <configuration name="FbFindNewsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FbFindNewsTest_facebookCompareOccurrencesInNewsTest - 2019.04.27 at 16h 25m 28s.xml">
-      <configuration name="FbFindNewsTest.facebookCompareOccurrencesInNewsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FbFindNewsTest_facebookCompareOccurrencesInNewsTest - 2019.04.27 at 16h 35m 15s.xml">
       <configuration name="FbFindNewsTest.facebookCompareOccurrencesInNewsTest" configurationId="TestNG" />
     </history-entry>
@@ -549,11 +604,18 @@
     <history-entry file="FbBirthdaysTest_facebookSendMessagesToFriendsHavingBirthdayTest - 2019.04.27 at 22h 20m 29s.xml">
       <configuration name="FbBirthdaysTest.facebookSendMessagesToFriendsHavingBirthdayTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FbBirthdayWishesTest_facebookSendMessagesToFriendsHavingBirthdayTest - 2019.04.27 at 23h 23m 20s.xml">
+      <configuration name="FbBirthdayWishesTest.facebookSendMessagesToFriendsHavingBirthdayTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FbBirthdayWishesTest_facebookSendMessagesToFriendsHavingBirthdayTest - 2019.04.27 at 23h 24m 44s.xml">
+      <configuration name="FbBirthdayWishesTest.facebookSendMessagesToFriendsHavingBirthdayTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,14 +625,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281372" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39204988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30943102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.23382697" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.30943102" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2954014" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" visible="true" weight="0.3086516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -613,7 +675,9 @@
     <MESSAGE value="Whitespaces removal moved to constructors" />
     <MESSAGE value="count chars in a string" />
     <MESSAGE value="fb tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="fb tests" />
+    <MESSAGE value="fb tests - personal messages" />
+    <MESSAGE value="fb tests - birthday wishes list" />
+    <option name="LAST_COMMIT_MESSAGE" value="fb tests - birthday wishes list" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -663,38 +727,32 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java</url>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java</url>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java</url>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
@@ -706,20 +764,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/ImdbExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -964,18 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/CredentialsProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1020,20 +1052,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task1/FacebookLoginAndPrintLastMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3977">
+          <caret line="317" selection-start-line="317" selection-end-line="317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdayWishesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task1/FacebookLoginAndPrintLastMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BirthdayWishes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="46" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,31 +1102,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBirthdaysTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbMessengerPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="527">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1078,20 +1146,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBirthdaysPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="828">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1100,8 +1158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbProfilePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

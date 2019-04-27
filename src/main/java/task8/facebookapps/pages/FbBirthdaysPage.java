@@ -9,9 +9,9 @@ import java.util.List;
 
 public class FbBirthdaysPage extends FbEventsPage {
 
-    By upcomingBirthdaysCardBy = By.id("birthdays_upcoming_card");
+    private By upcomingBirthdaysCardBy = By.id("birthdays_upcoming_card");
 
-    By birthdaysBlocksBy = By.cssSelector("._tzh ul");
+    private By birthdaysBlocksBy = By.cssSelector("._tzh ul");
 
     public FbBirthdaysPage(WebDriver driver) {
         super(driver);
@@ -23,7 +23,6 @@ public class FbBirthdaysPage extends FbEventsPage {
         driver.navigate().to("https://www.facebook.com/events/birthdays/");
 
         isPageLoaded(upcomingBirthdaysCardBy);
-
     }
 
     public List<String> getTodayBirthdayProfiles() {

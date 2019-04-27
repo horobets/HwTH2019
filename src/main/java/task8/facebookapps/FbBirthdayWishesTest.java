@@ -6,10 +6,10 @@ import task8.facebookapps.pages.FbLoginPage;
 import task8.facebookapps.pages.FbMessengerPage;
 import task8.facebookapps.pages.FbProfilePage;
 
-public class FbBirthdaysTest extends FbBaseTest {
+public class FbBirthdayWishesTest extends FbBaseTest {
 
     @Test(description = "Send message to friends having birthday today")
-    public void facebookSendMessagesToFriendsHavingBirthdayTest() {
+    public void facebookSendBirthdayWishesTest() {
 
         FbLoginPage fbLoginPage = new FbLoginPage(driver);
         fbLoginPage.goToPage();
@@ -24,13 +24,15 @@ public class FbBirthdaysTest extends FbBaseTest {
             FbProfilePage profilePage = new FbProfilePage(driver, birthdayProfileLink);
             profilePage.goToPage();
 
-            String message = String.format("Congrats, %s", profilePage.getProfileFullname());
+            String randomWish = BirthdayWishes.getRandomWish();
+
+            String message = String.format("Congrats, %s!\n%s", profilePage.getProfileFullname(), randomWish);
 
             sentPersonalMessage(birthdayProfileLink, message);
         }
     }
 
-    public void sentPersonalMessage(String profileLink, String message) {
+    private void sentPersonalMessage(String profileLink, String message) {
         FbProfilePage profilePage = new FbProfilePage(driver, profileLink);
         profilePage.goToPage();
         FbMessengerPage profileMessengerPage = profilePage.gotoMessenger();
