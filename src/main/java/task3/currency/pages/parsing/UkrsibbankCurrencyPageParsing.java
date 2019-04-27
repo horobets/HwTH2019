@@ -7,7 +7,7 @@ import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
 
-    private String pageSource;
+    private String pageSourceNoSpaces;
 
     public UkrsibbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
@@ -16,14 +16,13 @@ public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
     @Override
     public void goToPage() {
         super.goToPage();
-        pageSource = driver.getPageSource();
+
+        //remove whitespaces from pagesource
+        pageSourceNoSpaces = driver.getPageSource().replaceAll("\\s", "");
     }
 
     @Override
     protected double getUsdUahBidPrice() {
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
@@ -38,9 +37,6 @@ public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
     @Override
     protected double getUsdUahAskPrice() {
 
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(1);
@@ -53,10 +49,6 @@ public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
     @Override
     protected double getEurUahBidPrice() {
 
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(3);
@@ -68,10 +60,6 @@ public class UkrsibbankCurrencyPageParsing extends UkrsibbankCurrencyPage {
 
     @Override
     protected double getEurUahAskPrice() {
-
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<td><spanclass=\"mobile-curr-name\">.{1,20}<\\/span>\\d{1,2}.\\d\\d\\d\\d<iclass";

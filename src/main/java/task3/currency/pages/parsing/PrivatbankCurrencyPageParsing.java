@@ -7,7 +7,7 @@ import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
 
-    private String pageSource;
+    private String pageSourceNoSpaces;
 
     public PrivatbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
@@ -16,14 +16,13 @@ public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
     @Override
     public void goToPage() {
         super.goToPage();
-        pageSource = driver.getPageSource();
+
+        //remove whitespaces from pagesource
+        pageSourceNoSpaces = driver.getPageSource().replaceAll("\\s", "");
     }
 
     @Override
     protected double getUsdUahBidPrice() {
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
@@ -38,9 +37,6 @@ public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
     @Override
     protected double getUsdUahAskPrice() {
 
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<divclass=\"section-contenttype\">USD:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d\\d.\\/.\\d\\d\\.\\d\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
@@ -53,10 +49,6 @@ public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
     @Override
     protected double getEurUahBidPrice() {
 
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
@@ -68,10 +60,6 @@ public class PrivatbankCurrencyPageParsing extends PrivatbankCurrencyPage {
 
     @Override
     protected double getEurUahAskPrice() {
-
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<divclass=\"section-contenttype\">EUR:<\\/div><divclass=\"section-contentrate\">\\d\\d\\.\\d\\d.\\/.\\d\\d\\.\\d\\d<\\/div>";

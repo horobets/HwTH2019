@@ -7,7 +7,7 @@ import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class NationalbankCurrencyPageParsing extends NationalbankCurrencyPage {
 
-    private String pageSource;
+    private String pageSourceNoSpaces;
 
     public NationalbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
@@ -16,14 +16,13 @@ public class NationalbankCurrencyPageParsing extends NationalbankCurrencyPage {
     @Override
     public void goToPage() {
         super.goToPage();
-        pageSource = driver.getPageSource();
+
+        //remove whitespaces from pagesource
+        pageSourceNoSpaces = driver.getPageSource().replaceAll("\\s", "");
     }
 
     @Override
     protected double getUsdUahPrice() {
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<divclass=\"serviceZone2\".*\\d\\d\\d\\d.\\d\\d\\d\\d.*<\\/table>";
@@ -36,9 +35,6 @@ public class NationalbankCurrencyPageParsing extends NationalbankCurrencyPage {
 
     @Override
     protected double getEurUahPrice() {
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<divclass=\"serviceZone2\".*\\d\\d\\d\\d.\\d\\d\\d\\d.*<\\/table>";

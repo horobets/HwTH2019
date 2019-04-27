@@ -2,11 +2,12 @@ package task3.currency.pages.parsing;
 
 import org.openqa.selenium.WebDriver;
 import task3.currency.pages.OschadbankCurrencyPage;
+
 import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
 
-    private String pageSource;
+    private String pageSourceNoSpaces;
 
     public OschadbankCurrencyPageParsing(WebDriver driver) {
         super(driver);
@@ -15,14 +16,13 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
     @Override
     public void goToPage() {
         super.goToPage();
-        pageSource = driver.getPageSource();
+
+        //remove whitespaces from pagesource
+        pageSourceNoSpaces = driver.getPageSource().replaceAll("\\s", "");
     }
 
     @Override
     protected double getUsdUahBidPrice() {
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<strongclass=\"buy-USD\"data-buy=\"\\d\\d.\\d\\d\\d\\d\">";
@@ -37,9 +37,6 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
     @Override
     protected double getUsdUahAskPrice() {
 
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<strongclass=\"sell-USD\"data-sell=\"\\d\\d.\\d\\d\\d\\d\">";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
@@ -52,10 +49,6 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
     @Override
     protected double getEurUahBidPrice() {
 
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
-
         //find web element containing quote
         String quoteRegex = "<strongclass=\"buy-EUR\"data-buy=\"\\d\\d.\\d\\d\\d\\d\">";
         String elementWithQuote = getRegexMatches(pageSourceNoSpaces, quoteRegex).get(0);//get first match
@@ -67,10 +60,6 @@ public class OschadbankCurrencyPageParsing extends OschadbankCurrencyPage {
 
     @Override
     protected double getEurUahAskPrice() {
-
-
-        //remove whitespaces from pagesource
-        String pageSourceNoSpaces = pageSource.replaceAll("\\s", "");
 
         //find web element containing quote
         String quoteRegex = "<strongclass=\"sell-EUR\"data-sell=\"\\d\\d.\\d\\d\\d\\d\">";
