@@ -31,7 +31,7 @@ public class CountACharsInString {
         String indexesListStr = "";
         for (int i = 0; i < charAIndexes.size(); i++) {
             indexesListStr += charAIndexes.get(i);
-            if(i<charAIndexes.size()-1)//add separator it is not the last item
+            if (i < charAIndexes.size() - 1)//add separator if it is not the last item
                 indexesListStr += ", ";
         }
 
