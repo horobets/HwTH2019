@@ -3,7 +3,7 @@ package task3.currency.pages.parsing;
 import org.openqa.selenium.WebDriver;
 import task3.currency.pages.NationalbankCurrencyPage;
 
-import static task3.currency.pages.parsing.Regex.getRegexMatches;
+import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class NationalbankCurrencyPageParsing extends NationalbankCurrencyPage {
 

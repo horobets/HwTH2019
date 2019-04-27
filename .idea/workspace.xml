@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbNewsFeedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/facebooksearch/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbFindNewsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/facebooksearch/FbNewsFeedPage.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,41 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbFindNewsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,6 +143,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExchangeRatesPageSourceParsingTest">
+  <component name="RunManager" selected="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo">
     <configuration name="CountACharsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task7.CountACharsInString" />
       <module name="HwTH2019" />
@@ -322,10 +298,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
-        <item itemvalue="TestNG.ExchangeRatesTest" />
-        <item itemvalue="TestNG.ExchangeRatesTest.printExchangeRatesInfo" />
         <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" />
+        <item itemvalue="TestNG.ExchangeRatesTest" />
+        <item itemvalue="TestNG.ExchangeRatesPageSourceParsingTest" />
+        <item itemvalue="TestNG.ExchangeRatesTest.printExchangeRatesInfo" />
         <item itemvalue="Application.CountACharsInString" />
       </list>
     </recent_temporary>
@@ -450,12 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 38m 02s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 39m 27s.xml">
-      <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExchangeRatesPageSourceParsingTest_printSourceParsedExchangeRatesInfo - 2019.04.26 at 18h 40m 06s.xml">
       <configuration name="ExchangeRatesPageSourceParsingTest.printSourceParsedExchangeRatesInfo" configurationId="TestNG" />
     </history-entry>
@@ -480,12 +450,17 @@
     <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.26 at 18h 54m 14s.xml">
       <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExchangeRatesPageSourceParsingTest - 2019.04.27 at 09h 39m 48s.xml">
+      <configuration name="ExchangeRatesPageSourceParsingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExchangeRatesTest - 2019.04.27 at 09h 40m 53s.xml">
+      <configuration name="ExchangeRatesTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14115308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,7 +470,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39219934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39204988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -710,7 +685,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/Regex.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/task8.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task4/akinator/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,16 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,7 +810,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,7 +820,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/facebookapps/FbBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -864,6 +828,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesPageSourceParsingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/ExchangeRatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

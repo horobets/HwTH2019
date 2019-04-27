@@ -2,7 +2,7 @@ package task3.currency.pages.parsing;
 
 import org.openqa.selenium.WebDriver;
 import task3.currency.pages.UniversalbankCurrencyPage;
-import static task3.currency.pages.parsing.Regex.getRegexMatches;
+import static task3.currency.pages.parsing.RegexMatches.getRegexMatches;
 
 public class UniversalbankCurrencyPageParsing extends UniversalbankCurrencyPage {
 

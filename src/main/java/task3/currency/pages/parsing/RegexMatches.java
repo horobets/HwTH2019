@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Regex {
+public class RegexMatches {
 
     public static List<String> getRegexMatches(String text, String regex)
     {
