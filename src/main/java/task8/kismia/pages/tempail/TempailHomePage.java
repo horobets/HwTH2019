@@ -29,7 +29,7 @@ public class TempailHomePage extends TempailBasePage {
     }
 
     public String getEmailAddress() {
-        return readText(emailAddressLabelBy);
+        return driver.findElement(emailAddressLabelBy).getAttribute("value");
     }
 
     public void deleteEmail() {

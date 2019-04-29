@@ -6,9 +6,14 @@ import org.testng.annotations.Test;
 import task8.kismia.pages.Gender;
 import task8.kismia.pages.KsLoginPage;
 import task8.kismia.pages.KsLoginPageView;
+import task8.kismia.pages.KsRegistrationFormPage;
 import task8.kismia.pages.fakepersongenerator.FakePerson;
 import task8.kismia.pages.fakepersongenerator.FakePersonGeneratorHomePage;
 import task8.kismia.pages.tempail.TempailHomePage;
+import task8.kismia.pages.tempail.TempailMessage;
+import task8.kismia.pages.tempail.TempailMessagePage;
+
+import java.util.List;
 
 public class KsLoginTests extends KsBaseTest {
 
@@ -40,14 +45,26 @@ public class KsLoginTests extends KsBaseTest {
         //close FakePersonGenerator
         driver.close();
 
+        fakePerson.setEmail(tempEmailAddress);//use tempail e-mail address
+
         //switch back to kismia window
         driver.switchTo().window(kismiaWindowHandle);
 
         loginPage.switchLoginPageView(KsLoginPageView.REGISTRATION);
 
-        loginPage.registerNewAccount(fakePerson.getGender(), Gender.FEMALE, fakePerson.getFirstName(), fakePerson.getEmail(), tempPassword);
+        System.out.printf("Trying to register a new kismia account with email: %s and password: %s %n", fakePerson.getEmail(), tempPassword);
+        KsRegistrationFormPage registrationFormPage = loginPage.registerNewAccount(fakePerson.getGender(), Gender.FEMALE, fakePerson.getFirstName(), fakePerson.getEmail(), tempPassword);
 
+        //switch to tempail window
+        driver.switchTo().window(tempailWindowHandle);
 
+        //check new mail
+        tempailHomePage.refreshMessageList();
+
+        List<TempailMessage> emails = tempailHomePage.getReceivedMessages();
+
+        TempailMessagePage activationMessagePage = tempailHomePage.openTempailMessage(emails.get(0));//open last message
+        activationMessagePage.goToPage();
     }
 
     public static String getRandomPassword(int length) {

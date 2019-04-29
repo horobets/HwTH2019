@@ -55,10 +55,10 @@ public class KsLoginPage extends KsBasePage {
         //register as gender
         switch (gender) {
             case MALE:
-                click(ksRegisterGenderMaleBy);
+                driver.findElement(ksRegisterGenderMaleBy).click();
                 break;
             case FEMALE:
-                click(ksRegisterGenderFemaleBy);
+                driver.findElement(ksRegisterGenderFemaleBy).click();
                 break;
             default:
                 System.err.printf("Unknown gender: %s %n", gender);
@@ -68,10 +68,10 @@ public class KsLoginPage extends KsBasePage {
         //search for gender
         switch (searchGender) {
             case MALE:
-                click(ksRegisterSearchForGenderMaleBy);
+                driver.findElement(ksRegisterSearchForGenderMaleBy).click();
                 break;
             case FEMALE:
-                click(ksRegisterSearchForGenderFemaleBy);
+                driver.findElement(ksRegisterSearchForGenderFemaleBy).click();
                 break;
             default:
                 System.err.printf("Unknown search gender: %s %n", gender);
@@ -83,7 +83,7 @@ public class KsLoginPage extends KsBasePage {
         driver.findElement(ksRegisterNameBy).sendKeys(name);
 
         //click Enter to switch to the next step
-        driver.findElement(ksPasswordBy).sendKeys(Keys.ENTER);
+        driver.findElement(ksRegisterNameBy).sendKeys(Keys.ENTER);
 
         isElementVisible(ksRegisterEmailBy, 5);
 
@@ -107,14 +107,17 @@ public class KsLoginPage extends KsBasePage {
         switch (homePageView) {
             case LOGIN:
                 driver.findElement(switchToLoginViewButtonBy).click();
+                waitInvisibility(switchToLoginViewButtonBy, 5);
                 break;
             case REGISTRATION:
                 driver.findElement(switchToRegistrationViewButtonBy).click();
+                waitInvisibility(switchToRegistrationViewButtonBy, 5);
                 break;
             default:
                 System.err.printf("Unsupported KsLoginPageView: %s %n", homePageView);
                 return;
         }
+
         //check successful switch
         if (homePageView != getCurrentView())
             System.err.printf("Failed to switch to %s %n", homePageView);
