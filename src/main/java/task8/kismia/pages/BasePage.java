@@ -57,6 +57,19 @@ public abstract class BasePage {
         }
     }
 
+    public boolean isElementVisible(final By locator, long seconds) {
+        Wait wait = new FluentWait(driver)
+                .withTimeout(ofSeconds(seconds))
+                .pollingEvery(ofMillis(500))
+                .ignoring(NoSuchElementException.class).ignoring(StaleElementReferenceException.class).ignoring(WebDriverException.class);
+        try {
+            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
     public void switchToFrame(By frameToSwitchTo) {
         driver.switchTo().defaultContent();
 
