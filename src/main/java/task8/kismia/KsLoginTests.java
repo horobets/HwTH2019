@@ -3,6 +3,7 @@ package task8.kismia;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import task8.kismia.pages.Gender;
 import task8.kismia.pages.KsLoginPage;
 import task8.kismia.pages.KsLoginPageView;
 import task8.kismia.pages.fakepersongenerator.FakePerson;
@@ -21,7 +22,6 @@ public class KsLoginTests extends KsBaseTest {
 
         //open tempail in a new window
         String kismiaWindowHandle = driver.getWindowHandle();
-        //switchToNewWindow().navigate().to("https://tempail.com");
         TempailHomePage tempailHomePage = new TempailHomePage(switchToNewWindow());
         String tempailWindowHandle = driver.getWindowHandle();
 
@@ -34,7 +34,7 @@ public class KsLoginTests extends KsBaseTest {
         String fakePersonGeneratorWindowHandle = driver.getWindowHandle();
 
         fakePersonGeneratorHomePage.goToPage();
-        //fakePersonGeneratorHomePage.generateNewPerson(Gender.FEMALE, 1, "Alabama", "");
+        //fakePersonGeneratorHomePage.generateNewPerson(Gender.FEMALE, 25, "Alabama", "");
 
         FakePerson fakePerson = fakePersonGeneratorHomePage.getFakePerson();
         //close FakePersonGenerator
@@ -43,11 +43,10 @@ public class KsLoginTests extends KsBaseTest {
         //switch back to kismia window
         driver.switchTo().window(kismiaWindowHandle);
 
-        loginPage.switchLoginPageView(KsLoginPageView.LOGIN);
         loginPage.switchLoginPageView(KsLoginPageView.REGISTRATION);
-        loginPage.switchLoginPageView(KsLoginPageView.REGISTRATION);
-        loginPage.switchLoginPageView(KsLoginPageView.LOGIN);
-        loginPage.switchLoginPageView(KsLoginPageView.LOGIN);
+
+        loginPage.registerNewAccount(fakePerson.getGender(), Gender.FEMALE, fakePerson.getFirstName(), fakePerson.getEmail(), tempPassword);
+
 
     }
 
@@ -61,6 +60,7 @@ public class KsLoginTests extends KsBaseTest {
         }
         return builder.toString();
     }
+
 
     @Parameters({"username", "password"})
     @Test(description = "Test kismia.com login screen")

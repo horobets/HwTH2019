@@ -63,7 +63,7 @@ public abstract class BasePage {
                 .pollingEvery(ofMillis(500))
                 .ignoring(NoSuchElementException.class).ignoring(StaleElementReferenceException.class).ignoring(WebDriverException.class);
         try {
-            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             return true;
         } catch (TimeoutException e) {
             return false;

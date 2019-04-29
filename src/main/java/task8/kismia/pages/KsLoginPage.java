@@ -19,7 +19,7 @@ public class KsLoginPage extends KsBasePage {
     private By ksRegisterSearchForGenderFemaleBy = By.cssSelector(".screen_sign-form .js_signUpForm .js_searchGenderField[value='f']");
     private By ksRegisterNameBy = By.cssSelector(".screen_sign-form .js_signUpForm .js_nameField");
 
-    private By ksRegisterUsernameBy = By.cssSelector(".screen_sign-form .js_signUpForm .js_secondStep .js_emailField");
+    private By ksRegisterEmailBy = By.cssSelector(".screen_sign-form .js_signUpForm .js_secondStep .js_emailField");
     private By ksRegisterPasswordBy = By.cssSelector(".screen_sign-form .js_signUpForm .js_secondStep .js_passwordField");
 
     public KsLoginPage(WebDriver driver) {
@@ -48,17 +48,17 @@ public class KsLoginPage extends KsBasePage {
         //return new FbNewsFeedPage(driver);
     }
 
-    public void registerNewAccount(Gender gender, Gender searchGender, String name, String username, String password) {
+    public void registerNewAccount(Gender gender, Gender searchGender, String name, String email, String password) {
 
-        switchLoginPageView(KsLoginPageView.REGISTRATION);
+        //switchLoginPageView(KsLoginPageView.REGISTRATION);
 
         //register as gender
         switch (gender) {
             case MALE:
-                driver.findElement(ksRegisterGenderMaleBy).click();
+                click(ksRegisterGenderMaleBy);
                 break;
             case FEMALE:
-                driver.findElement(ksRegisterGenderFemaleBy).click();
+                click(ksRegisterGenderFemaleBy);
                 break;
             default:
                 System.err.printf("Unknown gender: %s %n", gender);
@@ -68,10 +68,10 @@ public class KsLoginPage extends KsBasePage {
         //search for gender
         switch (searchGender) {
             case MALE:
-                driver.findElement(ksRegisterSearchForGenderMaleBy).click();
+                click(ksRegisterSearchForGenderMaleBy);
                 break;
             case FEMALE:
-                driver.findElement(ksRegisterSearchForGenderFemaleBy).click();
+                click(ksRegisterSearchForGenderFemaleBy);
                 break;
             default:
                 System.err.printf("Unknown search gender: %s %n", gender);
@@ -85,10 +85,10 @@ public class KsLoginPage extends KsBasePage {
         //click Enter to switch to the next step
         driver.findElement(ksPasswordBy).sendKeys(Keys.ENTER);
 
-        isElementVisible(ksRegisterUsernameBy, 5);
+        isElementVisible(ksRegisterEmailBy, 5);
 
-        driver.findElement(ksRegisterUsernameBy).clear();
-        driver.findElement(ksRegisterUsernameBy).sendKeys(username);
+        driver.findElement(ksRegisterEmailBy).clear();
+        driver.findElement(ksRegisterEmailBy).sendKeys(email);
 
         driver.findElement(ksRegisterPasswordBy).clear();
         driver.findElement(ksRegisterPasswordBy).sendKeys(password);
@@ -123,11 +123,11 @@ public class KsLoginPage extends KsBasePage {
 
     public KsLoginPageView getCurrentView() {
         //visible SwitchToRegistrationView button means we are on the LoginView
-        if (isElementVisible(switchToRegistrationViewButtonBy, 2))
+        if (isElementVisible(switchToRegistrationViewButtonBy, 3))
             return KsLoginPageView.LOGIN;
 
         //visible SwitchToLoginView button means we are on the RegistrationView
-        if (isElementVisible(switchToLoginViewButtonBy, 2))
+        if (isElementVisible(switchToLoginViewButtonBy, 3))
             return KsLoginPageView.REGISTRATION;
 
         return null;//unknown view
