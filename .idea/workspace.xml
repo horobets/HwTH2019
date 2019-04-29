@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KismiaBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KismiaLoginTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KismiaBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KismiaLoginPage.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +14,76 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#3715#3716#0" expanded="true" />
+                <element signature="e#3787#3788#0" expanded="true" />
+                <element signature="e#4255#4256#0" expanded="true" />
+                <element signature="e#4329#4330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/UniversalbankCurrencyPageParsing.java" />
         <option value="$PROJECT_DIR$/src/main/java/task7/CountACharsInString.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/GsDemoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/CredentialsProvider.java" />
@@ -88,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/pages/FbEventsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/facebookapps/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KismiaLoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KismiaLoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/HomePageView.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KismiaBasePage.java" />
@@ -100,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/UnknowKsLoginPageViewException.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/UnsupportedKsLoginPageViewException.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPageView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/TempailBasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/TempailMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/TempailMessagePage.java" />
@@ -115,9 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorBasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/Gender.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FpgPerson.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessagePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java" />
       </list>
     </option>
   </component>
@@ -128,9 +175,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="-11" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1009" />
+    <option name="y" value="244" />
     <option name="width" value="2601" />
     <option name="height" value="1700" />
   </component>
@@ -201,7 +248,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
               <item name="kismia" type="462c0819:PsiDirectoryNode" />
-              <item name="tempail" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="fakepersongenerator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,25 +547,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556434726013</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="kismia - tempail, fakepersongenerator added">
+      <created>1556550714366</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1556550714366</updated>
+    </task>
+    <task id="LOCAL-00024" summary="kismia - tempail, fakepersongenerator added">
+      <created>1556553716270</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1556553716270</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 15h 30m 38s.xml">
-      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 15h 31m 24s.xml">
-      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 15h 35m 13s.xml">
-      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 15h 36m 23s.xml">
-      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 17h 38m 21s.xml">
-      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 17h 46m 06s.xml">
       <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
     </history-entry>
@@ -533,11 +580,26 @@
     <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 18h 07m 25s.xml">
       <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 18h 53m 01s.xml">
+      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 18h 55m 18s.xml">
+      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 18h 56m 33s.xml">
+      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 18h 59m 02s.xml">
+      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="KsLoginTests_kismiaRegistrationTest - 2019.04.29 at 19h 00m 28s.xml">
+      <configuration name="KsLoginTests.kismiaRegistrationTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="673" y="163" width="1734" height="1133" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15109344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22700119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,14 +609,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281372" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25253314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25174826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2954014" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.37714285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.37862137" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.37646142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,7 +662,8 @@
     <MESSAGE value="fb tests - personal messages" />
     <MESSAGE value="fb tests - birthday wishes list" />
     <MESSAGE value="kismia - placeholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="kismia - placeholder" />
+    <MESSAGE value="kismia - tempail, fakepersongenerator added" />
+    <option name="LAST_COMMIT_MESSAGE" value="kismia - tempail, fakepersongenerator added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -680,34 +743,10 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java</url>
+          <line>96</line>
           <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -938,23 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -970,23 +992,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessagePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1041,18 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/Genre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1096,90 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3715#3716#0" expanded="true" />
-            <element signature="e#3787#3788#0" expanded="true" />
-            <element signature="e#4255#4256#0" expanded="true" />
-            <element signature="e#4329#4330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1188,6 +1097,88 @@
             <element signature="imports" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/tempail/TempailMessagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/tempail/TempailBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#3715#3716#0" expanded="true" />
+            <element signature="e#3787#3788#0" expanded="true" />
+            <element signature="e#4255#4256#0" expanded="true" />
+            <element signature="e#4329#4330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
           </folding>
         </state>
       </provider>
