@@ -1,5 +1,6 @@
 package task8.kismia.fakepersongenerator;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -19,11 +20,11 @@ public class FakepersongeneratorTests extends FakepersongeneratorBaseTest {
                                                     @Optional("Alabama") String preferredState,
                                                     @Optional("") String preferredCity) {
 
-        FakePersonGeneratorHomePage fakePersonGeneratorHomePage = new FakePersonGeneratorHomePage(driver);
+        /*FakePersonGeneratorHomePage fakePersonGeneratorHomePage = new FakePersonGeneratorHomePage(driver);
         fakePersonGeneratorHomePage.goToPage();
-        fakePersonGeneratorHomePage.generateNewPerson(prefererredGender, preferredAge, preferredState, preferredCity);
-
-        FakePerson fakePerson = fakePersonGeneratorHomePage.getFakePerson();
+        FakePerson fakePerson = fakePersonGeneratorHomePage.generateNewPerson(prefererredGender, preferredAge, preferredState, preferredCity);
+        */
+        FakePerson fakePerson = generateFakePerson(driver, prefererredGender, preferredAge, preferredState, preferredCity);
 
         Assert.assertNotNull(fakePerson);
 
@@ -36,5 +37,19 @@ public class FakepersongeneratorTests extends FakepersongeneratorBaseTest {
 
         System.out.println("Done");
 
+    }
+
+    public static FakePerson generateFakePerson(WebDriver driver, Gender prefererredGender, int preferredAge, String preferredState, String preferredCity) {
+        return openFakepersongeneratorHomePage(driver).generateNewPerson(prefererredGender, preferredAge, preferredState, preferredCity);
+    }
+
+    public static FakePerson generateFakePerson(WebDriver driver) {
+        return openFakepersongeneratorHomePage(driver).generateNewPerson();
+    }
+
+    public static FakePersonGeneratorHomePage openFakepersongeneratorHomePage(WebDriver driver) {
+        FakePersonGeneratorHomePage fakePersonGeneratorHomePage = new FakePersonGeneratorHomePage(driver);
+        fakePersonGeneratorHomePage.goToPage();
+        return fakePersonGeneratorHomePage;
     }
 }

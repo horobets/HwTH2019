@@ -127,7 +127,7 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
         return driver.findElement(sSNBy).getAttribute("value");
     }
 
-    public void generateNewPerson(Gender gender, int age, String state, String City) {
+    public FakePerson generateNewPerson(Gender gender, int age, String state, String City) {
 
         //preferred gender
         try {
@@ -135,12 +135,6 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
         } catch (NoSuchElementException ex) {
             System.err.printf("Can't select an item: %s %n", gender.toString());
         }
-        /*Select genderDropdown = new Select(driver.findElement(generateGenderDropdownBy));
-        try {
-            genderDropdown.selectByVisibleText(gender.toString());
-        } catch (NoSuchElementException ex) {
-            System.err.printf("Can't select an item: %s %n", gender.toString());
-        }*/
 
         //preferred age
         try {
@@ -159,11 +153,13 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
         //preferred City
         writeText(generateCityTextboxBy, City);
 
-        generateNewPerson();
+        return generateNewPerson();
     }
 
-    public void generateNewPerson() {
+    public FakePerson generateNewPerson() {
         click(generateButtonBy);
         isElementVisible(nameLabelBy, 5);//wait for page to reload
+
+        return getFakePerson();
     }
 }
