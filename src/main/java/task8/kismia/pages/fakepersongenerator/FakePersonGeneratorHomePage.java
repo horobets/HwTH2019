@@ -151,7 +151,7 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
 
         //preferred state
         try {
-            selectItem(generateStateDropdownBy, Integer.toString(age));
+            selectItem(generateStateDropdownBy, state);
         } catch (NoSuchElementException ex) {
             System.err.printf("Can't select an item: %s %n", state);
         }

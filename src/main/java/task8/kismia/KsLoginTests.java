@@ -80,6 +80,7 @@ public class KsLoginTests extends KsBaseTest {
         return null;
     }
 
+
     public static String getRandomPassword(int length) {
         final String CHARSET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 

@@ -29,6 +29,36 @@ public class FakePerson {
         this.gender = gender;
     }
 
+    @Override
+    public String toString() {
+        return String.format(
+                "First Name: %s %n " +
+                        "Last Name: %s %n " +
+                        "Gender: %s %n " +
+                        "Birthday: %s %n " +
+                        "Phone: %s %n " +
+                        "Email: %s %n " +
+                        "Street: %s %n " +
+                        "City: %s %n " +
+                        "State: %s %n " +
+                        "ZIP: %s %n " +
+                        "Country: %s %n " +
+                        "SSN: %s %n ",
+                firstName,
+                lastName,
+                gender.toString(),
+                birthday.toString(),
+                phone,
+                email,
+                street,
+                city,
+                state,
+                zip,
+                country,
+                sSN
+        );
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
