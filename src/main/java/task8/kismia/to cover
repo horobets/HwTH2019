@@ -1,0 +1,11 @@
+create account test
+-test if created
+-try registering with an existing e-mail
+-invalid e-mail format //parameters
+-insecure password //parameters
+
+log in tests
+-valid credentials
+-invalid username
+-invalid password
+-lost password recovery test

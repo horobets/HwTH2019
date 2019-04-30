@@ -1,10 +1,7 @@
 package task8.kismia.pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
@@ -36,12 +33,31 @@ public abstract class BasePage {
 
     public void writeText(By elementBy, String text) {
         waitVisibility(elementBy);
+        driver.findElement(elementBy).clear();
         driver.findElement(elementBy).sendKeys(text);
     }
 
     public String readText(By elementBy) {
         waitVisibility(elementBy);
         return driver.findElement(elementBy).getText();
+    }
+
+    public void selectItem(By dropdownElement, String itemText) {
+        Select genderDropdown = new Select(driver.findElement(dropdownElement));
+        //try {
+        genderDropdown.selectByVisibleText(itemText);
+        /*} catch (NoSuchElementException ex) {
+            System.err.printf("Can't select an item: %s %n", itemText);
+        }*/
+    }
+
+    public void selectItem(By dropdownElement, int itemIndex) {
+        Select genderDropdown = new Select(driver.findElement(dropdownElement));
+        //try {
+        genderDropdown.selectByIndex(itemIndex);
+        /*} catch (NoSuchElementException ex) {
+            System.err.printf("Can't select an item: %s %n", itemText);
+        }*/
     }
 
     public boolean isElementPresent(final By locator, long seconds) {

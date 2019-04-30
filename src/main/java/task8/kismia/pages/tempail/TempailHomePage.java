@@ -16,6 +16,12 @@ public class TempailHomePage extends TempailBasePage {
 
     private By messageBy = By.cssSelector(".mail");
 
+    private By messageSenderBy = By.cssSelector(".gonderen");
+    private String messageSenderXpathFormat = "//div[@class='gonderen' and contains(text(), '%s')]";
+    private By messageSubjectBy = By.cssSelector(".baslik");
+    private String messageSubjectXpathFormat = "//div[@class='baslik' and contains(text(), '%s')]";
+    private String messageXpathFormat = "//*[@class='mail ']/a[div[@class='gonderen' and contains(text(), '%s')] and div[@class='baslik' and contains(text(), '%s')]]";
+
     public TempailHomePage(WebDriver driver) {
         super(driver);
     }
@@ -43,8 +49,8 @@ public class TempailHomePage extends TempailBasePage {
     public List<TempailMessage> getReceivedMessages() {
         List<TempailMessage> receivedMessages = new ArrayList<>();
         for (WebElement messageElement : driver.findElements(messageBy)) {
-            String messageSender = messageElement.findElement(By.cssSelector(".gonderen")).getText();
-            String messageSubject = messageElement.findElement(By.cssSelector(".baslik")).getText();
+            String messageSender = messageElement.findElement(messageSenderBy).getText();
+            String messageSubject = messageElement.findElement(messageSubjectBy).getText();
             String messageLink = messageElement.findElement(By.cssSelector("a")).getAttribute("href");
 
             receivedMessages.add(new TempailMessage(messageSender, messageSubject, messageLink));
@@ -52,7 +58,24 @@ public class TempailHomePage extends TempailBasePage {
         return receivedMessages;
     }
 
+    public TempailMessage findMessage(String fromEmail, String subjectPart) {
+        for (TempailMessage message : getReceivedMessages())
+            if (message.getSender().contains(fromEmail) && message.getSubject().contains(subjectPart))
+                return message;
+        return null;
+    }
+
+    public TempailMessage waitForMessage(String fromEmail, String subjectPart, int waitSeconds) {
+
+        By messageToFindBy = By.xpath(String.format(messageXpathFormat, fromEmail, subjectPart));
+        if (isElementPresent(messageToFindBy, waitSeconds))
+            return findMessage(fromEmail, subjectPart);
+        else
+            return null;
+    }
+
     public TempailMessagePage openTempailMessage(TempailMessage tempailMessage) {
         return new TempailMessagePage(driver, tempailMessage);
     }
+
 }

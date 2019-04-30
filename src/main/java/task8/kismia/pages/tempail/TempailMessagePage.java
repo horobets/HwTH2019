@@ -7,7 +7,10 @@ public class TempailMessagePage extends TempailBasePage {
 
     private TempailMessage tempailMessage;
 
+    private By messageContentIframeBy = By.id("iframe");
+
     private String messageSenderXpathFormat = "//div[@class='mail-oku-gonderen' and contains(text(), '%s')]";
+
 
     public TempailMessagePage(WebDriver driver, TempailMessage tempailMessage) {
         super(driver);
@@ -21,5 +24,12 @@ public class TempailMessagePage extends TempailBasePage {
 
         By messageSenderBy = By.xpath(String.format(messageSenderXpathFormat, tempailMessage.getSender()));
         isPageLoaded(messageSenderBy);
+    }
+
+    public String getMessageContent() {
+        switchToFrame(messageContentIframeBy);
+        String messageContent = driver.getPageSource();
+        driver.switchTo().defaultContent();
+        return messageContent;
     }
 }

@@ -3,10 +3,7 @@ package task8.kismia;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import task8.kismia.pages.Gender;
-import task8.kismia.pages.KsLoginPage;
-import task8.kismia.pages.KsLoginPageView;
-import task8.kismia.pages.KsRegistrationFormPage;
+import task8.kismia.pages.*;
 import task8.kismia.pages.fakepersongenerator.FakePerson;
 import task8.kismia.pages.fakepersongenerator.FakePersonGeneratorHomePage;
 import task8.kismia.pages.tempail.TempailHomePage;
@@ -53,7 +50,13 @@ public class KsLoginTests extends KsBaseTest {
         loginPage.switchLoginPageView(KsLoginPageView.REGISTRATION);
 
         System.out.printf("Trying to register a new kismia account with email: %s and password: %s %n", fakePerson.getEmail(), tempPassword);
-        KsRegistrationFormPage registrationFormPage = loginPage.registerNewAccount(fakePerson.getGender(), Gender.FEMALE, fakePerson.getFirstName(), fakePerson.getEmail(), tempPassword);
+        KsRegistrationFormPage registrationFormPage = loginPage.startNewAccountRegistration(fakePerson.getGender(), Gender.FEMALE, fakePerson.getFirstName(), fakePerson.getEmail(), tempPassword);
+        registrationFormPage.goToPage();
+
+        registrationFormPage.selectBirthday(fakePerson.getBirthday());
+
+        KsRegistrationUploadPhotoPage ksRegistrationUploadPhotoPage = registrationFormPage.submitRegistrationForm();
+        ksRegistrationUploadPhotoPage.skipUploadPhoto();
 
         //switch to tempail window
         driver.switchTo().window(tempailWindowHandle);
@@ -64,7 +67,17 @@ public class KsLoginTests extends KsBaseTest {
         List<TempailMessage> emails = tempailHomePage.getReceivedMessages();
 
         TempailMessagePage activationMessagePage = tempailHomePage.openTempailMessage(emails.get(0));//open last message
+
+        String activationMessageContent = activationMessagePage.getMessageContent();
+        String activationLink = getActivationLinkFromEmail(activationMessageContent);
+
+
         activationMessagePage.goToPage();
+    }
+
+    public String getActivationLinkFromEmail(String emailContent) {
+        //getMessageContent()
+        return null;
     }
 
     public static String getRandomPassword(int length) {

@@ -2,13 +2,14 @@ package task8.kismia.pages.fakepersongenerator;
 
 import task8.kismia.pages.Gender;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 
 public class FakePerson {
     private String firstName;
     private String lastName;
     private Gender gender;
-    private Date birthday;
+    private LocalDate birthday;
     private String phone;
     private String email;
     private String street;
@@ -40,7 +41,7 @@ public class FakePerson {
         this.gender = gender;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
 
@@ -88,7 +89,7 @@ public class FakePerson {
         return gender;
     }
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 

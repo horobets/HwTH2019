@@ -48,7 +48,7 @@ public class KsLoginPage extends KsBasePage {
         //return new FbNewsFeedPage(driver);
     }
 
-    public void registerNewAccount(Gender gender, Gender searchGender, String name, String email, String password) {
+    public KsRegistrationFormPage startNewAccountRegistration(Gender gender, Gender searchGender, String name, String email, String password) {
 
         //switchLoginPageView(KsLoginPageView.REGISTRATION);
 
@@ -62,7 +62,7 @@ public class KsLoginPage extends KsBasePage {
                 break;
             default:
                 System.err.printf("Unknown gender: %s %n", gender);
-                return;
+                return null;
         }
 
         //search for gender
@@ -75,7 +75,7 @@ public class KsLoginPage extends KsBasePage {
                 break;
             default:
                 System.err.printf("Unknown search gender: %s %n", gender);
-                return;
+                return null;
         }
 
         //register name
@@ -96,7 +96,7 @@ public class KsLoginPage extends KsBasePage {
         //submit the registration form
         driver.findElement(ksRegisterPasswordBy).sendKeys(Keys.ENTER);
 
-        //return new FbNewsFeedPage(driver);
+        return new KsRegistrationFormPage(driver);
     }
 
     public void switchLoginPageView(KsLoginPageView homePageView) {

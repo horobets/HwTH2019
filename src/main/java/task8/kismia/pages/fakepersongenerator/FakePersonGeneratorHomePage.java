@@ -3,14 +3,10 @@ package task8.kismia.pages.fakepersongenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
 import task8.kismia.pages.Gender;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
 
@@ -83,16 +79,14 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
         return Gender.get(genderStr);
     }
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         String birthdayStr = readText(birthdayBy);
-        Date birthday = null;
-        try {
-            //DateFormat birthdayStrFormat = new SimpleDateFormat("dd MMMM yyyy '(USA)'", Locale.US);
-            DateFormat birthdayStrFormat = new SimpleDateFormat("MM/dd/yyyy", Locale.US);
-            birthday = birthdayStrFormat.parse(birthdayStr);
-        } catch (ParseException ex) {
-            System.out.printf("Error: Invalid birthday datetime format: %s\n", birthdayStr);
-        }
+        LocalDate birthday = null;
+
+        //https://www.mkyong.com/java8/java-8-how-to-convert-string-to-localdate/
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/d/yyyy");
+        birthday = LocalDate.parse(birthdayStr, formatter);
+
         return birthday;
     }
 
@@ -134,26 +128,30 @@ public class FakePersonGeneratorHomePage extends FakePersonGeneratorBasePage {
     }
 
     public void generateNewPerson(Gender gender, int age, String state, String City) {
+
         //preferred gender
-        Select genderDropdown = new Select(driver.findElement(generateGenderDropdownBy));
+        try {
+            selectItem(generateGenderDropdownBy, gender.toString());
+        } catch (NoSuchElementException ex) {
+            System.err.printf("Can't select an item: %s %n", gender.toString());
+        }
+        /*Select genderDropdown = new Select(driver.findElement(generateGenderDropdownBy));
         try {
             genderDropdown.selectByVisibleText(gender.toString());
         } catch (NoSuchElementException ex) {
             System.err.printf("Can't select an item: %s %n", gender.toString());
-        }
+        }*/
 
         //preferred age
-        Select ageDropdown = new Select(driver.findElement(generateAgeDropdownBy));
         try {
-            ageDropdown.selectByVisibleText(Integer.toString(age));
+            selectItem(generateAgeDropdownBy, Integer.toString(age));
         } catch (NoSuchElementException ex) {
-            System.err.printf("Can't select an item: %s %n", gender.toString());
+            System.err.printf("Can't select an item: %s %n", Integer.toString(age));
         }
 
-        //preferred State
-        Select stateDropdown = new Select(driver.findElement(generateStateDropdownBy));
+        //preferred state
         try {
-            stateDropdown.selectByVisibleText(state);
+            selectItem(generateStateDropdownBy, Integer.toString(age));
         } catch (NoSuchElementException ex) {
             System.err.printf("Can't select an item: %s %n", state);
         }
