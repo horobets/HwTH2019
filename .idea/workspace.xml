@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -641,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556734107462</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Sea Battle placeholder">
+      <created>1556734411312</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1556734411312</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -678,7 +682,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="191" y="159" width="1509" height="1103" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35541752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -723,7 +726,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Now using HashMap instead of ArrayList for rates info" />
     <MESSAGE value="Calc and output of bank info with best fx rates" />
     <MESSAGE value="Fixed liniakino close warning popup - now just ignoring it&#10;fixed percentage format in liniakino and int to double divition conversion" />
     <MESSAGE value="Created akinator package and its BasePage" />
@@ -748,7 +750,8 @@
     <MESSAGE value="kismia - Fakepersongenerator tests" />
     <MESSAGE value="kismia - login. credentialsstorage" />
     <MESSAGE value="kismia - messaging and profile tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="kismia - messaging and profile tests" />
+    <MESSAGE value="Sea Battle placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sea Battle placeholder" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1264,7 +1267,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
