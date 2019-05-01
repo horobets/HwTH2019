@@ -3,6 +3,7 @@ package task8.kismia.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import task8.kismia.KsMatchesPage;
 
 public class KsLoginPage extends KsBasePage {
 
@@ -33,7 +34,7 @@ public class KsLoginPage extends KsBasePage {
     }
 
 
-    public void loginToKismia(String username, String password) {
+    public KsMatchesPage loginToKismia(String username, String password) {
 
         switchLoginPageView(KsLoginPageView.LOGIN);
 
@@ -45,7 +46,7 @@ public class KsLoginPage extends KsBasePage {
 
         driver.findElement(ksPasswordBy).sendKeys(Keys.ENTER);
 
-        //return new FbNewsFeedPage(driver);
+        return new KsMatchesPage(driver);
     }
 
     public KsRegistrationFormPage startNewAccountRegistration(Gender gender, Gender searchGender, String name, String email, String password) {

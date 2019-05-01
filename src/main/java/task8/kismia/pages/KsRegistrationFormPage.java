@@ -83,7 +83,7 @@ public class KsRegistrationFormPage extends KsBasePage {
 
     public void selectBirthdayMonth(int birthdayMonth) {
         try {
-            selectItem(birthdayMonthDropdownBy, birthdayMonth - 1);//by index
+            selectItem(birthdayMonthDropdownBy, birthdayMonth);//by index
         } catch (NoSuchElementException ex) {
             System.err.printf("Can't select an item: %s %n", birthdayMonth);
         }
