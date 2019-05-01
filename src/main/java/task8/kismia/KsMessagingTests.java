@@ -6,15 +6,17 @@ import org.testng.annotations.Test;
 import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
 import task8.kismia.pages.KsLoginPage;
-import task8.kismia.pages.KsLoginPageView;
 import task8.kismia.pages.KsMatchesPage;
+import task8.kismia.pages.KsMessagesPage;
+import task8.kismia.pages.KsMessagesThreadPage;
 
-public class KsLoginTests extends KsBaseTest {
+public class KsMessagingTests extends KsBaseTest {
 
-    @Parameters({"username", "password"})
-    @Test(description = "Test kismia.com login screen")
-    public void kismiaLoginTest(@Optional("") String username,
-                                @Optional("") String password) {
+    @Parameters({"username", "password", "message"})
+    @Test(description = "Test kismia.com private messaging")
+    public void kismiaMessagingTest(@Optional("") String username,
+                                    @Optional("") String password,
+                                    @Optional("Hello!") String message) {
 
         //use credentialsstorage if no credentials provided
         if (username.isEmpty() || password.isEmpty()) {
@@ -26,12 +28,14 @@ public class KsLoginTests extends KsBaseTest {
         KsLoginPage loginPage = new KsLoginPage(driver);
         loginPage.goToPage();
 
-        //make sure we are on the Login page view
-        loginPage.switchLoginPageView(KsLoginPageView.LOGIN);
-
         KsMatchesPage matchesPage = loginPage.loginToKismia(username, password);
         matchesPage.goToPage();
 
+        KsMessagesPage messagesPage = matchesPage.openMessages();
+
+        KsMessagesThreadPage threadPage = messagesPage.openMessagingThread(0);//open first thread
+
+        threadPage.sendMessage(message);
 
         System.out.println("Done");
     }

@@ -6,15 +6,14 @@ import org.testng.annotations.Test;
 import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
 import task8.kismia.pages.KsLoginPage;
-import task8.kismia.pages.KsLoginPageView;
 import task8.kismia.pages.KsMatchesPage;
+import task8.kismia.pages.KsProfilePage;
 
-public class KsLoginTests extends KsBaseTest {
-
+public class KsUpdateProfileTests extends KsBaseTest {
     @Parameters({"username", "password"})
-    @Test(description = "Test kismia.com login screen")
-    public void kismiaLoginTest(@Optional("") String username,
-                                @Optional("") String password) {
+    @Test(description = "Test kismia.com private messaging")
+    public void kismiaUpdateProfileTest(@Optional("") String username,
+                                        @Optional("") String password) {
 
         //use credentialsstorage if no credentials provided
         if (username.isEmpty() || password.isEmpty()) {
@@ -26,14 +25,14 @@ public class KsLoginTests extends KsBaseTest {
         KsLoginPage loginPage = new KsLoginPage(driver);
         loginPage.goToPage();
 
-        //make sure we are on the Login page view
-        loginPage.switchLoginPageView(KsLoginPageView.LOGIN);
-
         KsMatchesPage matchesPage = loginPage.loginToKismia(username, password);
         matchesPage.goToPage();
 
+        KsProfilePage profilePage = matchesPage.openProfile();
+        profilePage.goToPage();
+
+        profilePage.clickEditProfile();
 
         System.out.println("Done");
     }
 }
-

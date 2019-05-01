@@ -60,7 +60,7 @@ public class KsRegistrationTests extends KsBaseTest {
         ksRegistrationUploadPhotoPage.skipUploadPhoto();
 
         //write new account credentials to local storage for future use
-        if ((new CredentialsStorage("c:\\credentials\\kscredentials.txt")).saveCredentials(new Credentials(fakePerson.getEmail(), tempPassword)))
+        if ((new CredentialsStorage(credentialsStorageFilePath)).saveCredentials(new Credentials(fakePerson.getEmail(), tempPassword)))
             System.out.printf("Credentials saved to local storage.");
 
         //switch to tempail window

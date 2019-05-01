@@ -3,7 +3,6 @@ package task8.kismia.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import task8.kismia.KsMatchesPage;
 
 public class KsLoginPage extends KsBasePage {
 

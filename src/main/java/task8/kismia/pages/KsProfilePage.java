@@ -3,7 +3,7 @@ package task8.kismia.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class KsProfilePage extends KsBasePage {
+public class KsProfilePage extends KsAccountBasePage {
 
     private By tutorialPopupBy = By.id("tutorial-template-step-1");
     private By tutorialCloseLinkBy = By.cssSelector(".js-close");
@@ -24,5 +24,9 @@ public class KsProfilePage extends KsBasePage {
         //wait for popup to appear and close it
         if (isElementPresent(tutorialPopupBy, 15))
             click(tutorialCloseLinkBy);
+    }
+
+    public void clickEditProfile() {
+        click(editProfileLinkBy);
     }
 }
