@@ -5,7 +5,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
-import task8.kismia.pages.*;
+import task8.kismia.pages.KsLoginPage;
+import task8.kismia.pages.matches.KsMatchesPage;
+import task8.kismia.pages.profile.Gender;
+import task8.kismia.pages.profile.KsProfileSettingsPersonalPage;
+import task8.kismia.pages.profile.KsProfileSettingsSearchPage;
+import task8.kismia.pages.profile.ProfileSettingsTab;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package task8.kismia.pages;
+package task8.kismia.pages.profile;
 
 public enum ProfileSettingsTab {
     SEARCH("Search parameters", "profileSearch", KsProfileSettingsSearchPage.class),

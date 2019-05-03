@@ -3,6 +3,9 @@ package task8.kismia.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import task8.kismia.pages.matches.KsMatchesPage;
+import task8.kismia.pages.profile.Gender;
+import task8.kismia.pages.registration.KsRegistrationFormPage;
 
 public class KsLoginPage extends KsBasePage {
 

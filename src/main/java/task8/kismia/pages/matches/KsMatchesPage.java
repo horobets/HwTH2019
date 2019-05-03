@@ -1,7 +1,8 @@
-package task8.kismia.pages;
+package task8.kismia.pages.matches;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import task8.kismia.pages.profile.KsAccountBasePage;
 
 public class KsMatchesPage extends KsAccountBasePage {
 

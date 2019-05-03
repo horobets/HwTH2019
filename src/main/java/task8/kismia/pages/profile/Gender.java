@@ -1,4 +1,4 @@
-package task8.kismia.pages;
+package task8.kismia.pages.profile;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -7,7 +7,7 @@ import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
 import task8.kismia.pages.KsLoginPage;
 import task8.kismia.pages.KsLoginPageView;
-import task8.kismia.pages.KsMatchesPage;
+import task8.kismia.pages.matches.KsMatchesPage;
 
 public class KsLoginTests extends KsBaseTest {
 

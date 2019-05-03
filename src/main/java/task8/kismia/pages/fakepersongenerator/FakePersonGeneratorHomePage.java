@@ -3,7 +3,7 @@ package task8.kismia.pages.fakepersongenerator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import task8.kismia.pages.Gender;
+import task8.kismia.pages.profile.Gender;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

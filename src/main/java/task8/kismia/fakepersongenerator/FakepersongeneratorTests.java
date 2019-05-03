@@ -5,9 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import task8.kismia.pages.Gender;
 import task8.kismia.pages.fakepersongenerator.FakePerson;
 import task8.kismia.pages.fakepersongenerator.FakePersonGeneratorHomePage;
+import task8.kismia.pages.profile.Gender;
 
 import java.time.LocalDate;
 import java.time.Period;

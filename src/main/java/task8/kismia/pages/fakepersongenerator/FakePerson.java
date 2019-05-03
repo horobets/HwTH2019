@@ -1,6 +1,6 @@
 package task8.kismia.pages.fakepersongenerator;
 
-import task8.kismia.pages.Gender;
+import task8.kismia.pages.profile.Gender;
 
 import java.time.LocalDate;
 

@@ -1,7 +1,8 @@
-package task8.kismia.pages;
+package task8.kismia.pages.registration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import task8.kismia.pages.KsBasePage;
 
 public class KsRegistrationUploadPhotoPage extends KsBasePage {
 

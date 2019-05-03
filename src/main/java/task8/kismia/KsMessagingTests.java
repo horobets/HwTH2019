@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
 import task8.kismia.pages.KsLoginPage;
-import task8.kismia.pages.KsMatchesPage;
-import task8.kismia.pages.KsMessagesThreadPage;
-import task8.kismia.pages.KsSuitableListPage;
+import task8.kismia.pages.matches.KsMatchesPage;
+import task8.kismia.pages.matches.KsSuitableListPage;
+import task8.kismia.pages.messages.KsMessagesThreadPage;
 
 public class KsMessagingTests extends KsBaseTest {
 

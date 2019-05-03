@@ -1,9 +1,10 @@
-package task8.kismia.pages;
+package task8.kismia.pages.registration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import task8.kismia.pages.KsBasePage;
 
 import java.time.LocalDate;
 import java.util.List;
