@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/KsUpdateProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/KsUpdateProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/fakepersongenerator/FakepersongeneratorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/fakepersongenerator/FakepersongeneratorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsAccountBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsAccountBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMatchesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/matches/KsMatchesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMessagesListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMessagesThreadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesThreadPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsProfileSettingsBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsProfileSettingsPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsPersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsProfileSettingsSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsRegistrationFinishedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFinishedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsRegistrationFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsRegistrationUploadPhotoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationUploadPhotoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsSuitableListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/matches/KsSuitableListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/ProfileSettingsTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/ProfileSettingsTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/kismia/pages/fakepersongenerator/FakePersonGeneratorHomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,110 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFinishedPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFormPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationUploadPhotoPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/Gender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/matches/KsMatchesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/matches/KsSuitableListPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/ProfileSettingsTab.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfilePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsAccountBasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsUpdateProfileTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,7 +74,6 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMatchesPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipDirection.java" />
@@ -227,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationUploadPhotoPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfilePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsUpdateProfileTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java" />
       </list>
     </option>
   </component>
@@ -291,16 +164,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task8" type="462c0819:PsiDirectoryNode" />
               <item name="kismia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="kismia" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -670,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556874642655</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="kismia send message and update profile tests">
+      <created>1556875794046</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556875794046</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -716,7 +586,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -726,7 +595,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.42776203" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3696884" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34127843" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -734,8 +603,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23618636" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" visible="true" weight="0.21529745" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23512748" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.21529745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -761,7 +630,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Fixed liniakino close warning popup - now just ignoring it&#10;fixed percentage format in liniakino and int to double divition conversion" />
     <MESSAGE value="Created akinator package and its BasePage" />
     <MESSAGE value="Added Seasons task (drnk)" />
     <MESSAGE value="Akinator is now App, not test;&#10;All fields in MovieInfo are now private. Added getters and setters." />
@@ -786,7 +654,8 @@
     <MESSAGE value="kismia - messaging and profile tests" />
     <MESSAGE value="Sea Battle placeholder" />
     <MESSAGE value="kismia send message and updateprofile tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="kismia send message and updateprofile tests" />
+    <MESSAGE value="kismia send message and update profile tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="kismia send message and update profile tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -873,7 +742,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java</url>
-          <line>95</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
@@ -955,7 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/RegexMatches.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/currency/pages/parsing/PrivatbankCurrencyPageParsing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1102,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1135,13 +996,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../pdffiller-tests_v2-master-dl12-04-2019/pdffiller-tests_v2-master/src/test/java/pages/dynamics/apps/saleshub/SalesHubAppDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1267,11 +1121,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsUpdateProfileTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="301">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsRegistrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/RegexMatches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
