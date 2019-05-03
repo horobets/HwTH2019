@@ -3,11 +3,11 @@ package task8.kismia.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class KsMessagesPage extends KsAccountBasePage {
+public class KsMessagesListPage extends KsAccountBasePage {
 
     private By messagesThreadContainerBy = By.cssSelector(".js_fixedThreadContainer");
 
-    public KsMessagesPage(WebDriver driver) {
+    public KsMessagesListPage(WebDriver driver) {
         super(driver);
     }
 

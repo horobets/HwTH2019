@@ -5,8 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class KsAccountBasePage extends KsBasePage {
 
+    private By profileMenuBy = By.cssSelector(".js_headerSubMenu");
+
     private By profileLinkBy = By.cssSelector(".new-header-sub-menu__elem");
     private By messagesLinkBy = By.cssSelector(".new-header-main-nav__link--messages");
+
+    private By suitableMenuitemBy = By.cssSelector(".right-side-menu__link--suitable");
 
     public KsAccountBasePage(WebDriver driver) {
         super(driver);
@@ -14,14 +18,34 @@ public abstract class KsAccountBasePage extends KsBasePage {
         isElementPresent(profileLinkBy, 5);
     }
 
-    public KsMessagesPage openMessages() {
+    public KsMessagesListPage openMessages() {
         click(messagesLinkBy);
-        return new KsMessagesPage(driver);
+        return new KsMessagesListPage(driver);
     }
-
 
     public KsProfilePage openProfile() {
         click(profileLinkBy);
         return new KsProfilePage(driver);
+    }
+
+    public KsSuitableListPage openSuitableList() {
+        click(suitableMenuitemBy);
+        return new KsSuitableListPage(driver);
+    }
+
+
+    public KsProfilePage openProfileSettings() {
+        click(profileLinkBy);
+        return new KsProfilePage(driver);
+    }
+
+
+    public KsProfileSettingsSearchPage openEditProfile() {
+
+        click(profileMenuBy);
+        By profileLinkMenuitem = By.xpath("//a[contains(@href, '/profile/settings')]");
+        click(profileLinkMenuitem);
+
+        return new KsProfileSettingsSearchPage(driver);
     }
 }

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class KsMessagesThreadPage extends KsAccountBasePage {
 
-    private By messageTextAreaBy = By.cssSelector(".chat-controls__button-submit");
+    private By messageTextAreaBy = By.cssSelector(".chat-controls__textarea");
     private By messageSubmitButtonBy = By.cssSelector(".chat-controls__button-submit");//chat-controls__button-submit js_formComposeSubmit
 
     public KsMessagesThreadPage(WebDriver driver) {

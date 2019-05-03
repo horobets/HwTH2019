@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class KsProfilePage extends KsAccountBasePage {
 
+
     private By tutorialPopupBy = By.id("tutorial-template-step-1");
     private By tutorialCloseLinkBy = By.cssSelector(".js-close");
 
@@ -26,7 +27,4 @@ public class KsProfilePage extends KsAccountBasePage {
             click(tutorialCloseLinkBy);
     }
 
-    public void clickEditProfile() {
-        click(editProfileLinkBy);
-    }
 }

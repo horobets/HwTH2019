@@ -7,8 +7,8 @@ import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
 import task8.kismia.pages.KsLoginPage;
 import task8.kismia.pages.KsMatchesPage;
-import task8.kismia.pages.KsMessagesPage;
 import task8.kismia.pages.KsMessagesThreadPage;
+import task8.kismia.pages.KsSuitableListPage;
 
 public class KsMessagingTests extends KsBaseTest {
 
@@ -31,9 +31,11 @@ public class KsMessagingTests extends KsBaseTest {
         KsMatchesPage matchesPage = loginPage.loginToKismia(username, password);
         matchesPage.goToPage();
 
-        KsMessagesPage messagesPage = matchesPage.openMessages();
+        KsSuitableListPage suitableListPage = matchesPage.openSuitableList();
+        suitableListPage.goToPage();
 
-        KsMessagesThreadPage threadPage = messagesPage.openMessagingThread(0);//open first thread
+        KsMessagesThreadPage threadPage = suitableListPage.openChat(0);//open chat with first person
+        threadPage.goToPage();
 
         threadPage.sendMessage(message);
 

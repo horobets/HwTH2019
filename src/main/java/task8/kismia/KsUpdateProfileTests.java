@@ -5,13 +5,13 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import task8.kismia.credentialsstorage.Credentials;
 import task8.kismia.credentialsstorage.CredentialsStorage;
-import task8.kismia.pages.KsLoginPage;
-import task8.kismia.pages.KsMatchesPage;
-import task8.kismia.pages.KsProfilePage;
+import task8.kismia.pages.*;
+
+import java.time.LocalDate;
 
 public class KsUpdateProfileTests extends KsBaseTest {
     @Parameters({"username", "password"})
-    @Test(description = "Test kismia.com private messaging")
+    @Test(description = "Test updating personal information on kismia.com")
     public void kismiaUpdateProfileTest(@Optional("") String username,
                                         @Optional("") String password) {
 
@@ -28,10 +28,18 @@ public class KsUpdateProfileTests extends KsBaseTest {
         KsMatchesPage matchesPage = loginPage.loginToKismia(username, password);
         matchesPage.goToPage();
 
-        KsProfilePage profilePage = matchesPage.openProfile();
-        profilePage.goToPage();
+        KsProfileSettingsSearchPage profileSettingsSearchPage = matchesPage.openEditProfile();
+        profileSettingsSearchPage.goToPage();
 
-        profilePage.clickEditProfile();
+        KsProfileSettingsPersonalPage profileSettingsPersonalPage = profileSettingsSearchPage.openTab(ProfileSettingsTab.PERSONAL);
+        profileSettingsPersonalPage.goToPage();
+
+        LocalDate newBirthdate = LocalDate.of(1984, 3, 2);
+        Gender newGender = Gender.FEMALE;
+        profileSettingsPersonalPage.selectBirthday(newBirthdate);
+        profileSettingsPersonalPage.setGender(newGender);
+
+        profileSettingsPersonalPage.clickSave();
 
         System.out.println("Done");
     }

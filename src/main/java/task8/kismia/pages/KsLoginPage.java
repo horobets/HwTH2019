@@ -50,8 +50,6 @@ public class KsLoginPage extends KsBasePage {
 
     public KsRegistrationFormPage startNewAccountRegistration(Gender gender, Gender searchGender, String name, String email, String password) {
 
-        //switchLoginPageView(KsLoginPageView.REGISTRATION);
-
         //register as gender
         switch (gender) {
             case MALE:
