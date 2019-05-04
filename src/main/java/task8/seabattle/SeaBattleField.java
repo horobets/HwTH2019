@@ -12,7 +12,7 @@ public class SeaBattleField {
     private int fieldYsize;
 
     private final Map<CellLocation, Ship> shipsLocations;
-    private List<CellLocation> checkedCells;
+    private List<CellLocation> shotCells;
 
     public SeaBattleField() {
         this(10,10);//10x10 field by default
@@ -51,6 +51,15 @@ public class SeaBattleField {
         return fieldYsize;
     }
 
+    public boolean shotToCell(CellLocation cellLocation) {
+        if (!shotCells.contains(cellLocation)) {
+            shotCells.add(cellLocation);
+            return true;
+        }
+        return false;
+    }
+
+
     public boolean addShip(Ship ship, CellLocation location) {
 
         //check location and add new ship
@@ -68,11 +77,13 @@ public class SeaBattleField {
         //check if ship can be placed to the field to the selected location
         List<CellLocation> shipCells = getSingleShipOccupiedCells(ship, shipLocation);
         for (CellLocation location : shipCells) {
-            if (location.getX() > getFieldXsize() || location.getY() > getFieldYsize()) {
-                return false;
-            }
+            return cellFitsField(location);
         }
         return true;
+    }
+
+    public boolean cellFitsField(CellLocation cellLocation) {
+        return cellLocation.getX() <= getFieldXsize() && cellLocation.getY() <= getFieldYsize();
     }
 
     private boolean shipFitsFreeSpace(Ship ship, CellLocation shipLocation) {
