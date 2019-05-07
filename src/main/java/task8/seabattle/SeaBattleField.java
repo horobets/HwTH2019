@@ -43,6 +43,7 @@ public class SeaBattleField {
         return cells;
     }*/
 
+
     public int getFieldXsize() {
         return fieldXsize;
     }
