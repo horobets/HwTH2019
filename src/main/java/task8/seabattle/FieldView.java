@@ -21,12 +21,6 @@ public class FieldView {
 
     private void initFieldViewCells() {
         fieldViewCellValues = new FieldViewCellValue[seaBattleField.getFieldXsize()][seaBattleField.getFieldYsize()];
-        /*for(FieldViewCellValue[] fieldViewCellRow : fieldViewCellValues){
-            for(FieldViewCellValue fieldViewCellValue :fieldViewCellRow){
-                fieldViewCellValue = new FieldViewCellValue(false, false);
-            }
-        }*/
-
         for (int i = 0; i < fieldViewCellValues.length; i++) {
             for (int j = 0; j < fieldViewCellValues[i].length; j++) {
                 fieldViewCellValues[i][j] = new FieldViewCellValue(false, false);
@@ -42,7 +36,7 @@ public class FieldView {
         for(int i = 0; i< fieldViewCellValues.length; i++){
             for(int j = 0; j< fieldViewCellValues[i].length; j++){
 
-                CellLocation currentCellLocation = new CellLocation(i, j);
+                CellLocation currentCellLocation = new CellLocation(j, i);
                 if (shotCells.contains(currentCellLocation))
                     fieldViewCellValues[i][j].setShoot(true);
                 if (shipsOccupiedCells.contains(currentCellLocation))
