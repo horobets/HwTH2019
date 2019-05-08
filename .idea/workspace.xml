@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/BattleFieldPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldPrinterMarker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldViewCellValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldViewCellValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="212">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -57,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/BattleFieldPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
@@ -639,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556953574606</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="seabattle field view">
+      <created>1557316529114</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1557316529114</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -685,7 +686,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -697,13 +697,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3696884" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25893825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25893825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2340195" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.16359697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -730,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Added Seasons task (drnk)" />
     <MESSAGE value="Akinator is now App, not test;&#10;All fields in MovieInfo are now private. Added getters and setters." />
     <MESSAGE value="Akinator app now covers almost all available actions" />
     <MESSAGE value="Removed some comments;&#10;added wait initializer to imdbInfo basepage" />
@@ -755,7 +754,8 @@
     <MESSAGE value="kismia send message and updateprofile tests" />
     <MESSAGE value="kismia send message and update profile tests" />
     <MESSAGE value="seabattle field class" />
-    <option name="LAST_COMMIT_MESSAGE" value="seabattle field class" />
+    <MESSAGE value="seabattle field view" />
+    <option name="LAST_COMMIT_MESSAGE" value="seabattle field view" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -881,12 +881,6 @@
           <line>46</line>
           <properties />
           <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldView.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1096,7 +1090,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/BattleFieldPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
@@ -1123,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        <state relative-caret-position="212">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
