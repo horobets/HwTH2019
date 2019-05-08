@@ -8,4 +8,20 @@ public class FieldViewCellValue {
         this.isShoot = isShoot;
         this.isShip = isShip;
     }
+
+    public void setShoot(boolean shoot) {
+        isShoot = shoot;
+    }
+
+    public void setShip(boolean ship) {
+        isShip = ship;
+    }
+
+    public boolean isShoot() {
+        return isShoot;
+    }
+
+    public boolean isShip() {
+        return isShip;
+    }
 }

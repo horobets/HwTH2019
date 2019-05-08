@@ -22,6 +22,7 @@ public class SeaBattleField {
         this.fieldXsize = fieldXsize;
         this.fieldYsize = fieldYsize;
         shipsLocations = new HashMap<>();
+        shotCells = new ArrayList<>();
     }
     /*    public SeaBattleField(int fieldSizeX, int fieldSizeY) {
         cells = new SeaBattleCellValue[fieldSizeX][fieldSizeY];
@@ -51,6 +52,11 @@ public class SeaBattleField {
     public int getFieldYsize() {
         return fieldYsize;
     }
+
+    public List<CellLocation> getShotCells() {
+        return shotCells;
+    }
+
 
     public boolean shotToCell(CellLocation cellLocation) {
         if (!shotCells.contains(cellLocation)) {
