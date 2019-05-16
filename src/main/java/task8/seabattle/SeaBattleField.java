@@ -58,12 +58,23 @@ public class SeaBattleField {
     }
 
 
-    public boolean shotToCell(CellLocation cellLocation) {
-        if (!shotCells.contains(cellLocation)) {
-            shotCells.add(cellLocation);
-            return true;
+    public ShotResult shotToCell(CellLocation cellLocation) {
+
+        if (!cellFitsField(cellLocation))
+            return ShotResult.INVALIDLOCATION;
+
+        if (shotCells.contains(cellLocation)) {
+            return ShotResult.ALREADYSHOT;
         }
-        return false;
+
+        if (shotCells.contains(cellLocation)) {
+            return ShotResult.ALREADYSHOT;
+        }
+
+        shotCells.add(cellLocation);
+
+        if ()
+
     }
 
 
@@ -71,9 +82,14 @@ public class SeaBattleField {
 
         //check location and add new ship
 
+        if (shipFitsField(ship, location)) {
 
-        shipsLocations.put(location, ship);
-        return true;
+            shipsLocations.put(location, ship);
+
+            return true;
+        }
+
+        return false;
     }
 
     public Map<CellLocation, Ship> getShipsLocations() {

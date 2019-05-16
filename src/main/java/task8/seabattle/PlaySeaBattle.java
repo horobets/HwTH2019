@@ -20,6 +20,10 @@ public class PlaySeaBattle {
         if (!battleField.shotToCell(new CellLocation(5, 5)))
             System.err.printf("can't shoot to cell");
 
+
+        if (!battleField.shotToCell(new CellLocation(3, 4)))
+            System.err.printf("can't shoot to cell");
+
         printTable(battleField);
 
         System.out.printf("Thanks for playing! %n");
