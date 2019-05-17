@@ -1,4 +1,4 @@
-package task8.seabattle;
+package task8.seabattle.battlefield;
 
 import java.util.Objects;
 

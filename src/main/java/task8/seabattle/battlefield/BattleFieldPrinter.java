@@ -1,4 +1,4 @@
-package task8.seabattle;
+package task8.seabattle.battlefield;
 
 public class BattleFieldPrinter {
     private FieldView fieldView;
