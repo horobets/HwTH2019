@@ -87,18 +87,20 @@ public class FieldBuilder {
 
             System.out.printf("%n Rotate the ship (1 - Up; 2 - Down; 3 - Left; 4 - Right): ", remainingShipsSizes.size());
 
-            int selectedDirectionIndex = scanner.nextInt()-1;
+  /*           int selectedDirectionIndex = scanner.nextInt()-1;
             ShipDirection selectedShipDirection = ShipDirection.values()[selectedDirectionIndex-];
 
 
             printShipBySize(remainingShipsSizes.get(selectedRemainingShipSize), selectedShipDirection);
 
-            System.out.printf("%n Place this ship to location: ");
+            System.out.printf("%n Location for this ship (e.g. C3): ");
+            CellLocation locationForShip = new CellLocation(scanner.nextLine());
+
 
             printShipBySize(remainingShipsSizes.get(selectedRemainingShipSize), ShipDirection.LEFT);
 
 
-            switch (userChoice) {
+           switch (userChoice) {
                 case 1:
                     playerRole = Role.X;
                     break;
@@ -108,8 +110,9 @@ public class FieldBuilder {
                 default:
                     System.out.printf("%nInvalid role selected: %d", userChoice);
                     return;
-            }
+            }*/
+            return true;
         }
-        return true;
+        //return true;
     }
 }

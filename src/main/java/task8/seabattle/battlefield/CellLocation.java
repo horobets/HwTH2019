@@ -11,6 +11,21 @@ public class CellLocation {
         this.y = y;
     }
 
+    public CellLocation(String cellLocationStr) {
+
+        this.x = cellLocationStr.toUpperCase().charAt(0) - 'A';
+        this.y = Integer.parseInt(cellLocationStr.substring(1));
+    }
+
+    public String getCellLocationStr() {
+        return String.format("%c%d", 'A' + this.x, this.y);
+    }
+
+    @Override
+    public String toString() {
+        return getCellLocationStr();
+    }
+
     public int getX() {
         return x;
     }

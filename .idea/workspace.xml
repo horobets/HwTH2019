@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/task8.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +30,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+            <state relative-caret-position="589">
+              <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+              <folding>
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/task8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/BattleFieldPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -41,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="612">
               <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="867">
               <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="61" selection-end-column="17" />
             </state>
           </provider>
@@ -105,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagesPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMatchesPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleCellValue.java" />
@@ -155,7 +191,10 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ShipPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/GameMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/task8.java" />
       </list>
     </option>
   </component>
@@ -167,17 +206,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="128" />
-    <option name="width" value="1440" />
-    <option name="height" value="773" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,6 +283,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,6 +296,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task8.seabattle" />
       <recent name="task8.kismia" />
       <recent name="task3.currency.pages.parsing" />
     </key>
@@ -273,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlaySeaBattle">
+  <component name="RunManager" selected="Application.task8">
     <configuration name="PlaySeaBattle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task8.seabattle.PlaySeaBattle" />
       <module name="HwTH2019" />
@@ -287,20 +327,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KsLoginTests.kismiaLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task8.task8" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task8.kismia.pages.profile.*" />
+          <option name="PATTERN" value="task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task8.kismia" />
-      <option name="MAIN_CLASS_NAME" value="task8.kismia.KsLoginTests" />
-      <option name="METHOD_NAME" value="kismiaLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,11 +396,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task8" />
         <item itemvalue="Application.PlaySeaBattle" />
         <item itemvalue="TestNG.KsUpdateProfileTests.kismiaUpdateProfileTest" />
         <item itemvalue="TestNG.KsMessagingTests.kismiaMessagingTest" />
         <item itemvalue="TestNG.KsRegistrationTests.kismiaRegistrationTest" />
-        <item itemvalue="TestNG.KsLoginTests.kismiaLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -705,9 +740,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -717,13 +753,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36944744" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25893825" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25893825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3696884" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.28277355" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.16251354" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -902,6 +938,24 @@
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/task8.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/task8.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/task8.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -910,8 +964,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsBasePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsPersonalPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsSearchPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesListPage.java" />
@@ -1040,14 +1092,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipStatus.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/FieldView.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/FieldPrinterMarker.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/SeaBattleField.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/ShotResult.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/GameConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/BattleFieldPrinter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/ShipPrinter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/FieldViewCellValue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/SeaBattleCellValue.java" />
@@ -1074,7 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="612">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1091,15 +1141,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="867">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        <state relative-caret-position="589">
+          <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/BattleFieldPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/task8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
