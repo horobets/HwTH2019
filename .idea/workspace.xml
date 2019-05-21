@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson11/trello/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/DriverEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +17,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleCellValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/pages/KsMessagesThreadPage.java" />
@@ -107,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/task8.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/DriverEventListener.java" />
       </list>
     </option>
   </component>
@@ -165,19 +176,7 @@
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -602,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558447081392</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="lesson11">
+      <created>1558456808274</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1558456808274</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,6 +654,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -692,7 +699,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Added Lesson 6 package" />
     <MESSAGE value="Added locationToIndexes converter" />
     <MESSAGE value="Added ProTip and winning line emphasizing" />
     <MESSAGE value="locations string" />
@@ -717,7 +723,8 @@
     <MESSAGE value="ShotResult, ShipStatus" />
     <MESSAGE value="FieldBuilder placeholder" />
     <MESSAGE value="FieldBuilder process" />
-    <option name="LAST_COMMIT_MESSAGE" value="FieldBuilder process" />
+    <MESSAGE value="lesson11" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson11" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -870,7 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesThreadPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFinishedPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFormPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationUploadPhotoPage.java" />
@@ -1119,6 +1125,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
