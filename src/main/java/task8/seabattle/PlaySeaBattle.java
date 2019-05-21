@@ -12,7 +12,6 @@ public class PlaySeaBattle {
 
         System.out.printf("Sea Battle %n%n");
 
-
         Scanner scanner = new Scanner(System.in);
         int userChoice;
 

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson11/trello/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task8/task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,100 +19,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/GameStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-              <folding>
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/task8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/BattleFieldPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/GameMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="61" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsLoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipDirection.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleCellValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/kismia/KsMessagingTests.java" />
@@ -190,11 +101,12 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ShipsPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/ShipPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/GameMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/task8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
       </list>
     </option>
   </component>
@@ -206,10 +118,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="15" />
+    <option name="y" value="57" />
+    <option name="width" value="1913" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -248,7 +160,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -256,8 +168,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="seabattle" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -265,19 +176,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="seabattle" type="462c0819:PsiDirectoryNode" />
-              <item name="battlefield" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="seabattle" type="462c0819:PsiDirectoryNode" />
-              <item name="ships" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -695,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558100287248</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="FieldBuilder process">
+      <created>1558447081392</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1558447081392</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -740,10 +647,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -753,13 +659,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36944744" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.22096318" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25893825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25893825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.28277355" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3696884" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.16251354" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -786,7 +692,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Win message format fx" />
     <MESSAGE value="Added Lesson 6 package" />
     <MESSAGE value="Added locationToIndexes converter" />
     <MESSAGE value="Added ProTip and winning line emphasizing" />
@@ -811,7 +716,8 @@
     <MESSAGE value="seabattle cellcheck" />
     <MESSAGE value="ShotResult, ShipStatus" />
     <MESSAGE value="FieldBuilder placeholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="FieldBuilder placeholder" />
+    <MESSAGE value="FieldBuilder process" />
+    <option name="LAST_COMMIT_MESSAGE" value="FieldBuilder process" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -946,13 +852,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task8/task8.java</url>
-          <line>9</line>
+          <line>10</line>
           <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task8/task8.java</url>
-          <line>8</line>
+          <line>9</line>
           <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
@@ -964,9 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsPersonalPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/profile/KsProfileSettingsSearchPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesListPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/messages/KsMessagesThreadPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFinishedPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/kismia/pages/registration/KsRegistrationFormPage.java" />
@@ -1122,16 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/GameMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1189,6 +1082,43 @@
             <element signature="e#600#601#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/Lesson11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/trello/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
