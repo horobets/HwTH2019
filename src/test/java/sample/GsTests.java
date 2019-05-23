@@ -1,4 +1,4 @@
-package SampleTests;
+package sample;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
