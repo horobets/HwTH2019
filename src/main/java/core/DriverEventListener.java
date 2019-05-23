@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
+import java.util.Arrays;
+
 public class DriverEventListener implements WebDriverEventListener {
 
     @Override
@@ -29,8 +31,9 @@ public class DriverEventListener implements WebDriverEventListener {
     }
 
     @Override
-    public void beforeNavigateTo(String s, WebDriver webDriver) {
+    public void beforeNavigateTo(String url, WebDriver webDriver) {
 
+        System.out.println("[BROWSER] Open URL: " + url);
     }
 
     @Override
@@ -81,21 +84,33 @@ public class DriverEventListener implements WebDriverEventListener {
     @Override
     public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
 
+        System.out.print("[BROWSER] Click on: " + extractBy(webElement));
     }
 
     @Override
     public void afterClickOn(WebElement webElement, WebDriver webDriver) {
 
+        System.out.println("...................OK");
+
     }
 
     @Override
-    public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
+    public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] keysToSend) {
+        if (keysToSend == null) {
 
+            System.out.print("[BROWSER] Clear field: '" + extractBy(webElement) + "'");
+
+
+        } else {
+
+            System.out.print("[BROWSER] Fill field: '" + extractBy(webElement) + "' Text: " + Arrays.toString(keysToSend));
+
+        }
     }
 
     @Override
     public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-
+        System.out.println("...................OK");
     }
 
     @Override
@@ -140,6 +155,15 @@ public class DriverEventListener implements WebDriverEventListener {
 
     @Override
     public void afterGetText(WebElement webElement, WebDriver webDriver, String s) {
+
+    }
+
+
+    private String extractBy(WebElement element) {
+
+        String s = element.toString().substring(element.toString().indexOf("-> ") + 3);
+
+        return s.substring(0, s.length() - 1);
 
     }
 }
