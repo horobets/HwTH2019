@@ -1,19 +1,28 @@
 package task8.seabattle.ships;
 
+import task8.seabattle.battlefield.CellLocation;
+import task8.seabattle.battlefield.SeaBattleField;
+
 public class Ship {
-    private int shipSize;
-    private ShipDirection shipDirection;
+    private CellLocation shipLocation;
+    private SeaBattleField field;
+    private ShipType shipType;
 
-    public Ship(int shipSize, ShipDirection shipDirection) {
-        this.shipSize = shipSize;
-        this.shipDirection = shipDirection;
+    public Ship(CellLocation shipLocation, SeaBattleField field, ShipType shipType) {
+        this.shipLocation = shipLocation;
+        this.field = field;
+        this.shipType = shipType;
     }
 
-    public int getShipSize() {
-        return shipSize;
+    public CellLocation getShipLocation() {
+        return shipLocation;
     }
 
-    public ShipDirection getShipDirection() {
-        return shipDirection;
+    public SeaBattleField getField() {
+        return field;
+    }
+
+    public ShipType getShipType() {
+        return shipType;
     }
 }
