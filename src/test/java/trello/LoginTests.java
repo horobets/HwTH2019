@@ -7,9 +7,11 @@ import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import trello.pages.BoardPage;
+import trello.pages.LoggedOutPage;
 import trello.pages.LoginPage;
 
-public class LoginTest extends BrowserFactory {
+public class LoginTests extends BrowserFactory {
 
 
     protected final String credentialsStorageFilePath = "c:\\credentials\\trellocredentials.txt";
@@ -30,6 +32,19 @@ public class LoginTest extends BrowserFactory {
         loginPage.goToPage();
         loginPage.login(username, password);
         Assert.assertTrue(new BoardPage().isOpened(), "Board page was not found");
+
+    }
+
+
+    @Test(description = "Test trello logout screen", dependsOnMethods = "login")
+    public void logout() {
+
+        BoardPage boardPage = new BoardPage();
+
+        boardPage.logOut();
+
+        Assert.assertTrue(new LoggedOutPage().isOpened(), "Logged Out page was not found");
+
 
     }
 }

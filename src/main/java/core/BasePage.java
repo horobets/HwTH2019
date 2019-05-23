@@ -8,14 +8,14 @@ import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
 public abstract class BasePage {
-    //protected WebDriver driver;
-    private WebDriverWait wait;
+    /*    protected WebDriver driver;
+        private WebDriverWait wait
 
-    /*public BasePage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, 15);
-    }
-*/
+    /*    public BasePage(WebDriver driver) {
+            this.driver = driver;
+            wait = new WebDriverWait(driver, 15);
+        }
+    */
     public abstract void goToPage();
 
     protected boolean isPageLoaded(By pageElement) {
@@ -23,6 +23,7 @@ public abstract class BasePage {
     }
 
     public void waitVisibility(By elementBy) {
+        WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
     }
 
