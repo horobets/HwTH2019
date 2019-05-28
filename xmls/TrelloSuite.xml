@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Trello Suite" parallel="tests">
+<!--<suite name="Trello Suite" parallel="tests">-->
+<suite name="Trello Suite">
     <test name="Login">
         <classes>
             <class name="trello.LoginTests"/>

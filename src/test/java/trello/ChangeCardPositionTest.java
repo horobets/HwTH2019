@@ -1,11 +1,10 @@
 package trello;
 
-import core.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class ChangeCardPositionTest extends BrowserFactory {
+public class ChangeCardPositionTest extends TrelloBaseTest {
 
 
     @Test

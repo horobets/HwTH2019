@@ -3,12 +3,12 @@ package trello;
 import org.testng.annotations.Test;
 import trello.pages.BoardPage;
 
-public class CreateDeleteBoardTest {
+public class CreateDeleteBoardTest extends TrelloBaseTest {
 
     @Test
     public void createBoard() throws InterruptedException {
 
-        new BoardPage().createBoard("James Board");
+        new BoardPage(getDriver()).createBoard("James Board");
 
     }
 
@@ -16,4 +16,5 @@ public class CreateDeleteBoardTest {
     public void deleteBoard() {
 
     }
+
 }
