@@ -23,12 +23,13 @@ public abstract class BasePage {
     public void waitVisibility(By elementBy) {
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
-        wait.until(ExpectedConditions.elementToBeClickable(elementBy)).click();
     }
 
     public void click(By elementBy) {
         waitVisibility(elementBy);
-        driver.findElement(elementBy).click();
+
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.elementToBeClickable(elementBy)).click();
     }
 
     public void writeText(By elementBy, String text) {

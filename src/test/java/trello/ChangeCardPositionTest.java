@@ -18,4 +18,14 @@ public class ChangeCardPositionTest extends TrelloBaseTest {
 
 
     }
+
+
+    @Test
+    public void dragAndDrop(By first, By second) {
+
+        Actions actions = new Actions(driver);
+
+        actions.dragAndDrop(driver.findElement(first), driver.findElement(second)).perform();
+
+    }
 }

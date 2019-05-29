@@ -42,8 +42,9 @@ public class BaseTest {
         return driver;
     }
 
-    public static void makeScreenshot() throws IOException {
-        TakeScreenshot.takeScreenshot(driver, "/Users/lolik/11zzzz1.png");
+    public static void makeScreenshot(String description) throws IOException {
+        String filePath = String.format("C:\\Test\\Screenshots\\%s.png", description);
+        TakeScreenshot.takeScreenshot(driver, filePath);
     }
 
 

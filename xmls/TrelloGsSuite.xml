@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Trello Suite" parallel="tests">-->
+<suite name="Trello Suite">
+    <test name="Login">
+        <classes>
+            <class name="trello.LoginTests">
+                <methods>
+                    <exclude name="logout"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Create And Delete Board">
+        <classes>
+            <class name="trello.CreateDeleteBoardTest"/>
+        </classes>
+    </test>
+    <test name="Change Position">
+        <classes>
+            <class name="trello.ChangeCardPositionTest"/>
+        </classes>
+    </test>
+</suite>

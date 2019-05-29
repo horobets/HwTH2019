@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import trello.pages.BoardPage;
+import trello.pages.BoardsPage;
 import trello.pages.LoggedOutPage;
 import trello.pages.LoginPage;
 
@@ -16,7 +16,7 @@ public class LoginTests extends TrelloBaseTest {
     protected final String credentialsStorageFilePath = "c:\\credentials\\trellocredentials.txt";
 
     @Parameters({"username", "password"})
-    @Test(description = "Test trello login screen", priority = 1)
+    @Test(description = "Test trello login screen", priority = 1/*, dataProvider = "TestDataProvider"-*/)
     public void login(@Optional("") String username,
                       @Optional("") String password) {
 
@@ -30,7 +30,7 @@ public class LoginTests extends TrelloBaseTest {
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.goToPage();
         loginPage.login(username, password);
-        Assert.assertTrue(new BoardPage(getDriver()).isOpened(), "Board page was not found");
+        Assert.assertTrue(new BoardsPage(getDriver()).isOpened(), "Board page was not found");
 
     }
 
@@ -38,9 +38,9 @@ public class LoginTests extends TrelloBaseTest {
     @Test(description = "Test trello logout screen", dependsOnMethods = "login", priority = 9)
     public void logout() {
 
-        BoardPage boardPage = new BoardPage(getDriver());
+        BoardsPage boardsPage = new BoardsPage(getDriver());
 
-        boardPage.logOut();
+        boardsPage.logOut();
 
         Assert.assertTrue(new LoggedOutPage(getDriver()).isOpened(), "Logged Out page was not found");
 
