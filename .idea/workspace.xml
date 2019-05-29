@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam1/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam1/TestSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam1/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam1/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trello/LoginTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#602#603#0" expanded="true" />
@@ -230,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/java/exam1/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/exam1/TestSubClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/exam1/Exam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/BaseTest.java" />
         <option value="$PROJECT_DIR$/xmls/TrelloGsSuite" />
         <option value="$PROJECT_DIR$/src/test/java/trello/LoginTests.java" />
         <option value="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" />
@@ -240,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -801,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559050282438</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="trello basetest">
+      <created>1559143316874</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559143316874</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1398,7 +1393,7 @@
     <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1450,7 +1445,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
