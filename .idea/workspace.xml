@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,46 +21,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/Lesson15.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="306">
+              <caret line="76" column="69" lean-forward="true" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/task8/task8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/TakeScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/DriverEventListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/SampleTests/GsTests.java" />
@@ -154,8 +137,9 @@
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
       </list>
     </option>
   </component>
@@ -177,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +193,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson15" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -216,16 +201,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="seabattle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -253,7 +230,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TrelloApiTest.TryIt">
+  <component name="RunManager" selected="TestNG.TrelloApiTest">
     <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam1.Exam" />
       <module name="HwTH2019" />
@@ -320,18 +296,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateDeleteBoardTest.createBoard" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trello.*" />
+          <option name="PATTERN" value="trello.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="trello" />
-      <option name="MAIN_CLASS_NAME" value="trello.CreateDeleteBoardTest" />
-      <option name="METHOD_NAME" value="createBoard" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="trello.api" />
+      <option name="MAIN_CLASS_NAME" value="trello.api.TrelloApiTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -358,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TrelloApiTest" />
         <item itemvalue="TestNG.TrelloApiTest.TryIt" />
         <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" />
         <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloSuite.xml" />
         <item itemvalue="Application.Exam" />
-        <item itemvalue="TestNG.CreateDeleteBoardTest.createBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -724,21 +699,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloSuite_xml - 2019.05.29 at 10h 42m 57s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 10h 46m 09s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 10h 47m 25s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 10h 47m 53s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 10h 49m 09s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 10h 50m 38s.xml">
       <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
@@ -754,6 +714,21 @@
     <history-entry file="TrelloApiTest_TryIt - 2019.06.04 at 19h 44m 25s.xml">
       <configuration name="TrelloApiTest.TryIt" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TrelloApiTest - 2019.06.05 at 10h 27m 26s.xml">
+      <configuration name="TrelloApiTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TrelloApiTest_TryIt - 2019.06.05 at 10h 30m 22s.xml">
+      <configuration name="TrelloApiTest.TryIt" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TrelloApiTest - 2019.06.05 at 11h 18m 16s.xml">
+      <configuration name="TrelloApiTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TrelloApiTest - 2019.06.05 at 11h 52m 32s.xml">
+      <configuration name="TrelloApiTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TrelloApiTest - 2019.06.05 at 11h 57m 16s.xml">
+      <configuration name="TrelloApiTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -767,7 +742,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.33355704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.33825505" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -783,7 +758,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.23654391" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23654391" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.20254958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -992,12 +967,6 @@
           <properties />
           <option name="timeStamp" value="165" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1006,14 +975,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task6/tictactoe/PlayTicTacToeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1054,16 +1015,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/Lesson11.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/Trello.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/trello/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1233,28 +1184,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/Lesson15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/Lesson15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="196">
+          <caret line="30" column="74" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1263,8 +1214,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="76" column="69" lean-forward="true" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

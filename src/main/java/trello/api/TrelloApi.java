@@ -26,9 +26,9 @@ public class TrelloApi {
     }
 
     public void createCard(String listId) throws IOException {
-        RequestBody body = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), "{\"name\"=\"Jack asler\"}");
+        RequestBody body = RequestBody.create(MediaType.parse("application/json; charset=utf-8;"), "{\"name\"=\"Jack asler\"}");
         Request request = new Request.Builder()
-                .url("https://api.trello.com/1/cards?idList=" + listId + "List&keepFromSource=all&key=" + KEY + "&token=" + TOKEN)
+                .url("https://api.trello.com/1/cards?idList=" + listId + "&keepFromSource=all&key=" + KEY + "&token=" + TOKEN)
                 .post(body)
                 .build();
         String response = client.newCall(request).execute().body().string();
