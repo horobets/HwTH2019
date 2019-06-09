@@ -1,6 +1,4 @@
-package task14.imdbparser;
-
-import task3.shawshankredemption.Genre;
+package task14.imdbtopmovies.imdbmovieinfo;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -17,7 +15,8 @@ public class ImdbMovieInfo {
         private List<String> actors;
         private int ratingMetascore;
 
-        public int getRrunningTimeInMins() {
+
+    public int getRrunningTimeInMins() {
             return (int) runningTime.toMinutes();
         }
 

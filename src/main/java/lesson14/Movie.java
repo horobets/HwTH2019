@@ -3,17 +3,17 @@ package lesson14;
 public class Movie implements Comparable {
 
     public String title;
-    public int year;
     public double score;
+    public int year;
 
-    public Movie(String title, int year, double score) {
+    public Movie(String title, double score, int year) {
         this.title = title;
-        this.year = year;
         this.score = score;
+        this.year = year;
     }
 
     public Movie(String title, double score) {
-        this(title, 0, score);
+        this(title, score, 0);
     }
 
     @Override
@@ -26,8 +26,8 @@ public class Movie implements Comparable {
     public String toString() {
         return "Movie{" +
                 "title='" + title + '\'' +
-                ", year=" + year +
                 ", score=" + score +
+                ", year=" + year +
                 '}';
     }
 }
