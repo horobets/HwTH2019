@@ -3,24 +3,22 @@ package core;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
-import static core.BrowserFactory.driver;
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
 public abstract class BasePage {
-    /*    protected WebDriver driver;
-        private WebDriverWait wait
+    protected WebDriver driver;
 
-    /*    public BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver) {
             this.driver = driver;
-            wait = new WebDriverWait(driver, 15);
         }
-    */
-    public abstract void goToPage();
 
-    protected boolean isPageLoaded(By pageElement) {
+    //public abstract void goToPage();
+
+    public abstract boolean isOpened();
+    /*protected boolean isOpened(By pageElement) {
         return isElementPresent(pageElement, 10);
-    }
+    }*/
 
     public void waitVisibility(By elementBy) {
         WebDriverWait wait = new WebDriverWait(driver, 15);
@@ -29,7 +27,9 @@ public abstract class BasePage {
 
     public void click(By elementBy) {
         waitVisibility(elementBy);
-        driver.findElement(elementBy).click();
+
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.elementToBeClickable(elementBy)).click();
     }
 
     public void writeText(By elementBy, String text) {
@@ -109,5 +109,15 @@ public abstract class BasePage {
                 .ignoring(StaleElementReferenceException.class);
 
         fwait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameToSwitchTo));
+    }
+
+    public WebElement find(By by) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    public void type(By by, String text) {
+        find(by).clear();
+        find(by).sendKeys(text);
     }
 }

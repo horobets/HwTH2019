@@ -1,8 +1,7 @@
 package trello.pages;
 
 import org.openqa.selenium.By;
-
-import static core.BrowserFactory.driver;
+import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends TrelloBasePage {
 
@@ -10,9 +9,17 @@ public class LoginPage extends TrelloBasePage {
     private By passwordFld = By.cssSelector("#password");
     private By loginBth = By.cssSelector("#login");
 
-    @Override
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
+
     public void goToPage() {
         driver.get("https://trello.com/login");
+    }
+
+    @Override
+    public boolean isOpened() {
+        return isElementPresent(loginBth, 10);
     }
 
     public void login(String email, String password) {

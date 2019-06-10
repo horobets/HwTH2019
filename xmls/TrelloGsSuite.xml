@@ -3,7 +3,11 @@
 <suite name="Trello Suite">
     <test name="Login">
         <classes>
-            <class name="trello.LoginTests"/>
+            <class name="trello.LoginTests">
+                <methods>
+                    <exclude name="logout"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
     <test name="Create And Delete Board">

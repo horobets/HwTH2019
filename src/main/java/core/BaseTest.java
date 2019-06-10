@@ -1,19 +1,15 @@
 package core;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import java.io.File;
 import java.io.IOException;
 
-public class BrowserFactory {
+public class BaseTest {
     public static WebDriver driver;
 
     @BeforeSuite
@@ -42,25 +38,14 @@ public class BrowserFactory {
     }
 
 
-    //lesson11 drafts
-    public void click(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(by)).click();
+    public WebDriver getDriver() {
+        return driver;
     }
 
-    public static WebElement find(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+    public static void makeScreenshot(String description) throws IOException {
+        String filePath = String.format("C:\\Test\\Screenshots\\%s.png", description);
+        TakeScreenshot.takeScreenshot(driver, filePath);
     }
 
-    public static void type(By by, String text) {
-        find(by).clear();
-        find(by).sendKeys(text);
-    }
-
-    public static void makeScreenshot() throws IOException {
-        File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(screenshotFile, new File("/Users/lolik/11zzzz1.png"));
-    }
 
 }
