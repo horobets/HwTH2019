@@ -17,31 +17,45 @@ public class ImdbTopMoviesDemo {
         ImdbTopMoviesAnalyzer moviesAnalyzer = new ImdbTopMoviesAnalyzer(imdbTopMovies);
 
         //sort by Title and print
-        System.out.println("%nSorted by Title: ");
+        System.out.printf("%nSorted by Title: %n");
         ImdbMovieComparisonMode comparisonMode = ImdbMovieComparisonMode.TITLE;
         PrintImdbMoviesList(moviesAnalyzer.getSortedMoviesList(comparisonMode));
 
         //sort by Release Year and print
-        System.out.println("%nSorted by Release Year: ");
+        System.out.printf("%nSorted by Release Year: %n");
         PrintImdbMoviesList(moviesAnalyzer.getSortedMoviesList(ImdbMovieComparisonMode.RELEASEDATE));
 
         //sort by Metascore and print
-        System.out.println("%nSorted by Metascore: ");
-        PrintImdbMoviesList(moviesAnalyzer.getSortedMoviesList(ImdbMovieComparisonMode.METASCORE));
+        System.out.printf("%nSorted by Metascore: %n");
+        List<ImdbMovieInfo> metascoreSortedList = moviesAnalyzer.getSortedMoviesList(ImdbMovieComparisonMode.METASCORE);
+        PrintImdbMoviesList(metascoreSortedList);
+
+        //Top Metascore ranked movie:
+        System.out.printf("%nTop Metascore ranked movie: %n");
+        PrintImdbMovie(metascoreSortedList.get(metascoreSortedList.size() - 1));
 
         //sort by running time and print
-        System.out.println("%nSorted by Running Time: ");
-        PrintImdbMoviesList(moviesAnalyzer.getSortedMoviesList(ImdbMovieComparisonMode.RUNNINGTIME));
+        System.out.printf("%nSorted by Running Time: %n");
+        List<ImdbMovieInfo> runningTimeSortedList = moviesAnalyzer.getSortedMoviesList(ImdbMovieComparisonMode.RUNNINGTIME);
+        PrintImdbMoviesList(runningTimeSortedList);
 
+        //shortest movie:
+        System.out.printf("%nShortest movie: %n");
+        PrintImdbMovie(runningTimeSortedList.get(0));
     }
 
     public static void PrintImdbMoviesList(List<ImdbMovieInfo> imdbMovies) {
         for (ImdbMovieInfo movieInfo : imdbMovies) {
-            System.out.printf("%s (%d) Metascore: %d, Running Time: %s %n",
-                    movieInfo.getMovieTitle(),
-                    movieInfo.getReleaseDate().getYear(),
-                    movieInfo.getRatingMetascore(),
-                    movieInfo.getRunningTime());
+            PrintImdbMovie(movieInfo);
         }
+    }
+
+    public static void PrintImdbMovie(ImdbMovieInfo imdbMovie) {
+
+        System.out.printf("%s (%d) Metascore: %d, Running Time: %s min %n",
+                imdbMovie.getMovieTitle(),
+                imdbMovie.getReleaseDate().getYear(),
+                imdbMovie.getRatingMetascore(),
+                imdbMovie.getRunningTime().toMinutes());
     }
 }

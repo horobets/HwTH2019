@@ -1,18 +1,20 @@
 package task14.imdbtopmovies.imdbmovieinfo;
 
+import java.util.Comparator;
+
 public enum ImdbMovieComparisonMode {
-    TITLE(ImdbMovieTitleComparator.class),
-    RATING(ImdbMovieRatingComparator.class),
-    RELEASEDATE(ImdbMovieReleaseDateComparator.class),
-    RUNNINGTIME(ImdbMovieRunningTimeComparator.class),
-    METASCORE(ImdbMovieMetascoreComparator.class);
+    TITLE(new ImdbMovieTitleComparator()),
+    RATING(new ImdbMovieRatingComparator()),
+    RELEASEDATE(new ImdbMovieReleaseDateComparator()),
+    RUNNINGTIME(new ImdbMovieRunningTimeComparator()),
+    METASCORE(new ImdbMovieMetascoreComparator());
     private Object comparatorclass;
 
     ImdbMovieComparisonMode(Object comparatorclass) {
         this.comparatorclass = comparatorclass;
     }
 
-    public <T extends Object> T getComparator() {
+    public <T extends Comparator<ImdbMovieInfo>> T getComparator() {
         if (comparatorclass == null) {
             throw new NullPointerException();
         }
