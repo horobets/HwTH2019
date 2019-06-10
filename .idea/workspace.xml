@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,14 +21,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task2/DigitsSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="58" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="31" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/trello/TrelloBaseTest.java" />
-        <option value="$PROJECT_DIR$/xmls/TrelloSuite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson5/DriverImplicitWait.java" />
         <option value="$PROJECT_DIR$/src/main/java/exam1/TestClass.java" />
@@ -124,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask1.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask4.java" />
       </list>
     </option>
   </component>
@@ -135,10 +184,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2741" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="782" />
-    <option name="height" value="830" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -169,6 +218,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionsTask2">
+  <component name="RunManager" selected="Application.CollectionsTask4">
     <configuration name="CollectionsTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task14.collectionstasks.CollectionsTask1" />
       <module name="HwTH2019" />
@@ -275,6 +332,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CollectionsTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task14.collectionstasks.CollectionsTask3" />
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task14.collectionstasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTask4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task14.collectionstasks.CollectionsTask4" />
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task14.collectionstasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImdbTopMoviesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task14.imdbtopmovies.ImdbTopMoviesDemo" />
       <module name="HwTH2019" />
@@ -288,48 +371,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImdbGetMovies.tryIt" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson14" />
-      <option name="MAIN_CLASS_NAME" value="lesson14.ImdbGetMovies" />
-      <option name="METHOD_NAME" value="tryIt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrelloApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trello.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="trello.api" />
-      <option name="MAIN_CLASS_NAME" value="trello.api.TrelloApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsTask4" />
+        <item itemvalue="Application.CollectionsTask3" />
         <item itemvalue="Application.CollectionsTask2" />
         <item itemvalue="Application.CollectionsTask1" />
         <item itemvalue="Application.ImdbTopMoviesDemo" />
-        <item itemvalue="TestNG.ImdbGetMovies.tryIt" />
-        <item itemvalue="TestNG.TrelloApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,20 +391,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017517565</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Akinator is now App, not test;&#10;All fields in MovieInfo are now private. Added getters and setters.">
-      <created>1554622489636</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1554622489637</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Akinator app now covers almost all available actions">
-      <created>1554637149389</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1554637149389</updated>
     </task>
     <task id="LOCAL-00010" summary="Removed some comments;&#10;added wait initializer to imdbInfo basepage">
       <created>1554663537758</created>
@@ -687,7 +721,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560151393635</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Collections list strings sorting">
+      <created>1560152908532</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1560152908532</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Collections min int n list">
+      <created>1560156436366</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1560156436366</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -732,10 +780,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.18230277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.2295302" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -745,14 +793,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36827195" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.3531961" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2383532" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23796034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26868907" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.20151679" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.20113315" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,8 +826,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="kismia - Fakepersongenerator tests" />
-    <MESSAGE value="kismia - login. credentialsstorage" />
     <MESSAGE value="kismia - messaging and profile tests" />
     <MESSAGE value="Sea Battle placeholder" />
     <MESSAGE value="kismia send message and updateprofile tests" />
@@ -803,7 +849,9 @@
     <MESSAGE value="imdb parsers" />
     <MESSAGE value="imdb top movies count limit" />
     <MESSAGE value="Collections Cats and Dogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections Cats and Dogs" />
+    <MESSAGE value="Collections list strings sorting" />
+    <MESSAGE value="Collections min int n list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections min int n list" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -974,9 +1022,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xmls/TrelloSuite.xml" />
-    <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/BaseTest.java" />
@@ -1196,29 +1241,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2547#2548#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="731">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/DigitsSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
