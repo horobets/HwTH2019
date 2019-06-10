@@ -4,6 +4,7 @@ import task14.imdbtopmovies.imdbmovieinfo.ImdbMovieComparisonMode;
 import task14.imdbtopmovies.imdbmovieinfo.ImdbMovieInfo;
 
 import java.util.List;
+import java.util.Map;
 
 public class ImdbTopMoviesDemo {
     public static void main(String[] args) {
@@ -42,6 +43,21 @@ public class ImdbTopMoviesDemo {
         //shortest movie:
         System.out.printf("%nShortest movie: %n");
         PrintImdbMovie(runningTimeSortedList.get(0));
+
+
+        //actors:
+        System.out.printf("%nActors: %n");
+        PrintActors(moviesAnalyzer.getActorsInMovies());
+
+        System.out.printf("%nTotal Actors: %s %n", moviesAnalyzer.getAllActors().size());
+
+
+        //directors:
+        System.out.printf("%nDirectors: %n");
+        PrintDirectors(moviesAnalyzer.getAllDirectors());
+
+        System.out.printf("%nTotal Directors: %s %n", moviesAnalyzer.getAllDirectors().size());
+
     }
 
     public static void PrintImdbMoviesList(List<ImdbMovieInfo> imdbMovies) {
@@ -57,5 +73,24 @@ public class ImdbTopMoviesDemo {
                 imdbMovie.getReleaseDate().getYear(),
                 imdbMovie.getRatingMetascore(),
                 imdbMovie.getRunningTime().toMinutes());
+    }
+
+    public static void PrintActors(List<String> actors) {
+        for (String actor : actors) {
+            System.out.printf("Actor: %s %n", actor);
+        }
+    }
+
+    public static void PrintActors(Map<String, Integer> actorsInMovies) {
+        for (Map.Entry<String, Integer> entry : actorsInMovies.entrySet()) {
+            System.out.printf("Actor: %s, found in %d movies %n", entry.getKey(), entry.getValue());
+        }
+    }
+
+
+    public static void PrintDirectors(List<String> director) {
+        for (String actor : director) {
+            System.out.printf("Director: %s %n", actor);
+        }
     }
 }
