@@ -14,7 +14,7 @@ public class ImdbTopMoviesCrawler {
     private final String imdbBaseLink = "https://www.imdb.com";
     private final String imdbTopMoviesLink = "https://www.imdb.com/chart/top";
 
-    public List<ImdbMovieInfo> getImdbTopMoviesDetails() {
+    public List<ImdbMovieInfo> getImdbTopMoviesDetails(int count) {
 
         //download and process the top 250 list page
         String topListPageSource;
@@ -30,9 +30,11 @@ public class ImdbTopMoviesCrawler {
 
         //process every movie page
         List<ImdbMovieInfo> imdbMovieInfos = new ArrayList<>();
-        for (ImdbTopListItem topListItem : topListItems) {
+
+        //for (ImdbTopListItem topListItem : topListItems) {
+        for (int i = 0; i < count && i < topListItems.size(); i++) {
             //compose url from domain name and relative link
-            String movieLink = String.format("%s%s", imdbBaseLink, topListItem.getLink());
+            String movieLink = String.format("%s%s", imdbBaseLink, topListItems.get(i).getLink());
 
             imdbMovieInfos.add(parseMoviePage(movieLink));
         }

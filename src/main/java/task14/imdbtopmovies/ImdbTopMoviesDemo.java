@@ -11,7 +11,7 @@ public class ImdbTopMoviesDemo {
 
         ImdbTopMoviesCrawler moviesCrawler = new ImdbTopMoviesCrawler();
 
-        List<ImdbMovieInfo> imdbTopMovies = moviesCrawler.getImdbTopMoviesDetails();
+        List<ImdbMovieInfo> imdbTopMovies = moviesCrawler.getImdbTopMoviesDetails(15);
 
         ImdbTopMoviesAnalyzer moviesAnalyzer = new ImdbTopMoviesAnalyzer(imdbTopMovies);
 
