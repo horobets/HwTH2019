@@ -113,7 +113,7 @@ public class ImdbMoviePageParser extends ImdbParser {
 
     private String parseDirectorName() {
         Document document = Jsoup.parse(imdbPageSource);
-        String directorName = document.select(directorNameCss).text();
+        String directorName = document.select(directorNameCss).get(0).text();
         return directorName;
     }
 
