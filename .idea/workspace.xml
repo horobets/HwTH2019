@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="119" column="97" selection-start-line="119" selection-start-column="97" selection-end-line="119" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+            <state relative-caret-position="340">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbparsers/ImdbMoviePageParser.java">
+        <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="17">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -149,10 +146,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="222" />
-    <option name="y" value="-9" />
+    <option name="x" value="348" />
+    <option name="y" value="111" />
     <option name="width" value="1440" />
-    <option name="height" value="775" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -190,7 +187,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
+              <item name="trello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -198,27 +195,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
-              <item name="collectionstasks" type="462c0819:PsiDirectoryNode" />
+              <item name="trello" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
-              <item name="imdbtopmovies" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
-              <item name="imdbtopmovies" type="462c0819:PsiDirectoryNode" />
-              <item name="imdbparsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
+              <item name="xmls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,20 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImdbTopMoviesDemo">
-    <configuration name="CollectionsTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task14.collectionstasks.CollectionsTask2" />
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task14.collectionstasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml">
     <configuration name="CollectionsTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task14.collectionstasks.CollectionsTask3" />
       <module name="HwTH2019" />
@@ -326,13 +317,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HwTH2019" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" />
         <item itemvalue="Application.ImdbTopMoviesDemo" />
         <item itemvalue="Application.CollectionsTask5" />
         <item itemvalue="Application.CollectionsTask4" />
         <item itemvalue="Application.CollectionsTask3" />
-        <item itemvalue="Application.CollectionsTask2" />
       </list>
     </recent_temporary>
   </component>
@@ -346,13 +347,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017517565</updated>
-    </task>
-    <task id="LOCAL-00015" summary="locations string">
-      <created>1555410850604</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1555410850604</updated>
     </task>
     <task id="LOCAL-00016" summary="Whitespaces removal moved to constructors">
       <created>1556348307210</created>
@@ -690,16 +684,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560200348811</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="imdb average ratings sorting">
+      <created>1560251947417</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1560251947418</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.05.29 at 12h 24m 03s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TrelloApiTest_TryIt - 2019.06.04 at 19h 28m 56s.xml">
-      <configuration name="TrelloApiTest.TryIt" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TrelloApiTest_TryIt - 2019.06.04 at 19h 44m 25s.xml">
       <configuration name="TrelloApiTest.TryIt" configurationId="TestNG" />
     </history-entry>
@@ -723,6 +718,12 @@
     </history-entry>
     <history-entry file="ImdbGetMovies_tryIt - 2019.06.09 at 18h 43m 12s.xml">
       <configuration name="ImdbGetMovies.tryIt" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.11 at 14h 56m 27s.xml">
+      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.11 at 15h 02m 33s.xml">
+      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
@@ -754,7 +755,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281372" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028386" side_tool="true" weight="0.32862744" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26062322" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2592068" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.19971672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -781,7 +782,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="seabattle field view" />
     <MESSAGE value="seabattle cellcheck" />
     <MESSAGE value="ShotResult, ShipStatus" />
     <MESSAGE value="FieldBuilder placeholder" />
@@ -806,7 +806,8 @@
     <MESSAGE value="imdb movies comparators" />
     <MESSAGE value="imdb movies comparators enum" />
     <MESSAGE value="imdb actors in movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="imdb actors in movies" />
+    <MESSAGE value="imdb average ratings sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="imdb average ratings sorting" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -958,10 +959,10 @@
           <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="165" />
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -971,30 +972,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/SeaBattleGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/RegexMatches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson16/Lesson16.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task14/task14.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task3/shawshankredemption/MovieInfo.java">
@@ -1267,6 +1244,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
