@@ -13,7 +13,7 @@ public class ImdbTopMoviesDemo {
 
         ImdbTopMoviesCrawler moviesCrawler = new ImdbTopMoviesCrawler();
 
-        List<ImdbMovieInfo> imdbTopMovies = moviesCrawler.getImdbTopMoviesDetails(5);
+        List<ImdbMovieInfo> imdbTopMovies = moviesCrawler.getImdbTopMoviesDetails(250);
 
         ImdbTopMoviesAnalyzer moviesAnalyzer = new ImdbTopMoviesAnalyzer(imdbTopMovies);
 
@@ -44,19 +44,25 @@ public class ImdbTopMoviesDemo {
         System.out.printf("%nShortest movie: %n");
         PrintImdbMovie(runningTimeSortedList.get(0));
 
+        //Directors and number of their movies:
+        System.out.printf("%nDirectors and number of their movies: %n");
+        PrintDirectors(moviesAnalyzer.getDirectorsInMovies());
 
-        //actors:
-        System.out.printf("%nActors: %n");
+        //Directors and average ratings:
+        System.out.printf("%nDirectors and average ratings: %n");
+        PrintDirectorsWithRatings(moviesAnalyzer.getDirectorsWithMoviesAverageRatings());
+
+        System.out.printf("%nTotal Directors: %s %n", moviesAnalyzer.getAllDirectors().size());
+
+        //Actors and number of their movies:
+        System.out.printf("%nActors and number of their movies: %n");
         PrintActors(moviesAnalyzer.getActorsInMovies());
 
         System.out.printf("%nTotal Actors: %s %n", moviesAnalyzer.getAllActors().size());
 
-
-        //directors:
-        System.out.printf("%nDirectors: %n");
-        PrintDirectors(moviesAnalyzer.getAllDirectors());
-
-        System.out.printf("%nTotal Directors: %s %n", moviesAnalyzer.getAllDirectors().size());
+        //Actors and average ratings:
+        System.out.printf("%nActors and average ratings: %n");
+        PrintActorsWithRatings(moviesAnalyzer.getActorsWithMoviesAverageRatings());
 
     }
 
@@ -91,6 +97,25 @@ public class ImdbTopMoviesDemo {
     public static void PrintDirectors(List<String> director) {
         for (String actor : director) {
             System.out.printf("Director: %s %n", actor);
+        }
+    }
+
+
+    public static void PrintDirectors(Map<String, Integer> directorsInMovies) {
+        for (Map.Entry<String, Integer> entry : directorsInMovies.entrySet()) {
+            System.out.printf("Director: %s, found in %d movies %n", entry.getKey(), entry.getValue());
+        }
+    }
+
+    public static void PrintDirectorsWithRatings(Map<String, Float> directorsWithAverageRatings) {
+        for (Map.Entry<String, Float> entry : directorsWithAverageRatings.entrySet()) {
+            System.out.printf("Director: %s, average movies rating: %.2f %n", entry.getKey(), entry.getValue());
+        }
+    }
+
+    public static void PrintActorsWithRatings(Map<String, Float> actorsWithAverageRatings) {
+        for (Map.Entry<String, Float> entry : actorsWithAverageRatings.entrySet()) {
+            System.out.printf("Actor: %s, average movies rating: %.2f %n", entry.getKey(), entry.getValue());
         }
     }
 }
