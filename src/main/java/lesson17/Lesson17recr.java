@@ -1,6 +1,11 @@
 package lesson17;
 
 public class Lesson17recr {
+
+    public static void main(String[] args) {
+
+    }
+
     public String parenBit(String str) {
 
         if(str.length()<2){
