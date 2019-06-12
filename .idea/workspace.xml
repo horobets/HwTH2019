@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson17/Lesson17recr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson17/Lesson17recr.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/Lesson17recr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -197,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml">
+  <component name="RunManager" selected="Application.Lesson17recr">
     <configuration name="CodingBatScreenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task14.CodingBatScreenshots" />
       <module name="HwTH2019" />
@@ -327,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImdbTopMoviesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task14.imdbtopmovies.ImdbTopMoviesDemo" />
+    <configuration name="Lesson17recr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson17.Lesson17recr" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task14.imdbtopmovies.*" />
+          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson17recr" />
         <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" />
         <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TestNG.xml" />
         <item itemvalue="TestNG.CreateDeleteBoardTest" />
         <item itemvalue="Application.CodingBatScreenshots" />
-        <item itemvalue="Application.ImdbTopMoviesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -397,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017517565</updated>
-    </task>
-    <task id="LOCAL-00021" summary="fb tests - birthday wishes list">
-      <created>1556397148543</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1556397148543</updated>
     </task>
     <task id="LOCAL-00022" summary="kismia - placeholder">
       <created>1556434726013</created>
@@ -741,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560365266793</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="recur">
+      <created>1560373713960</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1560373713961</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,7 +786,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.24612325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.24811134" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -798,7 +796,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36827195" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.3531961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35977337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3593141" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -831,7 +829,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="trello proj; test dir" />
     <MESSAGE value="trello login" />
     <MESSAGE value="login tests" />
     <MESSAGE value="exam placeholder" />
@@ -856,7 +853,8 @@
     <MESSAGE value="trello api sample" />
     <MESSAGE value="trello boards tests" />
     <MESSAGE value="recur x" />
-    <option name="LAST_COMMIT_MESSAGE" value="recur x" />
+    <MESSAGE value="recur" />
+    <option name="LAST_COMMIT_MESSAGE" value="recur" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1356,8 +1354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/Lesson17recr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
