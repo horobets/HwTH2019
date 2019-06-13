@@ -1,6 +1,7 @@
 package trello.api;
 
 import org.testng.annotations.Test;
+import trello.api.models.Board;
 import trello.api.models.Card;
 import trello.api.models.TrelloList;
 
@@ -36,9 +37,22 @@ public class TrelloApiTest {
         System.out.println(response);
     }
 
+    TrelloRestClient client = new TrelloRestClient();
+
+    @Test
     public void adasda() throws IOException {
-        TrelloRestClient client = new TrelloRestClient();
-        List<TrelloList> body = client.boardsService.getLists("0L69AHpW").execute().body();
-        body.forEach();
+
+        List<TrelloList> body = client.boardsService.getLists("0L69AHpE").execute().body();
+        body.forEach(t -> System.out.println(t.name));
+
+    }
+
+
+    @Test
+    public void createBoard() throws IOException, InterruptedException {
+        Board board = client.boardsService.createBoard("Lolik 25").execute().body();
+        board.desc = "ASDASDDSADASSDASDASASDDASDAS";
+        client.boardsService.updateBoard(board.id, board).execute();
+
     }
 }
