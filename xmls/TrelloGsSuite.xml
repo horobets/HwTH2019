@@ -12,12 +12,32 @@
     </test>
     <test name="Create And Delete Board">
         <classes>
-            <class name="trello.CreateDeleteBoardTest"/>
+            <class name="trello.CreateDeleteBoardTest">
+                <methods>
+                    <exclude name="deleteBoard"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
-    <test name="Change Position">
+
+    <test name="Add to favorites and remove">
         <classes>
-            <class name="trello.ChangeCardPositionTest"/>
+            <class name="trello.AddToFavoritesTest">
+            </class>
         </classes>
     </test>
+
+    <test name="Change Board Visibility">
+        <classes>
+            <class name="trello.ChangeVisibilityTest">
+            </class>
+        </classes>
+    </test>
+    <!--   <test name="Change Position">
+            <classes>
+                <class name="trello.ChangeCardPositionTest">
+                </class>
+            </classes>
+        </test>
+        -->
 </suite>

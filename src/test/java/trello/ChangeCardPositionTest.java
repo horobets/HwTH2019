@@ -20,7 +20,7 @@ public class ChangeCardPositionTest extends TrelloBaseTest {
     }
 
 
-    @Test
+    //@Test
     public void dragAndDrop(By first, By second) {
 
         Actions actions = new Actions(driver);
