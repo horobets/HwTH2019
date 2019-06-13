@@ -10,10 +10,8 @@ import java.util.List;
 
 public interface BoardsService {
 
-
     @GET("boards/{id}/lists")
     Call<List<TrelloList>> getLists(@Path("id") String id);
-
 
     @POST("boards")
     Call<Board> createBoard(@Query("name") String name);
