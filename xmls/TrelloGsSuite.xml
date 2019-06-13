@@ -26,9 +26,18 @@
             </class>
         </classes>
     </test>
-    <test name="Change Position">
+
+    <test name="Change Board Visibility">
         <classes>
-            <class name="trello.ChangeCardPositionTest"/>
+            <class name="trello.ChangeVisibilityTest">
+            </class>
         </classes>
     </test>
+    <!--   <test name="Change Position">
+            <classes>
+                <class name="trello.ChangeCardPositionTest">
+                </class>
+            </classes>
+        </test>
+        -->
 </suite>

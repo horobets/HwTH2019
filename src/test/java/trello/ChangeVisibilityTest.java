@@ -4,37 +4,34 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import trello.pages.BoardPage;
+import trello.pages.BoardVisibility;
 import trello.pages.BoardsPage;
 
-public class AddToFavoritesTest extends TrelloBaseTest {
+public class ChangeVisibilityTest extends TrelloBaseTest {
 
     @Parameters({"boardname"})
-    @Test(description = "Test trello add board to favorites")
-    public void addBoardToFavorites(@Optional("James Board") String boardname) {
+    @Test(description = "Test trello make board public")
+    public void makeBoardPublic(@Optional("James Board") String boardname) {
 
         BoardsPage boardsPage = new BoardsPage(getDriver());
-        //boardsPage.openBoardsPage();
-        //boardsPage.isOpened();
 
         BoardPage boardPage = boardsPage.openBoard(boardname);
 
-        boardPage.clickStar();
+        boardPage.changeVisibility(BoardVisibility.PUBLIC);
 
         boardPage.openBoardsPage().isOpened();
     }
 
 
     @Parameters({"boardname"})
-    @Test(description = "Test trello remove board from favorites")
-    public void removeBoardFromFavorites(@Optional("James Board") String boardname) {
+    @Test(description = "Test trello make board private")
+    public void makeBoardPrivate(@Optional("James Board") String boardname) {
 
         BoardsPage boardsPage = new BoardsPage(getDriver());
-        //boardsPage.openBoardsPage();
-        //boardsPage.isOpened();
 
         BoardPage boardPage = boardsPage.openBoard(boardname);
 
-        boardPage.clickStar();
+        boardPage.changeVisibility(BoardVisibility.PRIVATE);
 
         boardPage.openBoardsPage().isOpened();
     }
