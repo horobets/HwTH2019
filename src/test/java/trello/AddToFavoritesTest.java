@@ -14,7 +14,7 @@ public class AddToFavoritesTest extends TrelloBaseTest {
 
         BoardsPage boardsPage = new BoardsPage(getDriver());
         boardsPage.openBoardsPage();
-        boardsPage.isOpened();
+        //boardsPage.isOpened();
 
         BoardPage boardPage = boardsPage.openBoard(boardname);
 
@@ -30,7 +30,7 @@ public class AddToFavoritesTest extends TrelloBaseTest {
 
         BoardsPage boardsPage = new BoardsPage(getDriver());
         boardsPage.openBoardsPage();
-        boardsPage.isOpened();
+        //boardsPage.isOpened();
 
         BoardPage boardPage = boardsPage.openBoard(boardname);
 

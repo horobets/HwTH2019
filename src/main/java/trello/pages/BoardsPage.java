@@ -33,11 +33,15 @@ public class BoardsPage extends TrelloBasePage {
 
     public BoardPage openBoard(String name) {
 
+        isBoardListed(name);
+
         By boardElement = By.xpath(String.format(boardListItemXpathFormat, name));
+        waitVisibility(boardElement);
         find(boardElement).click();
 
         BoardPage boardPage = new BoardPage(driver);
-        boardPage.isOpened();
+        if (!boardPage.isOpened())
+            return null;
         return boardPage;
     }
 

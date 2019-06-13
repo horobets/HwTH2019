@@ -33,6 +33,8 @@ public abstract class TrelloBasePage extends BasePage {
     public BoardsPage openBoardsPage() {
         isElementPresent(homeButton, 5);
         click(homeButton);
-        return new BoardsPage(driver);
+        BoardsPage boardsPage = new BoardsPage(driver);
+        boardsPage.isOpened();
+        return boardsPage;
     }
 }

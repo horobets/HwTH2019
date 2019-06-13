@@ -13,7 +13,9 @@
     <test name="Create And Delete Board">
         <classes>
             <class name="trello.CreateDeleteBoardTest">
-
+                <methods>
+                    <exclude name="deleteBoard"></exclude>
+                </methods>
             </class>
         </classes>
     </test>

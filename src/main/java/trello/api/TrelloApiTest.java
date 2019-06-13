@@ -35,4 +35,10 @@ public class TrelloApiTest {
         String response = trelloApi.post("https://httpbin.org/post", "{\"param\":\"jack\"}");
         System.out.println(response);
     }
+
+    public void adasda() throws IOException {
+        TrelloRestClient client = new TrelloRestClient();
+        List<TrelloList> body = client.boardsService.getLists("0L69AHpW").execute().body();
+        body.forEach();
+    }
 }

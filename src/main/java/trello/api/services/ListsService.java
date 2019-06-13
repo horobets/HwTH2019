@@ -1,4 +1,5 @@
 package trello.api.services;
 
-public interface ListService {
+public interface ListsService {
+    //Call<ResponseBody>
 }
