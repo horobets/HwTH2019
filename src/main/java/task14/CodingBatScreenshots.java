@@ -25,7 +25,7 @@ public class CodingBatScreenshots {
 
     public static void main(String[] args) {
 
-        takeAllScreenshots("c:\\codingbat-screenshots\\", "Array-1");
+        takeAllScreenshots("c:\\codingbat-screenshots\\", "Recursion-1");
 
     }
 
