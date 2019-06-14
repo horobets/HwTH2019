@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -93,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="225">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
               <folding>
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#517#518#0" expanded="true" />
@@ -107,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -217,9 +211,9 @@
         <option value="$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java" />
         <option value="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" />
       </list>
     </option>
   </component>
@@ -231,8 +225,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="901" />
-    <option name="y" value="58" />
+    <option name="x" value="727" />
+    <option name="y" value="24" />
     <option name="width" value="2628" />
     <option name="height" value="1559" />
   </component>
@@ -443,13 +437,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017517565</updated>
-    </task>
-    <task id="LOCAL-00027" summary="kismia - Fakepersongenerator tests">
-      <created>1556655379665</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1556655379665</updated>
     </task>
     <task id="LOCAL-00028" summary="kismia - Fakepersongenerator tests">
       <created>1556658215763</created>
@@ -787,16 +774,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560443846752</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="trello visibility tests">
+      <created>1560457743929</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1560457743930</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 22h 55m 37s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 22h 56m 07s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 22h 58m 50s.xml">
       <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
@@ -821,6 +809,12 @@
     <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 23m 55s.xml">
       <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 27m 37s.xml">
+      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 28m 20s.xml">
+      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -832,10 +826,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="853" y="175" width="1863" height="1190" extended-state="0" />
-    <editor active="true" />
+    <frame x="485" y="16" width="1752" height="1039" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.35884637" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.3823877" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -845,13 +838,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36827195" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.3531961" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35822305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41786107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719547" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50201344" side_tool="true" weight="0.25637394" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" weight="0.3100189" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" visible="true" weight="0.30981258" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.19830029" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -878,7 +871,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="lesson13 placeholder" />
     <MESSAGE value="lesson15 placeholder" />
     <MESSAGE value="lesson15 trello api" />
     <MESSAGE value="lesson16 placeholder" />
@@ -903,7 +895,8 @@
     <MESSAGE value="lesson18 placeholder" />
     <MESSAGE value="lesson18" />
     <MESSAGE value="trello api" />
-    <option name="LAST_COMMIT_MESSAGE" value="trello api" />
+    <MESSAGE value="trello visibility tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="trello visibility tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1149,12 +1142,6 @@
           <line>47</line>
           <properties />
           <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1424,36 +1411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-          </folding>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1484,20 +1445,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java">
+    <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
