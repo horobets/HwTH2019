@@ -1,8 +1,8 @@
 package task8.seabattle;
 
-import task8.seabattle.battlefield.FieldPrinterMarker;
-import task8.seabattle.battlefield.SeaBattleField;
+import task8.seabattle.battlefield.*;
 import task8.seabattle.ships.ShipDirection;
+import task8.seabattle.ships.ShipType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,14 +68,25 @@ public class FieldBuilder {
 
     }
 
+    private void printField(SeaBattleField battleField) {
+
+        new BattleFieldPrinter(new FieldView(battleField)).printBattleField(true);
+    }
     public boolean startBuilding(boolean automatic){
 
         Scanner scanner = new Scanner(System.in);
         int userChoice;
 
+        field = new SeaBattleField();
 
         while (true) {
 
+
+            System.out.printf("%n Field: ");
+            printField(field);
+
+            System.out.printf("%n Ships left: ");
+            printRemainingShips();
 
             System.out.printf("%n Select a ship (1 - %d): ", remainingShipsSizes.size());
 
@@ -87,20 +98,25 @@ public class FieldBuilder {
 
             System.out.printf("%n Rotate the ship (1 - Up; 2 - Down; 3 - Left; 4 - Right): ", remainingShipsSizes.size());
 
-  /*           int selectedDirectionIndex = scanner.nextInt()-1;
-            ShipDirection selectedShipDirection = ShipDirection.values()[selectedDirectionIndex-];
+            int selectedDirectionIndex = scanner.nextInt() - 1;
+            ShipDirection selectedShipDirection = ShipDirection.values()[selectedDirectionIndex];
 
 
             printShipBySize(remainingShipsSizes.get(selectedRemainingShipSize), selectedShipDirection);
 
             System.out.printf("%n Location for this ship (e.g. C3): ");
-            CellLocation locationForShip = new CellLocation(scanner.nextLine());
+            String selectedShipLocationStr = scanner.next();
+            CellLocation locationForShip = new CellLocation(selectedShipLocationStr);
 
+            field.addShip(new ShipType(selectedRemainingShipSize, selectedShipDirection), locationForShip);
+
+            System.out.printf("%n Field: ");
+            printField(field);
 
             printShipBySize(remainingShipsSizes.get(selectedRemainingShipSize), ShipDirection.LEFT);
 
 
-           switch (userChoice) {
+     /*          switch (userChoice) {
                 case 1:
                     playerRole = Role.X;
                     break;

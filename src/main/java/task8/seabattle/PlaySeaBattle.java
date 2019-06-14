@@ -42,6 +42,7 @@ public class PlaySeaBattle {
         FieldBuilder fieldBuilder = new FieldBuilder();
 
 
+        fieldBuilder.startBuilding(false);
 
 
 
