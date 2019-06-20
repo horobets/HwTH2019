@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,18 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -45,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -60,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/BoardsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -155,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieRatingComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieMetascoreComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieRunningTimeComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/SortMode.java" />
@@ -206,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson19/Lesson19.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java" />
       </list>
     </option>
   </component>
@@ -251,14 +247,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -444,20 +432,7 @@
       <workItem from="1560842061518" duration="2327000" />
       <workItem from="1560845007959" duration="6876000" />
       <workItem from="1560925552850" duration="636000" />
-    </task>
-    <task id="LOCAL-00029" summary="kismia - login. credentialsstorage">
-      <created>1556723258196</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1556723258196</updated>
-    </task>
-    <task id="LOCAL-00030" summary="kismia - messaging and profile tests">
-      <created>1556734107462</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1556734107462</updated>
+      <workItem from="1561011567659" duration="182000" />
     </task>
     <task id="LOCAL-00031" summary="Sea Battle placeholder">
       <created>1556734411312</created>
@@ -788,7 +763,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560497529603</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="lesson20x">
+      <created>1561011703072</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1561011703073</updated>
+    </task>
+    <task id="LOCAL-00079" summary="lesson20rn">
+      <created>1561011734191</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1561011734191</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -824,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10305000" />
+    <option name="totallyTimeSpent" value="10487000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -836,10 +825,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.24295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -854,8 +843,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.747651" side_tool="true" visible="true" weight="0.34560907" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.252349" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.7478678" side_tool="true" visible="true" weight="0.26435536" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.2521322" visible="true" weight="0.26435536" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.19830029" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -888,8 +877,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="lesson15 trello api" />
-    <MESSAGE value="lesson16 placeholder" />
     <MESSAGE value="imdb parsers" />
     <MESSAGE value="imdb top movies count limit" />
     <MESSAGE value="Collections Cats and Dogs" />
@@ -913,7 +900,9 @@
     <MESSAGE value="trello api" />
     <MESSAGE value="trello visibility tests" />
     <MESSAGE value="seabattle fieldbuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="seabattle fieldbuilder" />
+    <MESSAGE value="lesson20x" />
+    <MESSAGE value="lesson20rn" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson20rn" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1186,13 +1175,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1468,7 +1450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="561">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1480,6 +1462,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1525,17 +1514,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/BoardsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
