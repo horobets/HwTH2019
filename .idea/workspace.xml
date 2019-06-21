@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3e05b2b-6db8-4d6a-aa11-e92c05959107" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -396,14 +395,7 @@
       <workItem from="1560925552850" duration="636000" />
       <workItem from="1561011567659" duration="182000" />
       <workItem from="1561155548171" duration="67000" />
-      <workItem from="1561156121613" duration="483000" />
-    </task>
-    <task id="LOCAL-00031" summary="Sea Battle placeholder">
-      <created>1556734411312</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1556734411312</updated>
+      <workItem from="1561156121613" duration="494000" />
     </task>
     <task id="LOCAL-00032" summary="kismia send message and updateprofile tests">
       <created>1556874642655</created>
@@ -741,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561011734191</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="updated driver">
+      <created>1561156612617</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1561156612618</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -777,7 +776,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11037000" />
+    <option name="totallyTimeSpent" value="11048000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -790,7 +789,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.19880715" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
@@ -841,7 +839,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="imdb parsers" />
     <MESSAGE value="imdb top movies count limit" />
     <MESSAGE value="Collections Cats and Dogs" />
     <MESSAGE value="Collections list strings sorting" />
@@ -866,7 +863,8 @@
     <MESSAGE value="seabattle fieldbuilder" />
     <MESSAGE value="lesson20x" />
     <MESSAGE value="lesson20rn" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson20rn" />
+    <MESSAGE value="updated driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated driver" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
