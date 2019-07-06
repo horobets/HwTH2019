@@ -21,103 +21,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmls/TrelloGsSuite.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson19/Lesson19.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson18/Lesson18.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/MakeChocolatr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson16/Lesson16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/Lesson15.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding>
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/GsonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="306">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -147,6 +123,7 @@
       <find>getShipStatus</find>
       <find>navig</find>
       <find>clickon</find>
+      <find>javaToJson</find>
     </findStrings>
     <replaceStrings>
       <replace>[j][i]</replace>
@@ -163,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieTitleComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson14/MovieYearComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieReleaseDateComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieRatingComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieMetascoreComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/ImdbMovieRunningTimeComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbmovieinfo/SortMode.java" />
@@ -177,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/main/java/trello/api/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/models/TrelloList.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/GsonExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson17/Lesson17.java" />
@@ -204,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/trello/api/services/ListService.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/models/Board.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloRestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/services/ListsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/api/services/BoardsService.java" />
@@ -214,6 +185,12 @@
         <option value="$PROJECT_DIR$/src/test/java/trello/ChangeVisibilityTest.java" />
         <option value="$PROJECT_DIR$/xmls/TrelloGsSuite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson19/Lesson19.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java" />
       </list>
     </option>
   </component>
@@ -224,18 +201,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="727" />
-    <option name="y" value="24" />
-    <option name="width" value="2628" />
-    <option name="height" value="1559" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1197" />
+    <option name="y" value="432" />
+    <option name="width" value="2634" />
+    <option name="height" value="1545" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,14 +243,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +252,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
@@ -306,22 +274,20 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HwTH2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HwTH2019" type="462c0819:PsiDirectoryNode" />
-              <item name="xmls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pdffiller-tests_v2-master-dl12-04-2019" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HwTrello" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -354,26 +320,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml">
+  <component name="RunManager" selected="TestNG.TrelloApiTest.tryIt">
     <configuration name="CodingBatScreenshots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task14.CodingBatScreenshots" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MakeBricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson17.MakeBricks" />
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson17.RoundSum" />
+    <configuration name="PlaySeaBattle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task8.seabattle.PlaySeaBattle" />
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson17.*" />
+          <option name="PATTERN" value="task8.seabattle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,13 +370,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrelloApiTest.tryIt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trello.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trello.api" />
+      <option name="MAIN_CLASS_NAME" value="trello.api.TrelloApiTest" />
+      <option name="METHOD_NAME" value="tryIt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TrelloApiTest.tryIt" />
+        <item itemvalue="Application.PlaySeaBattle" />
         <item itemvalue="TestNG.C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" />
         <item itemvalue="Application.CodingBatScreenshots" />
         <item itemvalue="Application.MakeChocolatr" />
-        <item itemvalue="Application.MakeBricks" />
-        <item itemvalue="Application.RoundSum" />
       </list>
     </recent_temporary>
   </component>
@@ -437,34 +408,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554017517565</updated>
-    </task>
-    <task id="LOCAL-00028" summary="kismia - Fakepersongenerator tests">
-      <created>1556658215763</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1556658215763</updated>
-    </task>
-    <task id="LOCAL-00029" summary="kismia - login. credentialsstorage">
-      <created>1556723258196</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1556723258196</updated>
-    </task>
-    <task id="LOCAL-00030" summary="kismia - messaging and profile tests">
-      <created>1556734107462</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1556734107462</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Sea Battle placeholder">
-      <created>1556734411312</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1556734411312</updated>
+      <workItem from="1560544853254" duration="466000" />
+      <workItem from="1560842061518" duration="2327000" />
+      <workItem from="1560845007959" duration="6876000" />
+      <workItem from="1560925552850" duration="636000" />
+      <workItem from="1561011567659" duration="182000" />
+      <workItem from="1561155548171" duration="67000" />
+      <workItem from="1561156121613" duration="494000" />
+      <workItem from="1561242966643" duration="67000" />
+      <workItem from="1561575226179" duration="310000" />
+      <workItem from="1561656472224" duration="119000" />
+      <workItem from="1561671480905" duration="262000" />
+      <workItem from="1562270353144" duration="363000" />
+      <workItem from="1562438351075" duration="344000" />
     </task>
     <task id="LOCAL-00032" summary="kismia send message and updateprofile tests">
       <created>1556874642655</created>
@@ -781,16 +737,38 @@
       <option name="project" value="LOCAL" />
       <updated>1560457743930</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="seabattle fieldbuilder">
+      <created>1560497529602</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1560497529603</updated>
+    </task>
+    <task id="LOCAL-00078" summary="lesson20x">
+      <created>1561011703072</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1561011703073</updated>
+    </task>
+    <task id="LOCAL-00079" summary="lesson20rn">
+      <created>1561011734191</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1561011734191</updated>
+    </task>
+    <task id="LOCAL-00080" summary="updated driver">
+      <created>1561156612617</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1561156612618</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 22h 58m 50s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 03m 27s.xml">
-      <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 04m 24s.xml">
       <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
@@ -815,6 +793,15 @@
     <history-entry file="C__GsDev_GitHub_HwTH2019_xmls_TrelloGsSuite_xml - 2019.06.13 at 23h 28m 20s.xml">
       <configuration name="C:/GsDev/GitHub/HwTH2019/xmls/TrelloGsSuite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TrelloApiTest_tryIt - 2019.06.14 at 13h 40m 32s.xml">
+      <configuration name="TrelloApiTest.tryIt" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TrelloApiTest_tryIt - 2019.06.14 at 23h 41m 35s.xml">
+      <configuration name="TrelloApiTest.tryIt" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12513000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -826,9 +813,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="485" y="16" width="1752" height="1039" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.3823877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.2083499" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.26778522" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -836,16 +824,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5007899" side_tool="true" weight="0.20948827" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.36827195" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4998012" weight="0.36788777" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.3531961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41786107" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49820575" weight="0.483835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32719547" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50201344" side_tool="true" weight="0.25637394" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" visible="true" weight="0.30981258" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5001988" side_tool="true" visible="true" weight="0.36788777" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.2500994" weight="0.26422447" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4971614" weight="0.19830029" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -854,7 +844,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -871,10 +865,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="lesson15 placeholder" />
-    <MESSAGE value="lesson15 trello api" />
-    <MESSAGE value="lesson16 placeholder" />
-    <MESSAGE value="imdb parsers" />
     <MESSAGE value="imdb top movies count limit" />
     <MESSAGE value="Collections Cats and Dogs" />
     <MESSAGE value="Collections list strings sorting" />
@@ -896,7 +886,11 @@
     <MESSAGE value="lesson18" />
     <MESSAGE value="trello api" />
     <MESSAGE value="trello visibility tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="trello visibility tests" />
+    <MESSAGE value="seabattle fieldbuilder" />
+    <MESSAGE value="lesson20x" />
+    <MESSAGE value="lesson20rn" />
+    <MESSAGE value="updated driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated driver" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1143,6 +1137,24 @@
           <properties />
           <option name="timeStamp" value="185" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1151,129 +1163,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson14/ImdbGetMovies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/collectionstasks/CollectionsTask1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/imdbparsers/ImdbMoviePageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="119" column="97" selection-start-line="119" selection-start-column="97" selection-end-line="119" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task14/imdbtopmovies/ImdbTopMoviesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/TrelloList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/GsonExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task7/CodingBatString1Screenshots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/CreateBoardPopupPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardMenuPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/Lesson17recr.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/Lesson17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" selection-start-line="7" selection-start-column="23" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/Parenbit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1369,7 +1258,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/MakeBricks.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/MakeChocolatr.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/task14/CodingBatScreenshots.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1377,7 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson18/Lesson18.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1385,59 +1272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/Board.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloRestClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/ListsService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/interceptors/TrelloAuthInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/BoardsService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardVisibility.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/trello/ChangeCardPositionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1452,9 +1287,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/AddToFavoritesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/TrelloBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateDeleteBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="272">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#542#543#0" expanded="true" />
@@ -1465,15 +1327,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/BoardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="663">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1482,6 +1339,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/PlaySeaBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/CellLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/ships/ShipType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/battlefield/FieldView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/seabattle/FieldBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/interceptors/TrelloAuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="1" selection-start-line="10" selection-start-column="35" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/credentialsstorage/Credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/BoardsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/services/ListsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/TrelloList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" selection-start-line="11" selection-start-column="31" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/models/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson20/Lesson20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson19/Lesson19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson18/Lesson18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson17/MakeChocolatr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson16/Lesson16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson15/Lesson15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/TrelloApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/api/GsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
