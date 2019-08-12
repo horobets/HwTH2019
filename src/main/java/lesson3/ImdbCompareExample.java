@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class ImdbExample {
+public class ImdbCompareExample {
 
     WebDriver driver;
 

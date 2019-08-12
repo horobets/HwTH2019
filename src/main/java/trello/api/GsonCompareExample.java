@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import org.testng.annotations.Test;
 import trello.api.models.Card;
 
-public class GsonExample {
+public class GsonCompareExample {
 
     String cardJson = " {\n" +
             "        \"id\": \"5a8aaf5b8bc73165a15f071f\",\n" +
